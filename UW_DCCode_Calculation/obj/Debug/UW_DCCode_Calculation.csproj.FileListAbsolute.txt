@@ -1,0 +1,706 @@
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\log4net.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\log4net.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\log4net.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BPMDesign - UAT_19032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BPMDesign - UAT_20032020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BPMDesign - UAT_06042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\BMPDesign_UAT_08022020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\log4net.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\log4net.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\log4net.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Akshada\LatestCode\BPMDesign_27042020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\log4net.dll
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\Projects\Bibeka\07052020\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\log4net.dll
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\TFS_NEW\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\log4net.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\TFS_NEW\UAT\SaralUW_UAT\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Shyam\NewDedupe\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\TFS_NEW\Dev\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csprojAssemblyReference.cache
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.AssemblyReference.cache
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.exe
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UW_DCCode_Calculation.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralDecision.dll.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralObjects.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralServices.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\UWSaralServices.dll.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\bin\Debug\TPASTATUSCODE.dll.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.AssemblyReference.cache
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CoreCompileInputs.cache
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.csproj.CopyComplete
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.exe
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UW_DCCode_Calculation\obj\Debug\UW_DCCode_Calculation.pdb

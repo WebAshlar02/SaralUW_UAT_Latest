@@ -1,0 +1,946 @@
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\1119763\Desktop\TPA\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\shri\current use\saral uw t+19\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\1119763\Desktop\08Feb18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw t+20\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral uw t+14\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\shri\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral uw t+15\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\1119763\Desktop\08Mar18\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw t+26\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\log4net.dll
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral uw T+16\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\salra uw t+28 agent number\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw suraj t+5\28May18\03_April\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Projects\ServerCode\PROD\29MAY18\CODE\BPMDesign_1\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojResolveAssemblyReference.cache
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\shri\current use\saral uw suraj t+7\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\shri\saral t\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS\FGUniconnect\SaralUW\WebApplication\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Pragati\CR\26643\UAT\19082019\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BPMDesign - UAT_19032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BPMDesign - UAT_20032020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BPMDesign - UAT_06042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\BMPDesign_UAT_08022020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\BPMDesign - UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\MFL00454\My Documents\Shweta\IIB\SARAL\LatestCode\BPMDesign - UAT_mergedCode\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.10.41.180\Ctxuserdata\mfl00455\My Documents\Ezytek\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Akshada\LatestCode\BPMDesign_27042020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+E:\WORK_OFFICE\FSD -27626 - PAN Validation and Updation\Saral_UAT\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Projects\Bibeka\07052020\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS_NEW\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Platform.Utilities.LoggerFramework.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Users\pinwheel2\Desktop\Saral_BKP\Saral_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS_NEW\UAT\SaralUW_UAT\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Suraj\data\TFS\UAT\WebApps\SaralUAT\1. Dev\LF_FGUniconnect\WebApps\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Shyam\NewDedupe\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\Projects\Shyam\SaralUW_Dev_24052021\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS_NEW\Dev\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Documents\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Work\CR-30573 Policy Risk Flag\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\New Cr\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\SaralUW_Dev1\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00905\Desktop\Sushant\Projects\Saral project\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\MFL00886\My Pictures\Work\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+\\10.6.41.161\Ctxuserdata\mfl00886\My Pictures\Projects\6 CR_30554 USP_UWSARAL_RISK_ENYDATA_GET_DEQC\New Saral\SaralUW_Dev\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.AssemblyReference.cache
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\Newtonsoft.Json.dll
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralDecision.dll.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralObjects.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\UWSaralServices.dll.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\bin\Debug\TPASTATUSCODE.dll.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.AssemblyReference.cache
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb
