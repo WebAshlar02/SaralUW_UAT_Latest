@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1e2e10ef-dd61-41c0-af2f-395ab87a0283" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.Client_BankAccountEnquiryBO/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="1da5a353-ec4c-4e29-b206-30380a57d794" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.Client_BankAccountEnquiryBO/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="53952757-3847-4618-9e86-36a67412604d" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.Client_BankAccountEnquiryBO/Service.svc?wsdl" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="c2564dd4-9067-4ded-8e16-fa8c32df67d3" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.Client_BankAccountEnquiryBO/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="cfbd1c6d-307c-4528-9592-aa6f9d81d43b" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.Client_BankAccountEnquiryBO/Service.svc?disco" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="f1d8ea9e-90d0-4ff2-9a83-5f16d04d4bbd" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.Client_BankAccountEnquiryBO/Service.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

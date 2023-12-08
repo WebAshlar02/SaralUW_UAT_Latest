@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Master">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ADDRPRF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLNTRSKIND" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLTNAME" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLTTWO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDPRF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDPRFDT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDPRFNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="INCPRF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ISSUEAUTH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RESNDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZAGEPRF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZFORM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZFOTOIND" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZFOTOPRF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPANCOPY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPANIDNO" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Master" nillable="true" type="tns:Master" />
+</xs:schema>

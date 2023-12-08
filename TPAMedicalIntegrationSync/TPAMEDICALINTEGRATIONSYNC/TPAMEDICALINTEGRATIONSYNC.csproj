@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{636A2922-F194-4A78-8E12-190F4F823959}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TPAMEDICALINTEGRATIONSYNC</RootNamespace>
+    <AssemblyName>TPAMEDICALINTEGRATIONSYNC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TPAMEDICALINTEGRATIONSYNC.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\BMP_UWDevelopment\Amit26Dec2016\V1\UAT\BPMDesign\UWPortfolio\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <HintPath>..\..\TPASTATUSCODE\TPASTATUSCODE\bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Platform.Utilities.LoggerFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\UWPortfolio\Bin\Platform.Utilities.LoggerFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BussLayer\busLayer.cs" />
+    <Compile Include="BussLayer\Responce.cs" />
+    <Compile Include="DataLayer\data.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\TPARegisteration\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Appuat.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe.config" />
+    <None Include="bin\Debug\TPAMEDICALINTEGRATIONSYNC.vshost.exe.config" />
+    <None Include="bin\Debug\TPAMEDICALINTEGRATIONSYNC.vshost.exe.manifest" />
+    <None Include="bin\Debug\TPASTATUSCODE.dll.config" />
+    <None Include="bin\Debug\UWSaralDecision.dll.config" />
+    <None Include="bin\Debug\UWSaralServices.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CopyComplete" />
+    <None Include="obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\TPAMEDICALINTEGRATIONSYNC.csprojAssemblyReference.cache" />
+    <None Include="obj\Release\build.force" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Properties\DataSources\UWSaralServices.TPARegisteration.ResponseMessage.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\UWSaralDecision\UWSaralDecision.csproj">
+      <Project>{d6263770-eb54-4e74-b3d4-4e2ceae3449c}</Project>
+      <Name>UWSaralDecision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UWSaralObjects\UWSaralObjects.csproj">
+      <Project>{0074bf97-94a0-47c4-a0fd-3b17ee34e26a}</Project>
+      <Name>UWSaralObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UWSaralServices\UWSaralServices.csproj">
+      <Project>{03f76ca8-2682-4d46-8d40-4f0caa2c5dc4}</Project>
+      <Name>UWSaralServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\TPARegisteration\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TPARegisteration\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TPARegisteration\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TPARegisteration\HITPA_PIMS1.wsdl" />
+    <None Include="Service References\TPARegisteration\HITPA_PIMS3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TPARegisteration\HITPA_PIMS31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TPARegisteration\HITPA_PIMS32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TPARegisteration\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Platform.Utilities.LoggerFramework.dll" />
+    <Content Include="bin\Debug\TPAMEDICALINTEGRATIONSYNC.exe" />
+    <Content Include="bin\Debug\TPAMEDICALINTEGRATIONSYNC.pdb" />
+    <Content Include="bin\Debug\TPAMEDICALINTEGRATIONSYNC.vshost.exe" />
+    <Content Include="bin\Debug\TPASTATUSCODE.dll" />
+    <Content Include="bin\Debug\TPASTATUSCODE.pdb" />
+    <Content Include="bin\Debug\UWSaralDecision.dll" />
+    <Content Include="bin\Debug\UWSaralDecision.pdb" />
+    <Content Include="bin\Debug\UWSaralObjects.dll" />
+    <Content Include="bin\Debug\UWSaralObjects.pdb" />
+    <Content Include="bin\Debug\UWSaralServices.dll" />
+    <Content Include="bin\Debug\UWSaralServices.pdb" />
+    <Content Include="obj\Debug\TempPE\Service References.ServiceReference1.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.TPARegisteration.Reference.cs.dll" />
+    <Content Include="obj\Debug\TPAMEDICALINTEGRATIONSYNC.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TPAMEDICALINTEGRATIONSYNC.exe" />
+    <Content Include="obj\Debug\TPAMEDICALINTEGRATIONSYNC.pdb" />
+    <Content Include="obj\Release\TempPE\Service References.TPARegisteration.Reference.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

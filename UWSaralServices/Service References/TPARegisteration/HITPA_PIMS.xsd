@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://software.healthindiatpa.com/PIMS_API/HITPA_PIMS.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" />
+  <xs:element name="RegisterNewCase">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" minOccurs="0" name="proposalDetails" nillable="true" type="q1:ProposalDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterNewCaseResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" minOccurs="0" name="RegisterNewCaseResult" nillable="true" type="q2:ResponseMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterCase">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProposalDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProposalNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MasterPolicyNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProposerInitial" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProposerName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TestConducted" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="District" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Taluka" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Pincode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LandMark" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Telephone" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HNIFlag" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeVisitFlag" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AgentCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AgentContactDetails" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Channel" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PlanType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MemberDOB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CustomerEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Remark" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PreferredDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PreferredTime" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PreferredProviderNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Age" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RMContactNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RMEmailId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IMDEmailId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PaymentType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicantOfficeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DCName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProposalStatus" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CashieringDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CashieredAmount" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PCName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Region" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RepeatCase" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TPACost" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PreferredDCDetails" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterCaseResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegisterCaseResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterCase_TATA_AIA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Channel" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PhoneNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HNIFlag" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DOB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ClientEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PinCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TestDetails" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProviderNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstAppointmentDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstAppointmentTime" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SecondAppointmentDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SecondAppointmentTime" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="VisitType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RMName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RMContact" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterCase_TATA_AIAResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegisterCase_TATA_AIAResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDCList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Area" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PinCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDCListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDCListResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePreference">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" minOccurs="0" name="preferenceDetails" nillable="true" type="q3:PreferenceDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePreferenceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" minOccurs="0" name="UpdatePreferenceResult" nillable="true" type="q4:ResponseMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StatusUpdateFromBajaj">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AppointmentCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MasterPolicyNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="StatusFromBajaj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StatusUpdateFromBajajResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StatusUpdateFromBajajResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

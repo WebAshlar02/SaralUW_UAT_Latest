@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Life" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Life" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://10.9.41.90/LifePCBRValidator/LifePremiumCalculator.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="LifeAssuredEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PersonCoverType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SmokerStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LifeAssuredEntity" nillable="true" type="tns:LifeAssuredEntity" />
+  <xs:complexType name="ProposerEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProposerEntity" nillable="true" type="tns:ProposerEntity" />
+  <xs:complexType name="ProductEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CashBackPeriod" type="xs:int" />
+      <xs:element minOccurs="0" name="Frequency" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductEntity" nillable="true" type="tns:ProductEntity" />
+  <xs:complexType name="PolicyEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccrualPeriod" type="xs:double" />
+      <xs:element minOccurs="0" name="BranchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsStaff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MethodOfPayment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="PremiumPaymentTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="SumofReceipts" type="xs:double" />
+      <xs:element minOccurs="0" name="ULIPAmountReceived" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PolicyEntity" nillable="true" type="tns:PolicyEntity" />
+  <xs:complexType name="SystemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RiskCommencementDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SystemEntity" nillable="true" type="tns:SystemEntity" />
+  <xs:complexType name="ArrayOfRiderEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RiderEntity" nillable="true" type="tns:RiderEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRiderEntity" nillable="true" type="tns:ArrayOfRiderEntity" />
+  <xs:complexType name="RiderEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LifeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoadingPercentage" type="xs:double" />
+      <xs:element minOccurs="0" name="MedicalLoadingClass" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NSAPFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="NonMedicalLoading" type="xs:double" />
+      <xs:element minOccurs="0" name="RiderCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderSumAssured" type="xs:double" />
+      <xs:element minOccurs="0" name="SumAssuredAcrossPlans" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RiderEntity" nillable="true" type="tns:RiderEntity" />
+  <xs:complexType name="ChildEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ChildDateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChildEntity" nillable="true" type="tns:ChildEntity" />
+  <xs:complexType name="PayoutDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AnnuityDetails" nillable="true" type="tns:AnnuityDetails" />
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LumpSumPercent" type="xs:int" />
+      <xs:element minOccurs="0" name="PayOutFrquency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="PayoutType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductCategory" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayoutDetails" nillable="true" type="tns:PayoutDetails" />
+  <xs:complexType name="AnnuityDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Annuitymode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Firstname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="option" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnnuityDetails" nillable="true" type="tns:AnnuityDetails" />
+  <xs:complexType name="LifePremiumResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AllowedSA" type="xs:double" />
+      <xs:element minOccurs="0" name="AnnualizedPremium" type="xs:double" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="BRErrMessages" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="BackdatedInt" type="xs:double" />
+      <xs:element minOccurs="0" name="CompDetail" nillable="true" type="tns:ArrayOfComponentResults" />
+      <xs:element minOccurs="0" name="DBratio" type="xs:double" />
+      <xs:element minOccurs="0" name="ExtraLoading" type="xs:double" />
+      <xs:element minOccurs="0" name="InstalmentPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="MODAL_PREM_TAX" type="xs:double" />
+      <xs:element minOccurs="0" name="MaturityBenefit" type="xs:double" />
+      <xs:element minOccurs="0" name="MethodOfPayment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RFYInstalmentPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="RSYInstalmentPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="TAX_MP" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalInstalmentPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalPremiumAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="TransactionID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YouGet" type="xs:double" />
+      <xs:element minOccurs="0" name="YouPay" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LifePremiumResult" nillable="true" type="tns:LifePremiumResult" />
+  <xs:complexType name="ArrayOfComponentResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ComponentResults" nillable="true" type="tns:ComponentResults" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfComponentResults" nillable="true" type="tns:ArrayOfComponentResults" />
+  <xs:complexType name="ComponentResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ComponentCd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EduCess" type="xs:double" />
+      <xs:element minOccurs="0" name="ExtraPremiumAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="InstalmentPremiumAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="LifeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MedicalLoadingPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="MedicalLoadingRate" type="xs:double" />
+      <xs:element minOccurs="0" name="ModalPremiumAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="NonMedicalLoadingPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="NonMedicalLoadingRate" type="xs:double" />
+      <xs:element minOccurs="0" name="RiderCtg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderPPT" type="xs:int" />
+      <xs:element minOccurs="0" name="RiderPT" type="xs:int" />
+      <xs:element minOccurs="0" name="SeriveTax" type="xs:double" />
+      <xs:element minOccurs="0" name="SumAssured" type="xs:double" />
+      <xs:element minOccurs="0" name="SumAssuredAcrossPlans" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ComponentResults" nillable="true" type="tns:ComponentResults" />
+  <xs:complexType name="PremiumCalculatorFaultException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Operation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PremiumCalculatorFaultException" nillable="true" type="tns:PremiumCalculatorFaultException" />
+</xs:schema>

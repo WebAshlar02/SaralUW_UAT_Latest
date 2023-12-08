@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a8ba5d11-1434-41b7-b811-e1865dc4e370" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.8.41.39/LifeAsiaServices/LA_UnderwritingDecision/Service.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="e5e88614-9bf1-4251-a91f-a2cd50de7312" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_UnderwritingDecision/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service31.xsd" MetadataType="Schema" ID="d8240e06-7b99-4fc0-9fa1-81e7e89b32b8" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_UnderwritingDecision/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="28d3c8c3-1a1e-43d7-b51c-5da2d0e9c1bb" SourceId="1" SourceUrl="http://10.8.41.39/LifeAsiaServices/LA_UnderwritingDecision/Service.svc?wsdl" />
+    <MetadataFile FileName="Service32.xsd" MetadataType="Schema" ID="9cb7ae13-c7c6-4777-9d1e-eca0daf76729" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_UnderwritingDecision/Service.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

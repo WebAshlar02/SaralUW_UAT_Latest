@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;FG_SMSService_WSExport_FGSMSServiceBPMIntfHttpBinding&quot; /&gt;" bindingType="basicHttpBinding" name="FG_SMSService_WSExport_FGSMSServiceBPMIntfHttpBinding" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://10.1.41.114:80/FG_SMSService_MMWeb/sca/FG_SMSService_WSExport&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;FG_SMSService_WSExport_FGSMSServiceBPMIntfHttpBinding&quot; contract=&quot;esbSendSMSSvc.FGSMSServiceBPMIntf&quot; name=&quot;FG_SMSService_WSExport_FGSMSServiceBPMIntfHttpPort&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://10.1.41.114:80/FG_SMSService_MMWeb/sca/FG_SMSService_WSExport&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;FG_SMSService_WSExport_FGSMSServiceBPMIntfHttpBinding&quot; contract=&quot;esbSendSMSSvc.FGSMSServiceBPMIntf&quot; name=&quot;FG_SMSService_WSExport_FGSMSServiceBPMIntfHttpPort&quot; /&gt;" contractName="esbSendSMSSvc.FGSMSServiceBPMIntf" name="FG_SMSService_WSExport_FGSMSServiceBPMIntfHttpPort" />
+  </endpoints>
+</configurationSnapshot>

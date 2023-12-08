@@ -1,0 +1,684 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Bpmuwmodule.master.cs" Inherits="Appcode_Bpmuwmodule" %>
+
+<%--<%@ Register Src="~/UserControl/uc_Updateprogress.ascx" TagPrefix="uc1" TagName="uc_Updateprogress" %>--%>
+<!DOCTYPE html>
+<%@ Register Src="~/UserControl/UserRefer.ascx" TagPrefix="Docs" TagName="UserRefer" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Saral Underwritting</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <link href="../dist/css/AdminLTE.min.css" rel="stylesheet" />
+    <link href="../dist/css/skins/_all-skins.min.css" rel="stylesheet" />
+    <script src="../dist/js/html5shiv.min.js"></script>
+    <script src="../dist/js/respond.min.js"></script>
+    <link href="../dist/css/styles-app.css" rel="stylesheet" />
+    <link href="../plugins/select2/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.0.min.js" type="text/javascript"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.2/themes/blitzer/jquery-ui.css"
+        rel="Stylesheet" type="text/css" />
+    <script src="../dist/js/UWSaral.js"></script>
+    <script src="../dist/js/CommonValidation.js"></script>
+    <style type="text/css" style="margin-left: 0px">
+        .nav1 {
+            background-color: #a81d22;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url(../dist/img/loading1.gif) 50% 50% no-repeat white;
+            /* opacity: .75; */
+            opacity: .90;
+        }
+
+        .btnheader {
+            display: inline-block;
+            padding: 12px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .dropbtn {
+            background-color: #a81d22;
+            color: white;
+            padding: 14px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #a81d22;
+        }
+
+
+        #mySidenav a {
+            position: fixed;
+            left: -80px;
+            transition: 0.3s;
+            padding: 5px;
+            width: 130px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 3px 3px 0;
+        }
+
+            #mySidenav a:hover {
+                left: 0;
+            }
+
+        #Up {
+            top: 60px;
+            background-color: #f44336;
+        }
+
+        #AuResult {
+            top: 100px;
+            background-color: #4CAF50;
+        }
+
+        #STP {
+            top: 140px;
+            background-color: #2196F3;
+        }
+
+        #PreIssue {
+            top: 180px;
+            background-color: #f44336;
+        }
+
+
+        #Application {
+            top: 220px;
+            background-color: #555;
+        }
+
+        #Agent {
+            top: 260px;
+            background-color: #4CAF50;
+        }
+
+        #BankDetails {
+            top: 300px;
+            background-color: #2196F3;
+        }
+
+        #Pan {
+            top: 340px;
+            background-color: #555;
+        }
+
+        #SARDetails {
+            top: 380px;
+            background-color: #f44336;
+        }
+
+        #ProductDetails {
+            top: 420px;
+            background-color: #2196F3;
+        }
+
+        #FundsDetails {
+            top: 460px;
+            background-color: #f44336;
+        }
+
+        #PaymentDetails {
+            top: 500px;
+            background-color: #555;
+        }
+
+        #RequirementDetails {
+            top: 540px;
+            background-color: #2196F3;
+        }
+
+        #LoadingDetails {
+            top: 580px;
+            background-color: #4CAF50;
+        }
+
+        #UWCommentsDetails {
+            top: 620px;
+            background-color: #f44336;
+        }
+
+        #DecisionDetails {
+            top: 660px;
+            background-color: #4CAF50;
+        }
+
+        #down {
+            top: 700px;
+            background-color: #555;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        function test() {
+            debugger;
+            alert('fn called');
+        }
+        function hideloading() {
+            $(".loader").hide();
+        }
+
+        function showloading() {
+            $("#loaderdiv").show();
+        }
+
+        $(window).load(function () {
+
+            $('#loaderdiv').fadeOut();
+        });
+
+        $(document).ready(function () {
+
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            prm.add_endRequest(function () {
+                $('.lnkButton').click(function () {
+                    $('#loaderdiv').fadeIn();
+                });
+            });
+            //$("#lnkCommondashbord").click();
+            $('.lnkButton').click(function () {
+                $('#loaderdiv').fadeIn();
+            });
+
+
+            //alert(yyy);
+            
+            //Changes by Pragati Start
+            if ($('#hdnHealth').val() == "Health") {
+                debugger;
+                var StartDate = '';
+                var EndDate = '';
+                var tempendDate = $('#HdnBusinessDate').val();
+                var ss = tempendDate.split("#");
+                StartDate = ss[0];
+                EndDate = ss[1];
+                
+                $('#txtRcdreq').datepicker({
+                    startDate: StartDate, // controll start date like startDate: '-2m' m: means Month
+                    endDate: EndDate,
+                    //maxDate: "+30d",
+                    //   minDate: 0,
+                    autoclose: true,
+                    format: 'dd-mm-yyyy',
+                    onSelect: function (tempendDate) {
+                    }
+
+                });
+            }
+            else {
+                $('#txtRcdreq').datepicker({
+                    //startDate: '-30d', // controll start date like startDate: '-2m' m: means Month
+                    //endDate: new Date(),
+
+                    autoclose: true,
+                    format: 'dd-mm-yyyy',
+                    onSelect: function (date) {
+                    }
+
+                });
+            }
+
+            //Changes by Pragati END
+
+        });
+
+        //function ViewDocs() {
+        //    window.open('http://10.1.41.37/images_uw/dmsviewer.aspx');
+        //};
+        /*confirmation box*/
+        function fnRemoveBackDrop() {
+            debugger;
+            $('div').parents().find('.modal-backdrop.in').removeClass('modal-backdrop').removeClass('in')
+            return false;
+        }
+        function openModalPreIssueValidation() {
+            $('#divPopPreIssueValidation').modal('show');
+        }
+        function ViewDocs() {
+            debugger;
+            /*added by shri on 10 aug 17 to add dms page of megha into our system*/
+            window.open('DMSVeiwer.aspx?ApplnNo=' + $('#lblCaptionAppNo').html().split(' ')[2]);//($('#lblCaptionAppNo').html().split(' ')[2])            
+            /*end here*/
+            return false;
+            /*end here*/
+        };
+        /*added by shri on 10 july 17 to redirect to agent page*/
+        function fnRedirectToAgent() {
+            debugger;
+            window.open('AgentVerify.aspx?AgentCode=' + $('#txtAgentCode').val() + '&ApplnNo=' + $('#lblCaptionAppNo').html().split(' ')[2]);
+            return false;
+        }
+        /*validate save*/
+        function fnValidateSave() {
+            if (ValidateMasterSaveBlog()) {
+                return true;
+            }
+            else {
+                hideloading();
+                return false;
+            }
+        }
+        /*end here*/
+
+
+
+                //End
+    </script>
+     <%--//1.1 Begin of Changes; Bhaumik Patel - [CR-5307]--%>
+    <script type="text/javascript">
+        function confirmation() {
+            debugger
+            if (confirm('are you sure you want to logout?')) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+    </script>
+     <%--//1.1 End of Changes; Bhaumik Patel - [CR-5307]--%>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--<uc1:uc_Updateprogress runat="server" ID="uc_Updateprogress" />--%>
+</head>
+<body class="hold-transition skin-red sidebar-mini">
+    <form id="form1" runat="server" role="form">
+        <header class="main-header">
+            <div class="loader" id="loaderdiv"></div>
+            <div style="border: thin solid #000000; height: 52px; background-color: #a81d22; position: fixed; width: 100%;">
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <asp:Label ID="lblCaptionAppNo" class="btnheader btn-block btn-Submit" runat="server"></asp:Label>
+                    </div>
+                    <div class="col-md-3">
+                        <asp:Label ID="lblCaptionPolNo" class="btnheader btn-block btn-Submit" runat="server"></asp:Label>
+                    </div>
+                    <div class="col-md-3">
+                        <%--<asp:Label ID="lblUserMsg" class="btnheader btn-block btn-Submit" runat="server" Text=""></asp:Label>--%>
+                        <asp:Label ID="lblProductName" class="btnheader btn-block btn-Submit" runat="server" Text=""></asp:Label>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="dropdown">
+                            <button class="btnheader btn-block btn-Submit dropbtn">Select Action</button>
+                            <div class="dropdown-content">
+                                <asp:Button ID="btnSave" Style="display: none;" OnClientClick="return fnValidateSave();" class="btnheader btn-block btn-Submit lnkButton" runat="server" Text="SAVE" OnClick="btnSave_Click" />
+                                <asp:Button ID="btnPost" class="btnheader btn-block btn-Submit lnkButton" runat="server" Text="POST" OnClick="btnPost_Click" OnClientClick="return ValidateMasterPostBlog();" />
+                                <asp:Button ID="btnReview" class="btnheader btn-block btn-Submit" runat="server" Text="Review" />
+                                <asp:Button ID="btnReferToCmo" class="btnheader btn-block btn-Submit" runat="server" Text="Refer To" data-toggle="modal" data-backdrop="static" data-keyboard="false" data-target="#divReferOption" OnClientClick="javascript:return false;" />
+                                <asp:Button ID="btnDms" class="btnheader btn-block btn-Submit" OnClientClick="return ViewDocs();" runat="server" Text="View Docs" />
+                                <asp:Button ID="btnAgentClick" OnClientClick="return fnRedirectToAgent();" class="btnheader HideControl btn-block btn-Submit" runat="server" Text="Verify Agent" />
+                                <asp:Button ID="btnOpenExcel" Visible="true" class="btnheader btn-block btn-Submit " Text="View UWGuidelines" runat="server" OnClick="btnOpenExcel_Click" />
+                            </div>
+                        </div>
+
+                        <%--adden for test--%>
+
+                        <%--End--%>
+
+                        <%--<asp:Button ID="btnPost" OnClientClick="return ValidateMasterSaveBlog();" class="btnheader btn-block btn-Submit" runat="server" Text="POST" OnClick="btnPost_Click" />--%>
+
+                        <div id="mySidenav" class="sidenav" style="display: none;">
+                            <a href="#AuResult_Container" id="Up"><i class="fa fa-arrow-up" style="padding-left: 70%;"></i></a>
+                            <a href="#AuResult_Container" id="AuResult"><i class="fa fa-thumbs-o-up" style="padding-left: 70%;"></i></a>
+                            <a href="#STP_container" id="STP"><i class="fa fa-usd" style="padding-left: 70%;"></i></a>
+                            <a href="#PreIssue_container" id="PreIssue"><i class="fa fa-exclamation-circle" style="padding-left: 70%;"></i></a>
+                            <a href="#Appdtls_container" id="Application"><i class="fa fa-pencil fa-fw" style="padding-left: 70%"></i></a>
+                            <a href="#Agentdtls_container" id="Agent"><i class="fa fa-user fa-fw" style="padding-left: 70%"></i></a>
+                            <a href="#Bnkdtls_container" id="BankDetails"><span class="glyphicon" style="padding-left: 70%">&#xe225;</span></a>
+                            <a href="#Pandtls_container" id="Pan"><i class="fa fa-id-card" aria-hidden="true" style="padding-left: 70%"></i></a>
+                            <a href="#sarDtls_container" id="SARDetails"><i class="fa fa-plus-square" style="padding-left: 70%"></i></a>
+                            <a href="#Proddtls_container" id="ProductDetails"><i class="fa fa-product-hunt" style="padding-left: 70%"></i></a>
+                            <a href="#FundsDetails_container" id="FundsDetails"><i class="fa fa-inr" style="padding-left: 70%"></i></a>
+                            <a href="#PaymentDetails_container" id="PaymentDetails"><i class="fa fa-money" style="padding-left: 70%"></i></a>
+                            <a href="#RequirementDtls_container" id="RequirementDetails"><i class="ionicons ion-pull-request" style="padding-left: 70%"></i></a>
+                            <a href="#LoadingDtls_container" id="LoadingDetails"><i class="fa fa-hourglass-start" style="padding-left: 70%"></i></a>
+                            <a href="#CommentDtls_container" id="UWCommentsDetails"><i class="fa fa-comments-o" style="padding-left: 70%"></i></a>
+                            <a href="#DecisionDtls_container" id="DecisionDetails"><i class="fa fa-question-circle-o" style="padding-left: 70%"></i></a>
+                            <a href="#DecisionDtls_container" id="down"><i class="fa fa-arrow-down" style="padding-left: 70%"></i></a>
+
+
+
+                        </div>
+                    </div>
+                     <%--//1.1 Begin of Changes; Bhaumik Patel - [CR-5307]--%>
+                     <div class="col-md-1">
+                        <asp:LinkButton ID="lnklogout" runat="server" class="btnheader btn-block btn-Submit" OnClick="lnklogout_Click" OnClientClick=" return confirmation();">LogOut</asp:LinkButton>
+                    </div>
+                     <%--//1.1 End of Changes; Bhaumik Patel - [CR-5307]--%>
+                </div>
+
+            </div>
+        </header>
+        <%--<header class="main-header">
+            <!-- Logo -->
+            <div>
+                <a href="#" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels -->
+                    <span class="logo-mini"><b>S</b>UW</span>
+                    <!-- logo for regular state and mobile devices -->
+                    <span class="logo-lg"><b>Saral</b>UW</span>
+                </a>
+            </div>
+            <div id="nav1" class="navbar">
+                <div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-3">
+                                <button type="button" class="btnheader btn-block btn-Submit">Refer to UW</button>
+                            </div>
+                            <div class="col-md-3">
+                                <button type="button" class="btnheader btn-block btn-Submit">Refer to CMO</button>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btnheader btn-block btn-Submit">Review</button>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btnheader btn-block btn-Submit">Save</button>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btnheader btn-block btn-Submit">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>--%>
+        <div class="box box-solid">
+            <div class="box-body">
+                <div class="row">
+                    <br />
+                    <br />
+                </div>
+                <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                <section class="content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </section>
+            </div>
+        </div>
+
+        <%--Boostrap JQuery files call begins--%>
+
+
+
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="../dist/js/app.min.js"></script>
+        <script src="../plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="../plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="../plugins/fastclick/fastclick.js"></script>
+        <script src="../dist/js/demo.js"></script>
+        <script src="../plugins/select2/select2.full.min.js"></script>
+        <script src="../plugins/input-mask/jquery.inputmask.js"></script>
+        <script src="../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+        <script src="../plugins/input-mask/jquery.inputmask.extensions.js"></script>
+        <script src="../dist/js/moment.min.js"></script>
+        <script src="../plugins/daterangepicker/daterangepicker.js"></script>
+        <script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
+        <script src="../plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
+        <script src="../plugins/timepicker/bootstrap-timepicker.min.js"></script>
+        <script src="../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <script src="../plugins/iCheck/icheck.min.js"></script>
+        <script src="../dist/js/app.min.js"></script>
+        <script src="../dist/js/demo.js"></script>
+        <script type="text/javascript">
+            $(function () {
+
+                $(function () {
+                    $('.DatePicker').datepicker({
+
+                        autoclose: true,
+                        format: 'dd-mm-yyyy',
+
+                        onSelect: function (date) {
+
+                        }
+
+                    });
+                })
+
+                $('#txtRcdreq').datepicker({
+
+                    autoclose: true,
+                    format: 'dd-mm-yyyy',
+
+                    onSelect: function (date) {
+
+                    }
+
+                });
+            })
+
+        </script>
+        <%--Boostrap JQuery files call end--%>
+
+        <%--REFER TO CMO --%>
+        <asp:UpdatePanel ID="UpdatePanel101" runat="server">
+            <ContentTemplate>
+                <div class="modal" id="divReferOption" role="dialog" onclick="fnRemoveBackDrop();">
+
+                    <div class="modal-dialog modal-lg">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header box-header with-border text-center bg-title">
+                                <button type="button" class="close" data-dismiss="modal" onclick="fnRemoveBackDrop();">&times;</button>
+                                <h4 class="modal-title success"><b><span id="Span1">Refer To</span></b></h4>
+                            </div>
+                            <div class="modal-body well">
+                                <Docs:UserRefer runat="server" ID="UserRefer" />
+                            </div>
+                            <div class="modal-footer">
+                                <%--<asp:Button runat="server" ID="Button3" Text="Close" class="btn btn-default" OnClientClick="fnCloseClientPopup();" OnClick="btnClosePopupClientProfile_Click" />--%>
+                                <%--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>--%>
+                                <%--data-dismiss="modal" --%>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ContentTemplate>
+            <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="btnReferToCmo" />
+                <%--<asp:AsyncPostBackTrigger ControlID="btnClosePopupClientProfile" />--%>
+            </Triggers>
+        </asp:UpdatePanel>
+
+        <%--SHOW OPTION --%>
+        <asp:UpdatePanel ID="UpdatePanel10" runat="server">
+            <ContentTemplate>
+                <div class="modal" id="divPopPreIssueValidation" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header box-header with-border text-center bg-title">
+                                <b>
+                                    <h4 class="modal-title success"><span id="UwMessage">UW suggest you to verify</span></h4>
+                                </b>
+                            </div>
+                            <div class="modal-body well">
+                                <div class="col-md-12">
+                                    <div class="col-md-12">
+                                        <asp:Label runat="server" ID="lblPreIssueVal" CssClass="label-danger"></asp:Label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 well">
+                                    <div class="col-md-6 table-responsive">
+                                        <asp:DataGrid runat="server" ID="dgOldPreIssueValClient" CssClass="table" HeaderStyle-CssClass="btn-primary">
+                                            <Columns>
+                                                <asp:BoundColumn DataField="ClientRole" HeaderText="Client Role"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="ClientId" HeaderText="Client Id"></asp:BoundColumn>
+                                            </Columns>
+                                        </asp:DataGrid>
+                                    </div>
+                                    <div class="col-md-6 table-responsive">
+                                        <asp:DataGrid runat="server" ID="dgNewPreIssueValClient" CssClass="table" HeaderStyle-CssClass="btn-primary">
+                                            <Columns>
+                                                <asp:BoundColumn DataField="ClientRole" HeaderText="Client Role"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="ClientId" HeaderText="Client Id"></asp:BoundColumn>
+                                            </Columns>
+                                        </asp:DataGrid>
+                                    </div>
+                                </div>
+                                <div class="row"></div>
+                                <div class="col-md-12 well">
+                                    <div class="col-md-6 table-responsive">
+                                        <asp:DataGrid runat="server" ID="dgOldPreIssueValRider" CssClass="table" HeaderStyle-CssClass="btn-primary">
+                                            <Columns>
+                                                <asp:BoundColumn DataField="RiderCode" HeaderText="Rider Code"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="RiderSumAssured" HeaderText="Rider Sum Assured"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="IsActive" HeaderText="Is Active"></asp:BoundColumn>
+                                            </Columns>
+                                        </asp:DataGrid>
+                                    </div>
+                                    <div class="col-md-6 table-responsive">
+                                        <asp:DataGrid runat="server" ID="dgNewPreIssueValRider" CssClass="table" HeaderStyle-CssClass="btn-primary">
+                                            <Columns>
+                                                <asp:BoundColumn DataField="RiderCode" HeaderText="Rider Code"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="RiderSumAssured" HeaderText="Rider Sum Assured"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="IsActive" HeaderText="Is Active"></asp:BoundColumn>
+                                            </Columns>
+                                        </asp:DataGrid>
+                                    </div>
+                                </div>
+                                <div class="row"></div>
+                                <div class="col-md-12 well">
+                                    <div class="col-md-6 table-responsive">
+                                        <asp:DataGrid runat="server" ID="dgOldPreIssueValProd" CssClass="table" HeaderStyle-CssClass="btn-primary">
+                                            <Columns>
+                                                <asp:BoundColumn DataField="ProductCode" HeaderText="Product Code"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="SumAssured" HeaderText="Sum Assured"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="PremiumFreq" HeaderText="Premium Freq"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="PolicyTerm" HeaderText="Policy Term"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="PremiumTerm" HeaderText="Premium Term"></asp:BoundColumn>
+                                            </Columns>
+                                        </asp:DataGrid>
+                                    </div>
+                                    <div class="col-md-6 table-responsive">
+                                        <asp:DataGrid runat="server" ID="dgNewPreIssueValProd" CssClass="table" HeaderStyle-CssClass="btn-primary">
+                                            <Columns>
+                                                <asp:BoundColumn DataField="ProductCode" HeaderText="Product Code"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="SumAssured" HeaderText="Sum Assured"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="PremiumFreq" HeaderText="Premium Freq"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="PolicyTerm" HeaderText="Policy Term"></asp:BoundColumn>
+                                                <asp:BoundColumn DataField="PremiumTerm" HeaderText="Premium Term"></asp:BoundColumn>
+                                            </Columns>
+                                        </asp:DataGrid>
+                                    </div>
+                                </div>
+                                <div class="row"></div>
+                                <div class="col-md-12 well">
+                                    <div class="col-md-12 table-responsive">
+                                        <asp:DataGrid runat="server" ID="dgPreIssueMessage1" HeaderStyle-CssClass="btn-primary" AutoGenerateColumns="false"
+                                            CssClass="table table-bordered table-striped">
+                                            <Columns>
+                                                <asp:BoundColumn DataField="PRE ISSUE DESCRIPTION" HeaderText="PreIssue Message"></asp:BoundColumn>
+                                                <asp:TemplateColumn>
+                                                    <HeaderTemplate>
+                                                        Command
+                                                    </HeaderTemplate>
+                                                    <ItemTemplate>
+                                                        <asp:DropDownList runat="server" ID="ddlPreIssueValue" CssClass="ddlPreissueVal" onchange="fnCngDdlPreissueStatus();">
+                                                            <asp:ListItem Text="Ok" Value="1"></asp:ListItem>
+                                                            <asp:ListItem Selected="True" Text="Cancel" Value="0"></asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </ItemTemplate>
+                                                </asp:TemplateColumn>
+                                            </Columns>
+                                        </asp:DataGrid>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="col-md-12">
+                                    <div class="col-md-4">
+                                        <asp:Button runat="server" ID="btnManual" Text="Manual" class="btn-primary" CssClass="manual" OnClick="btnManual_Click" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <asp:Button runat="server" ID="btnSystem" Text="System" class="btn-primary" CssClass="system HideControl" OnClick="btnSystem_Click" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ContentTemplate>
+            <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="btnSystem" />
+                <asp:AsyncPostBackTrigger ControlID="btnManual" />
+            </Triggers>
+        </asp:UpdatePanel>
+
+    </form>
+</body>
+</html>

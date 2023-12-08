@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="86ead196-b701-4aff-a5ed-a4d35ca80a5a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.WS.MandateService/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="4e3fbf64-a3cc-4684-aadc-a16a4e18232b" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.WS.MandateService/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="590e3bda-0982-4300-a62d-9e40744f7512" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.WS.MandateService/Service.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="0ab8c8ef-832e-4a19-94cf-5aeb6e03be62" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.WS.MandateService/Service.svc?wsdl" />
+    <MetadataFile FileName="Service31.xsd" MetadataType="Schema" ID="ed815a95-5855-4734-8ab6-ab0a06dec97b" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.WS.MandateService/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service32.xsd" MetadataType="Schema" ID="d7f56ea9-2568-4577-a117-9d23d874b515" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.WS.MandateService/Service.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

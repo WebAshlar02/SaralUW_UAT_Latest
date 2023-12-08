@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="LifePDFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/WCFReportGenerator" />
+      <xsd:import schemaLocation="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PDFEntityLayer" />
+      <xsd:import schemaLocation="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Life_ScrutinyFailIntmtnReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ScrutinyFailIntmtnReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ScrutinyFailIntmtnReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ScrutinyFailIntmtnReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ScrutinyFailIntmtnReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q1:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_AutoGenAppNoReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_AutoGenAppNoReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_AutoGenAppNoReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_AutoGenAppNoReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_AutoGenAppNoReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q2:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_PaymentAckReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_PaymentAckReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_PaymentAckReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_PaymentAckReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_PaymentAckReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q3:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_FundTrnAckReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_FundTrnAckReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_FundTrnAckReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_FundTrnAckReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_FundTrnAckReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q4:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_NewBusinessApplicationReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_NewBusinessApplicationReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_NewBusinessApplicationReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_NewBusinessApplicationReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_NewBusinessApplicationReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q5:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ChequeBounceReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ChequeBounceReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ChequeBounceReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ChequeBounceReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ChequeBounceReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q6:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_GetDepositSlip_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_GetDepositSlip" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_GetDepositSlip_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_GetDepositSlipResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_GetDepositSlip_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q7:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_EODStatmentReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_EODStatmentReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_EODStatmentReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_EODStatmentReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_EODStatmentReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q8:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWDecline_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWDecline" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWDecline_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWDeclineResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWDecline_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q9:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWPostponeIntimation_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWPostponeIntimation" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWPostponeIntimation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWPostponeIntimationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWPostponeIntimation_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q10:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWReminderLetter_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWReminderLetter" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWReminderLetter_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWReminderLetterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWReminderLetter_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q11:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWRequirementIntimation_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWRequirementIntimation" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWRequirementIntimation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWRequirementIntimationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWRequirementIntimation_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q12:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWWithDrawnIntimation_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWWithDrawnIntimation" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWWithDrawnIntimation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWWithDrawnIntimationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWWithDrawnIntimation_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q13:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWXRT_Traditional_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWXRT_Traditional" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWXRT_Traditional_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWXRT_TraditionalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWXRT_Traditional_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q14:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWXRT_ULIP_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWXRT_ULIP" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWXRT_ULIP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_UWXRT_ULIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_UWXRT_ULIP_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q15:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ECSMandateRejectReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ECSMandateRejectReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ECSMandateRejectReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ECSMandateRejectReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ECSMandateRejectReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q16:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_DeclineCasesRefundReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_DeclineCasesRefundReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_DeclineCasesRefundReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_DeclineCasesRefundReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_DeclineCasesRefundReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q17:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_PostponeCasesRefundReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_PostponeCasesRefundReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_PostponeCasesRefundReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_PostponeCasesRefundReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_PostponeCasesRefundReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q18:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ExcessRefundReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ExcessRefundReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ExcessRefundReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ExcessRefundReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ExcessRefundReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q19:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_WithdrawnRefundReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_WithdrawnRefundReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_WithdrawnRefundReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_WithdrawnRefundReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_WithdrawnRefundReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q20:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_DuplicatePolicyOnComplaintReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_DuplicatePolicyOnComplaintReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_DuplicatePolicyOnComplaintReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_DuplicatePolicyOnComplaintReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_DuplicatePolicyOnComplaintReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q21:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOpolicyCustomerComplaintReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_RTOpolicyCustomerComplaintReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOpolicyCustomerComplaintReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_RTOpolicyCustomerComplaintReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOpolicyCustomerComplaintReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q22:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOpolicyCustomerRequestReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_RTOpolicyCustomerRequestReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOpolicyCustomerRequestReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_RTOpolicyCustomerRequestReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOpolicyCustomerRequestReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q23:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ComplaintLetterReportGen_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ComplaintLetterReportGen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ComplaintLetterReportGen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_ComplaintLetterReportGenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_ComplaintLetterReportGen_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q24:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOLetter_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_RTOLetter" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOLetter_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_RTOLetterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_RTOLetter_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q25:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_HealthCheck_InputMessage">
+    <wsdl:part name="parameters" element="tns:Life_HealthCheck" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_HealthCheck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Life_HealthCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Life_HealthCheck_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/WCFReportGenerator" name="detail" element="q26:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Life_ScrutinyFailIntmtnReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_ScrutinyFailIntmtnReportGen" message="tns:IService1_Life_ScrutinyFailIntmtnReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_ScrutinyFailIntmtnReportGenResponse" message="tns:IService1_Life_ScrutinyFailIntmtnReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_ScrutinyFailIntmtnReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_ScrutinyFailIntmtnReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_AutoGenAppNoReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_AutoGenAppNoReportGen" message="tns:IService1_Life_AutoGenAppNoReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_AutoGenAppNoReportGenResponse" message="tns:IService1_Life_AutoGenAppNoReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_AutoGenAppNoReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_AutoGenAppNoReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_PaymentAckReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_PaymentAckReportGen" message="tns:IService1_Life_PaymentAckReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_PaymentAckReportGenResponse" message="tns:IService1_Life_PaymentAckReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_PaymentAckReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_PaymentAckReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_FundTrnAckReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_FundTrnAckReportGen" message="tns:IService1_Life_FundTrnAckReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_FundTrnAckReportGenResponse" message="tns:IService1_Life_FundTrnAckReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_FundTrnAckReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_FundTrnAckReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_NewBusinessApplicationReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_NewBusinessApplicationReportGen" message="tns:IService1_Life_NewBusinessApplicationReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_NewBusinessApplicationReportGenResponse" message="tns:IService1_Life_NewBusinessApplicationReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_NewBusinessApplicationReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_NewBusinessApplicationReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_ChequeBounceReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_ChequeBounceReportGen" message="tns:IService1_Life_ChequeBounceReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_ChequeBounceReportGenResponse" message="tns:IService1_Life_ChequeBounceReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_ChequeBounceReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_ChequeBounceReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_GetDepositSlip">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_GetDepositSlip" message="tns:IService1_Life_GetDepositSlip_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_GetDepositSlipResponse" message="tns:IService1_Life_GetDepositSlip_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_GetDepositSlipCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_GetDepositSlip_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_EODStatmentReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_EODStatmentReportGen" message="tns:IService1_Life_EODStatmentReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_EODStatmentReportGenResponse" message="tns:IService1_Life_EODStatmentReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_EODStatmentReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_EODStatmentReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWDecline">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_UWDecline" message="tns:IService1_Life_UWDecline_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_UWDeclineResponse" message="tns:IService1_Life_UWDecline_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_UWDeclineCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_UWDecline_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWPostponeIntimation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_UWPostponeIntimation" message="tns:IService1_Life_UWPostponeIntimation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_UWPostponeIntimationResponse" message="tns:IService1_Life_UWPostponeIntimation_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_UWPostponeIntimationCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_UWPostponeIntimation_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWReminderLetter">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_UWReminderLetter" message="tns:IService1_Life_UWReminderLetter_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_UWReminderLetterResponse" message="tns:IService1_Life_UWReminderLetter_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_UWReminderLetterCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_UWReminderLetter_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWRequirementIntimation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_UWRequirementIntimation" message="tns:IService1_Life_UWRequirementIntimation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_UWRequirementIntimationResponse" message="tns:IService1_Life_UWRequirementIntimation_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_UWRequirementIntimationCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_UWRequirementIntimation_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWWithDrawnIntimation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_UWWithDrawnIntimation" message="tns:IService1_Life_UWWithDrawnIntimation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_UWWithDrawnIntimationResponse" message="tns:IService1_Life_UWWithDrawnIntimation_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_UWWithDrawnIntimationCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_UWWithDrawnIntimation_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWXRT_Traditional">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_UWXRT_Traditional" message="tns:IService1_Life_UWXRT_Traditional_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_UWXRT_TraditionalResponse" message="tns:IService1_Life_UWXRT_Traditional_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_UWXRT_TraditionalCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_UWXRT_Traditional_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWXRT_ULIP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_UWXRT_ULIP" message="tns:IService1_Life_UWXRT_ULIP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_UWXRT_ULIPResponse" message="tns:IService1_Life_UWXRT_ULIP_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_UWXRT_ULIPCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_UWXRT_ULIP_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_ECSMandateRejectReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_ECSMandateRejectReportGen" message="tns:IService1_Life_ECSMandateRejectReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_ECSMandateRejectReportGenResponse" message="tns:IService1_Life_ECSMandateRejectReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_ECSMandateRejectReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_ECSMandateRejectReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_DeclineCasesRefundReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_DeclineCasesRefundReportGen" message="tns:IService1_Life_DeclineCasesRefundReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_DeclineCasesRefundReportGenResponse" message="tns:IService1_Life_DeclineCasesRefundReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_DeclineCasesRefundReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_DeclineCasesRefundReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_PostponeCasesRefundReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_PostponeCasesRefundReportGen" message="tns:IService1_Life_PostponeCasesRefundReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_PostponeCasesRefundReportGenResponse" message="tns:IService1_Life_PostponeCasesRefundReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_PostponeCasesRefundReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_PostponeCasesRefundReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_ExcessRefundReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_ExcessRefundReportGen" message="tns:IService1_Life_ExcessRefundReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_ExcessRefundReportGenResponse" message="tns:IService1_Life_ExcessRefundReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_ExcessRefundReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_ExcessRefundReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_WithdrawnRefundReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_WithdrawnRefundReportGen" message="tns:IService1_Life_WithdrawnRefundReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_WithdrawnRefundReportGenResponse" message="tns:IService1_Life_WithdrawnRefundReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_WithdrawnRefundReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_WithdrawnRefundReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_DuplicatePolicyOnComplaintReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_DuplicatePolicyOnComplaintReportGen" message="tns:IService1_Life_DuplicatePolicyOnComplaintReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_DuplicatePolicyOnComplaintReportGenResponse" message="tns:IService1_Life_DuplicatePolicyOnComplaintReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_DuplicatePolicyOnComplaintReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_DuplicatePolicyOnComplaintReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_RTOpolicyCustomerComplaintReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_RTOpolicyCustomerComplaintReportGen" message="tns:IService1_Life_RTOpolicyCustomerComplaintReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_RTOpolicyCustomerComplaintReportGenResponse" message="tns:IService1_Life_RTOpolicyCustomerComplaintReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_RTOpolicyCustomerComplaintReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_RTOpolicyCustomerComplaintReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_RTOpolicyCustomerRequestReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_RTOpolicyCustomerRequestReportGen" message="tns:IService1_Life_RTOpolicyCustomerRequestReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_RTOpolicyCustomerRequestReportGenResponse" message="tns:IService1_Life_RTOpolicyCustomerRequestReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_RTOpolicyCustomerRequestReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_RTOpolicyCustomerRequestReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_ComplaintLetterReportGen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_ComplaintLetterReportGen" message="tns:IService1_Life_ComplaintLetterReportGen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_ComplaintLetterReportGenResponse" message="tns:IService1_Life_ComplaintLetterReportGen_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_ComplaintLetterReportGenCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_ComplaintLetterReportGen_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_RTOLetter">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_RTOLetter" message="tns:IService1_Life_RTOLetter_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_RTOLetterResponse" message="tns:IService1_Life_RTOLetter_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_RTOLetterCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_RTOLetter_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Life_HealthCheck">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Life_HealthCheck" message="tns:IService1_Life_HealthCheck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Life_HealthCheckResponse" message="tns:IService1_Life_HealthCheck_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Life_HealthCheckCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IService1_Life_HealthCheck_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Life_ScrutinyFailIntmtnReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_ScrutinyFailIntmtnReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_AutoGenAppNoReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_AutoGenAppNoReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_PaymentAckReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_PaymentAckReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_FundTrnAckReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_FundTrnAckReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_NewBusinessApplicationReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_NewBusinessApplicationReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_ChequeBounceReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_ChequeBounceReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_GetDepositSlip">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_GetDepositSlip" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_EODStatmentReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_EODStatmentReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWDecline">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_UWDecline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWPostponeIntimation">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_UWPostponeIntimation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWReminderLetter">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_UWReminderLetter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWRequirementIntimation">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_UWRequirementIntimation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWWithDrawnIntimation">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_UWWithDrawnIntimation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWXRT_Traditional">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_UWXRT_Traditional" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_UWXRT_ULIP">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_UWXRT_ULIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_ECSMandateRejectReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_ECSMandateRejectReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_DeclineCasesRefundReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_DeclineCasesRefundReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_PostponeCasesRefundReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_PostponeCasesRefundReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_ExcessRefundReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_ExcessRefundReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_WithdrawnRefundReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_WithdrawnRefundReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_DuplicatePolicyOnComplaintReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_DuplicatePolicyOnComplaintReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_RTOpolicyCustomerComplaintReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_RTOpolicyCustomerComplaintReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_RTOpolicyCustomerRequestReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_RTOpolicyCustomerRequestReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_ComplaintLetterReportGen">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_ComplaintLetterReportGen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_RTOLetter">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_RTOLetter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Life_HealthCheck">
+      <soap:operation soapAction="http://tempuri.org/IService1/Life_HealthCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LifePDFService">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://10.9.41.154:82/LifePDFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

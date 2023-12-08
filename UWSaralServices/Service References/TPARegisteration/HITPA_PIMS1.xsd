@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ProposalDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Age" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentContactDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicantOfficeNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CashieredAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CashieringDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Channel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DCName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="District" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HNIFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HomeVisitFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IMDEmailID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LandMark" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MasterPolicyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MemberDOB" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PCName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PlanType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredDCDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredProviderNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposalDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposalNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposerInitial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RMContactNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RMEmailId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Region" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remark" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RepeatCase" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TPACost" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Taluka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telephone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TestConducted" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProposalDetails" nillable="true" type="tns:ProposalDetails" />
+  <xs:complexType name="ResponseMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HIControlNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposalNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResponseMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResponseStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResponseMessage" nillable="true" type="tns:ResponseMessage" />
+  <xs:complexType name="PreferenceDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PreferredDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredProviderNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposalNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PreferenceDetails" nillable="true" type="tns:PreferenceDetails" />
+</xs:schema>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://fgthntsrvuat02.fgi.ad:10002/FG.LF.WS.ClientCreationBO/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="CLICRC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CAPITAL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR03" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR04" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR05" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTDOBX" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTPCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTPHONE01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTPHONE02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTSTAT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CTRYCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CTRYORIG" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DIRMAIL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECACT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FAO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FAXNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LANGUAGE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LGIVNAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LSURNAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MAILING" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SECUITYNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SERVBRH" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SRDATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="STAFFNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CATEGORY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TAXFLAG" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TGRAM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TLXNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="VIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OLDIDNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RINTERNET" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RTAXIDNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZSPECIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CLICRCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="CLICRCResult" nillable="true" type="q1:MasterCreate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CLICRP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ADDRTYPE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BIRTHP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR03" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR04" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTADDR05" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTDOBX" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTDODX" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTPCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTPHONE01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTPHONE02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTSEX" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLTSTAT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CTRYCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DIRMAIL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DOCNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LANGUAGE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LGIVNAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LSURNAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MAILING" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MARRYD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NATLTY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NMFMT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OCCPCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SALUTL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SECUITYNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SERVBRH" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SOE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SRDATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="STATCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TAXFLAG" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="VIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZDOCTIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FAXNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OLDIDNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RDIDTELNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RINTERNET" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RMBLPHONE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RPAGER" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RSTAFLAG" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RTAXIDNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZSPECIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DECGRSAL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EMPRTAXR" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVIDDATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INCDESC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PAYROLLNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PENSIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PRASIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SALCURR" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TAXYR" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CLICRPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="CLICRPResult" nillable="true" type="q2:MasterCreate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

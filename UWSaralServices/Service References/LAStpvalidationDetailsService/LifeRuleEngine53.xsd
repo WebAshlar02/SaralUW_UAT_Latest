@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://10.1.41.196:8659/LifeRuleEngine.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="AgentEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgencyChannel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AgentEntity" nillable="true" type="tns:AgentEntity" />
+  <xs:complexType name="PolicyEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AnnualPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="ApplicationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BackDatingFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BackdatingRCD" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EODStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="FSAR" type="xs:double" />
+      <xs:element minOccurs="0" name="InsuredPersonPanNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsPanAccepted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsSimplified" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsStaff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OFACStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PANNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PanApplied" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PayerAnnualIncome" type="xs:double" />
+      <xs:element minOccurs="0" name="PayerDOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PayerID" type="xs:int" />
+      <xs:element minOccurs="0" name="PolicyFrequency" type="xs:int" />
+      <xs:element minOccurs="0" name="PolicyHolderPanNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="PremiumPayingTerm" type="xs:short" />
+      <xs:element minOccurs="0" name="PremiumPaymentTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="PremiumStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrevPolicyPremiumAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="ProposerID" type="xs:int" />
+      <xs:element minOccurs="0" name="RequiredRCD" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SimplifiedCheckFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SpecialInsuranceKeyman" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SumAssured" type="xs:double" />
+      <xs:element minOccurs="0" name="TSAR" type="xs:double" />
+      <xs:element minOccurs="0" name="UnderwriterCommentsFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PolicyEntity" nillable="true" type="tns:PolicyEntity" />
+  <xs:complexType name="ProductEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Frequency" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductSubCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SpecifiedAgentType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductEntity" nillable="true" type="tns:ProductEntity" />
+  <xs:complexType name="RiderEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LifeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MedicalLoadingClass" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NSAPFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="NonMedicalLoading" type="xs:double" />
+      <xs:element minOccurs="0" name="RiderCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderSumAssured" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RiderEntity" nillable="true" type="tns:RiderEntity" />
+  <xs:complexType name="PaymentEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AmountReceived" type="xs:double" />
+      <xs:element minOccurs="0" name="CardDetails" nillable="true" type="tns:ArrayOfCreditDebitCardEntity" />
+      <xs:element minOccurs="0" name="ChequeDetails" nillable="true" type="tns:ArrayOfChequeEntity" />
+      <xs:element minOccurs="0" name="CreditCardExpiryDate" type="xs:dateTime" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="CreditCardNumber" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="CreditCardType" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element minOccurs="0" name="DDCharge" type="xs:double" />
+      <xs:element minOccurs="0" name="DemandDraftAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="DemandDraftDetails" nillable="true" type="tns:ArrayOfDDEntity" />
+      <xs:element minOccurs="0" name="DestinationPolicyPremiumAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="DestinationPolicyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InstallmentPremium" type="xs:double" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="InstrumentDate" nillable="true" type="q3:ArrayOfdateTime" />
+      <xs:element minOccurs="0" name="InstrumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MICRCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NetPremiumPayable" type="xs:double" />
+      <xs:element minOccurs="0" name="OperationType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OutstandingPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="PaymentOption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PremiumAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="SourcePolicyFTAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="SourcePolicyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SuspenseAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalPayment" type="xs:double" />
+      <xs:element minOccurs="0" name="TypeofReceipting" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PaymentEntity" nillable="true" type="tns:PaymentEntity" />
+  <xs:complexType name="ArrayOfCreditDebitCardEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CreditDebitCardEntity" nillable="true" type="tns:CreditDebitCardEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCreditDebitCardEntity" nillable="true" type="tns:ArrayOfCreditDebitCardEntity" />
+  <xs:complexType name="CreditDebitCardEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CardNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CreditDebitCardEntity" nillable="true" type="tns:CreditDebitCardEntity" />
+  <xs:complexType name="ArrayOfChequeEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChequeEntity" nillable="true" type="tns:ChequeEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChequeEntity" nillable="true" type="tns:ArrayOfChequeEntity" />
+  <xs:complexType name="ChequeEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="OperationType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChequeEntity" nillable="true" type="tns:ChequeEntity" />
+  <xs:complexType name="ArrayOfDDEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DDEntity" nillable="true" type="tns:DDEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDDEntity" nillable="true" type="tns:ArrayOfDDEntity" />
+  <xs:complexType name="DDEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:long" />
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="OperationType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DDEntity" nillable="true" type="tns:DDEntity" />
+  <xs:complexType name="PolicyHolderEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AddressProof" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgeProofDocCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicantType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BMI" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountryCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrugDetails" nillable="true" type="tns:ArrayOfDrugDetails" />
+      <xs:element minOccurs="0" name="HasAnyGynaecologicalProblem" type="xs:boolean" />
+      <xs:element minOccurs="0" name="HealthQtnsResponse" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IdentityProofIssueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IdentityProofSubmitted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InsurabilityDeclaration" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAdventurous" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsArmedPerson" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsCriminallyConvicted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsNarchotic" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsOccupationHazardous" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsPoliticallyExposed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsPregnant" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsRecentPhotoPasted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsRetiredPerson" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LAType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LifeAssuredAnnualPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="LifeAssuredDOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LifeAssuredID" type="xs:int" />
+      <xs:element minOccurs="0" name="LifeAssuredOccupation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MandateRejectReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OccupationCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OccupationCodeHazardous" type="xs:boolean" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="OtherPolicyStatusCode" nillable="true" type="q4:ArrayOfstring" />
+      <xs:element minOccurs="0" name="PhotoIDProof" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyHolderDOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProposerDOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Qualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RecentPhotograph" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RelationWithProposer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Smoker" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SourceOfIncome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SpecialClassCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="hasWeightChanged" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PolicyHolderEntity" nillable="true" type="tns:PolicyHolderEntity" />
+  <xs:complexType name="ArrayOfDrugDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DrugDetails" nillable="true" type="tns:DrugDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDrugDetails" nillable="true" type="tns:ArrayOfDrugDetails" />
+  <xs:complexType name="DrugDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DrugQty" type="xs:double" />
+      <xs:element minOccurs="0" name="DrugType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dbDrugQty" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DrugDetails" nillable="true" type="tns:DrugDetails" />
+  <xs:complexType name="SystemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApprovedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BilledToDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BusinessDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CoInsurance" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CoverNoteDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CoverNoteNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="FGSubChannel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InwardDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MISIntermediaryCode" type="xs:int" />
+      <xs:element minOccurs="0" name="OurShare" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PaidToDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="QuoteNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="ReceivedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiskCommencementDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SystemDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TransactionDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TriggerDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SystemEntity" nillable="true" type="tns:SystemEntity" />
+  <xs:complexType name="NomineeEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AppointeeID" type="xs:int" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="DateOfBirthList" nillable="true" type="q5:ArrayOfdateTime" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NomineeAge" nillable="true" type="q6:ArrayOfint" />
+      <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NomineeDOB" nillable="true" type="q7:ArrayOfdateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NomineeEntity" nillable="true" type="tns:NomineeEntity" />
+  <xs:complexType name="ClientEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ClientCode" type="xs:long" />
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyRegistrationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentFromDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CurrentToDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EntityType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaritalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PANNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PinCode" type="xs:long" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClientEntity" nillable="true" type="tns:ClientEntity" />
+  <xs:complexType name="LifeAssuredEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SmokerStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LifeAssuredEntity" nillable="true" type="tns:LifeAssuredEntity" />
+  <xs:complexType name="ChildEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ChildDateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChildEntity" nillable="true" type="tns:ChildEntity" />
+  <xs:complexType name="DocumentEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LAAddressProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAAgeProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAIncomeProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAPhotoIDProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LARecentPhotoProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRAddressProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRIncomeProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRPhotoIDProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRRecentPhotoProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRRelationStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerIncomeProofStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerRelationStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DocumentEntity" nillable="true" type="tns:DocumentEntity" />
+  <xs:complexType name="ArrayOfRiderEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RiderEntity" nillable="true" type="tns:RiderEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRiderEntity" nillable="true" type="tns:ArrayOfRiderEntity" />
+  <xs:complexType name="MedicalReportEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ALKPhosphates" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="AlbuminGlobulinRatio" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="BUN" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="BilirubinDirect" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="BilirubinIndirect" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="BilirubinTotal" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="CD4Lymphocytes" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="CD8Lymphocytes" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="ChestExhale" type="xs:int" />
+      <xs:element minOccurs="0" name="ChestInhale" type="xs:int" />
+      <xs:element minOccurs="0" name="ChestLimit" type="xs:int" />
+      <xs:element minOccurs="0" name="DiastolicBP" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="ESR" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="FBS" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="GGT" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HBA1" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="HBA1C" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="HBEAGReport" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HBSAGReport" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HDL" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="HIVReport" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsAbnormalOrSurgery" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAbnormalheartOrVasucular" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAddFeatureSuspected" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAnsToFMedQns" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAnsToMedQns" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsArteriosclerosisOrAneurysm" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAvgRiskOfAids" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsHealthy" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsHeartEnlargement" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsHeartmurmurOrAbnormalsounds" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsHypertrophyOrEdema" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsMedicationOrDrugs" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsRecoAddtestOrReports" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Ketonuria" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MCH" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="MCHC" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="MCV" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="PG2" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="PlateletsCount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Proteinuria" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pulse" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="PulseCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PusCell" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SAlbumin" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SCreatinine" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SGOT" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SGPT" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SGloublin" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SUricAcid" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SystolicBP" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="TCholestrolHDLRatio" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalCholestrol" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Triglycerides" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="UrineSugar" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="hasWeightChanged" type="xs:boolean" />
+      <xs:element minOccurs="0" name="hbLevel" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="pcvCount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="rbcCount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="wbcCount" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MedicalReportEntity" nillable="true" type="tns:MedicalReportEntity" />
+  <xs:complexType name="FTREntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AnnualPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="BusinessDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LifeAssuredDOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LifeAssuredID" type="xs:int" />
+      <xs:element minOccurs="0" name="LifeAssuredOccupation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerID" type="xs:int" />
+      <xs:element minOccurs="0" name="PremiumAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="PreviousInsuranceFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ProductCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposerID" type="xs:int" />
+      <xs:element minOccurs="0" name="RuleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SpecialInsurance" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SumAssured" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FTREntity" nillable="true" type="tns:FTREntity" />
+</xs:schema>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_UnderwritingDecision/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="PRPDEC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RESNDESC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATIME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPDECResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="PRPDECResult" nillable="true" type="q1:Master" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPPST">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RESNDESC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZPOSTPRD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZPSTPRCD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATIME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPPSTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="PRPPSTResult" nillable="true" type="q2:Master" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPWDR">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RESNDESC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATIME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPWDRResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="PRPWDRResult" nillable="true" type="q3:Master" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPRDW">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RESNDESC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPRDWResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="PRPRDWResult" nillable="true" type="q4:Master" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

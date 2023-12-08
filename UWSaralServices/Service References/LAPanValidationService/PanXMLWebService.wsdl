@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="PanXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strPanNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PanXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PanXmlResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PanXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:PanXml" />
+  </wsdl:message>
+  <wsdl:message name="PanXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:PanXmlResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PanXMLWebServiceSoap">
+    <wsdl:operation name="PanXml">
+      <wsdl:input message="tns:PanXmlSoapIn" />
+      <wsdl:output message="tns:PanXmlSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PanXMLWebServiceSoap" type="tns:PanXMLWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PanXml">
+      <soap:operation soapAction="http://tempuri.org/PanXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PanXMLWebServiceSoap12" type="tns:PanXMLWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PanXml">
+      <soap12:operation soapAction="http://tempuri.org/PanXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PanXMLWebService">
+    <wsdl:port name="PanXMLWebServiceSoap" binding="tns:PanXMLWebServiceSoap">
+      <soap:address location="http://10.1.36.40/PANService/PanXMLWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PanXMLWebServiceSoap12" binding="tns:PanXMLWebServiceSoap12">
+      <soap12:address location="http://10.1.36.40/PANService/PanXMLWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

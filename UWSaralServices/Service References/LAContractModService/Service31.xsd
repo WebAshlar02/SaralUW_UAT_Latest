@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="MasterEntity.HeaderDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="UWDecisionDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="accountType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="agentNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="billCD_IND" type="xs:int" />
+      <xs:element minOccurs="0" name="billCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="billFrequency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="billRenewalDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="contractCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="contractNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="contractType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="methodOfPayment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="noOfPolicy" type="xs:int" />
+      <xs:element minOccurs="0" name="originalCommencementDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="proposalDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="proposalRecievedDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="register" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="statisticalCodeA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="statisticalCodeB" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="statisticalCodeC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="statisticalCodeD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="statisticalCodeE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="temporaryReceiptNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.HeaderDetail" nillable="true" type="tns:MasterEntity.HeaderDetail" />
+  <xs:complexType name="MasterEntity.OwnerDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ownerParty" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.OwnerDetail" nillable="true" type="tns:MasterEntity.OwnerDetail" />
+  <xs:complexType name="ArrayOfMasterEntity.LifeDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.LifeDetailList" nillable="true" type="tns:MasterEntity.LifeDetailList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.LifeDetailList" nillable="true" type="tns:ArrayOfMasterEntity.LifeDetailList" />
+  <xs:complexType name="MasterEntity.LifeDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ANBAge" type="xs:int" />
+      <xs:element minOccurs="0" name="dateOfBirth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="jointLifeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeEntID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeParty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeSelction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="occupationCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="relationshipToLifeAssured" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="smokingIndicator" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.LifeDetailList" nillable="true" type="tns:MasterEntity.LifeDetailList" />
+  <xs:complexType name="ArrayOfMasterEntity.JointLifeDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.JointLifeDetailList" nillable="true" type="tns:MasterEntity.JointLifeDetailList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.JointLifeDetailList" nillable="true" type="tns:ArrayOfMasterEntity.JointLifeDetailList" />
+  <xs:complexType name="MasterEntity.JointLifeDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ANBAge" type="xs:int" />
+      <xs:element minOccurs="0" name="dateOfBirth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="jointLifeEntID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="jointLifeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="jointLifeParent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="jointLifeParty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeSelection" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="occupationCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="relationshipToLifeInsured" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="smokingIndicator" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.JointLifeDetailList" nillable="true" type="tns:MasterEntity.JointLifeDetailList" />
+  <xs:complexType name="MasterEntity.JointOwnerDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="jointOwnerParty" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.JointOwnerDetail" nillable="true" type="tns:MasterEntity.JointOwnerDetail" />
+  <xs:complexType name="ArrayOfMasterEntity.CoverageDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.CoverageDetailList" nillable="true" type="tns:MasterEntity.CoverageDetailList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.CoverageDetailList" nillable="true" type="tns:ArrayOfMasterEntity.CoverageDetailList" />
+  <xs:complexType name="MasterEntity.CoverageDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="covRiderInstalmentAmount" type="xs:int" />
+      <xs:element minOccurs="0" name="coverageEndID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="coverageNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="coverageParent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="coverageRiderTable" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lumpSumContribution" type="xs:int" />
+      <xs:element minOccurs="0" name="mortalityClass" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="premiumCessadtionAge" type="xs:int" />
+      <xs:element minOccurs="0" name="premiumCessadtionTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="riderNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="riskCessationAge" type="xs:int" />
+      <xs:element minOccurs="0" name="riskCessationTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="sumAssured" type="xs:int" />
+      <xs:element minOccurs="0" name="unitReserveAllocationDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitReserveUnits" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.CoverageDetailList" nillable="true" type="tns:MasterEntity.CoverageDetailList" />
+  <xs:complexType name="ArrayOfMasterEntity.RiderDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.RiderDetailList" nillable="true" type="tns:MasterEntity.RiderDetailList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.RiderDetailList" nillable="true" type="tns:ArrayOfMasterEntity.RiderDetailList" />
+  <xs:complexType name="MasterEntity.RiderDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="covRIderInstalmentAmount" type="xs:int" />
+      <xs:element minOccurs="0" name="coverageNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="coverageRiderTable" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mortalityClass" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="premiumCessationAge" type="xs:int" />
+      <xs:element minOccurs="0" name="premiumCessationTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="riderEntID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="riderNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="riderParent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="riskCessationAge" type="xs:int" />
+      <xs:element minOccurs="0" name="riskCessationTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="sumAssured" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.RiderDetailList" nillable="true" type="tns:MasterEntity.RiderDetailList" />
+  <xs:complexType name="ArrayOfMasterEntity.BeneficiaryList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.BeneficiaryList" nillable="true" type="tns:MasterEntity.BeneficiaryList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.BeneficiaryList" nillable="true" type="tns:ArrayOfMasterEntity.BeneficiaryList" />
+  <xs:complexType name="MasterEntity.BeneficiaryList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="beneficiaryCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="beneficiaryParty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="beneficiaryPercentage" type="xs:int" />
+      <xs:element minOccurs="0" name="beneficiaryRelationship" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="effectiveDate" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.BeneficiaryList" nillable="true" type="tns:MasterEntity.BeneficiaryList" />
+  <xs:complexType name="MasterEntity.FollowUp">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="doctorClientNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="followUpCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="followUpNo" type="xs:int" />
+      <xs:element minOccurs="0" name="followUpStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="followuUpReminderDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeNo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.FollowUp" nillable="true" type="tns:MasterEntity.FollowUp" />
+  <xs:complexType name="MasterEntity.Assignee">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="assigneeParty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="commissionFromDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="commissionToDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="incomeProof" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="incomeProofIndicator" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="reasonCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.Assignee" nillable="true" type="tns:MasterEntity.Assignee" />
+  <xs:complexType name="MasterEntity.DespatchCorrespondence">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="despatchParty" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.DespatchCorrespondence" nillable="true" type="tns:MasterEntity.DespatchCorrespondence" />
+  <xs:complexType name="MasterEntity.PayerDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="payerParty" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.PayerDetail" nillable="true" type="tns:MasterEntity.PayerDetail" />
+  <xs:complexType name="ArrayOfMasterEntity.SpecialTermList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.SpecialTermList" nillable="true" type="tns:MasterEntity.SpecialTermList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.SpecialTermList" nillable="true" type="tns:ArrayOfMasterEntity.SpecialTermList" />
+  <xs:complexType name="MasterEntity.SpecialTermList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="adjustmentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="adjustmentDuration" type="xs:int" />
+      <xs:element minOccurs="0" name="adjustmentPercentage" type="xs:int" />
+      <xs:element minOccurs="0" name="ageRating" type="xs:int" />
+      <xs:element minOccurs="0" name="lineOfSublife" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="rateAdjustment" type="xs:int" />
+      <xs:element minOccurs="0" name="reassuranceIndictor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="specTermsEntID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="specTermsParent" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.SpecialTermList" nillable="true" type="tns:MasterEntity.SpecialTermList" />
+  <xs:complexType name="ArrayOfMasterEntity.FundDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.FundDetailList" nillable="true" type="tns:MasterEntity.FundDetailList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.FundDetailList" nillable="true" type="tns:ArrayOfMasterEntity.FundDetailList" />
+  <xs:complexType name="MasterEntity.FundDetailList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fundEntID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fundParent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitLinkedFund10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitPercent01" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent02" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent03" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent04" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent05" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent06" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent07" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent08" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent09" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercent10" type="xs:int" />
+      <xs:element minOccurs="0" name="unitPercentage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitVirtualFundSplitMethod" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.FundDetailList" nillable="true" type="tns:MasterEntity.FundDetailList" />
+  <xs:complexType name="MasterEntity.Client">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="VIPIndicator" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="addrType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="birthPlace" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="categoryStatisticalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientAddress01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientAddress02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientAddress03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientAddress04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientEntID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientParty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientPhone01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientPhone02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="countryCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dateOfBirth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="directMailIndicator" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="documentNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="forTheAttentionOf" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="language" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="longGivenName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="longSurname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mailingIndicator" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="marriedIndicator" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nameFormatting" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nationality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="occupationCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="postcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="socialSecurityNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sourceOfEvidence" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.Client" nillable="true" type="tns:MasterEntity.Client" />
+  <xs:complexType name="MasterEntity.ClientBankAccount">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="bankAccountDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankAccountNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankAccountType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankSecurityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientBankDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currencyCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dateFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="factorisingHouse" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.ClientBankAccount" nillable="true" type="tns:MasterEntity.ClientBankAccount" />
+  <xs:complexType name="MasterEntity.Mandate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="bankAccountNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankaccessApprovalNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clientNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="effectiveDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="factorisingHouse" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mandateAmount" type="xs:int" />
+      <xs:element minOccurs="0" name="mandateReferenceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mandateStatusCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="summaryIndicator" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="timesToUse" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.Mandate" nillable="true" type="tns:MasterEntity.Mandate" />
+  <xs:complexType name="MasterEntity.PremiumReceipt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="amountOriginalCurrency" type="xs:int" />
+      <xs:element minOccurs="0" name="bankCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankDescription01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankDescription02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankDescription03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankedFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="chequeDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="chequeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currencyRate" type="xs:int" />
+      <xs:element minOccurs="0" name="dissectionNo" type="xs:int" />
+      <xs:element minOccurs="0" name="documentAmountOriginalCurrency" type="xs:int" />
+      <xs:element minOccurs="0" name="entity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="originalCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="paymentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="protectIND" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="receivedFromCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="receivedFromNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="subAccountCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="subAccountType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transactionDate" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.PremiumReceipt" nillable="true" type="tns:MasterEntity.PremiumReceipt" />
+  <xs:complexType name="ArrayOfMasterEntity.ReceiptToContractList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterEntity.ReceiptToContractList" nillable="true" type="tns:MasterEntity.ReceiptToContractList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterEntity.ReceiptToContractList" nillable="true" type="tns:ArrayOfMasterEntity.ReceiptToContractList" />
+  <xs:complexType name="MasterEntity.ReceiptToContractList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="receiptNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tranSequence" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.ReceiptToContractList" nillable="true" type="tns:MasterEntity.ReceiptToContractList" />
+  <xs:complexType name="MasterEntity.AgencyDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="agentNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="frontEndRegionCode01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="frontEndRegionCode02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="frontEndRegionCode03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="frontEndRegionCode04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="newAgentAreaCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="reportingAgent01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="reportingAgent02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sourceOfBusiness01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sourceOfBusiness02" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.AgencyDetail" nillable="true" type="tns:MasterEntity.AgencyDetail" />
+  <xs:complexType name="MasterEntity.AnnuityDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="NominatedLife" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="annuityPaymentInAdvance" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="annuityPaymentsInArrears" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="annuityPaymentsWithProportion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="annuityPaymentsWithoutProportion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="capitalContentAnnuityPayment" type="xs:int" />
+      <xs:element minOccurs="0" name="frequencyOfAnnuityPAyments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="guaranteedPaymentPeriod" type="xs:int" />
+      <xs:element minOccurs="0" name="interestRateInAnnuityCalculations" type="xs:int" />
+      <xs:element minOccurs="0" name="percentageDropOnDeathOfNominatedLife" type="xs:int" />
+      <xs:element minOccurs="0" name="percentageDropOnDeathOfOtherLife" type="xs:int" />
+      <xs:element minOccurs="0" name="purchasePriceIndicator" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.AnnuityDetail" nillable="true" type="tns:MasterEntity.AnnuityDetail" />
+  <xs:complexType name="MasterEntity.GroupDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="groupMemberNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="groupNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="masterPolicyNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.GroupDetail" nillable="true" type="tns:MasterEntity.GroupDetail" />
+  <xs:complexType name="MasterEntity.UserDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="processID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterEntity.UserDetail" nillable="true" type="tns:MasterEntity.UserDetail" />
+  <xs:complexType name="Master">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="contractNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="errorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Master" nillable="true" type="tns:Master" />
+</xs:schema>

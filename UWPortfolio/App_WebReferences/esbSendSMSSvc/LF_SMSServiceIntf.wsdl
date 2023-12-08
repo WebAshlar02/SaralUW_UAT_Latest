@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bons1="http://www.futuregenerali.in/nonlife/NLFSMSServiceBPMIntf" xmlns:tns="http://www.futuregenerali.in/FGSMSServiceBPMIntf" xmlns:bons3="http://www.futuregenerali.in/life" name="LF_SMSServiceIntf" targetNamespace="http://www.futuregenerali.in/FGSMSServiceBPMIntf" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns:bons1="http://www.futuregenerali.in/FGSMSServiceBPMIntf" targetNamespace="http://www.futuregenerali.in/FGSMSServiceBPMIntf">
+      <xsd:import schemaLocation="DataEntry.xsd" namespace="http://www.futuregenerali.in/life" />
+      <xsd:element name="sendSMS">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="textMsg" nillable="true" type="xsd:string" />
+            <xsd:element name="toNumber" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="sendSMSResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="faultResponse" nillable="true" type="bons3:LF_ExceptionDetail" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="sendSMSResponseMsg">
+    <wsdl:part name="sendSMSResult" element="tns:sendSMSResponse" />
+  </wsdl:message>
+  <wsdl:message name="sendSMSRequestMsg">
+    <wsdl:part name="sendSMSParameters" element="tns:sendSMS" />
+  </wsdl:message>
+  <wsdl:portType name="FGSMSServiceBPMIntf">
+    <wsdl:operation name="sendSMS">
+      <wsdl:input name="sendSMSRequest" message="tns:sendSMSRequestMsg" />
+      <wsdl:output name="sendSMSResponse" message="tns:sendSMSResponseMsg" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="MasterPersonelLoadingCreate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CHDRNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="COVERAGE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="INSTPREM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LIFE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RIDER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZLINSTPREM" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterPersonelLoadingCreate" nillable="true" type="tns:MasterPersonelLoadingCreate" />
+  <xs:complexType name="ArrayOfMasterPersonelLoadingEnquiry">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MasterPersonelLoadingEnquiry" nillable="true" type="tns:MasterPersonelLoadingEnquiry" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMasterPersonelLoadingEnquiry" nillable="true" type="tns:ArrayOfMasterPersonelLoadingEnquiry" />
+  <xs:complexType name="MasterPersonelLoadingEnquiry">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AGERATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ECESTRM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="INSPRM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OPCDA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OPPC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="REASIND" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SELECTLINE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZFMORPCT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZNADJPERC" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterPersonelLoadingEnquiry" nillable="true" type="tns:MasterPersonelLoadingEnquiry" />
+</xs:schema>

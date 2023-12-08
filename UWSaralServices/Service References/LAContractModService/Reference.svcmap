@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="78a23843-10bb-4b84-82fc-cc7906cbf714" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_ContractCreation/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="8692fcc8-09d7-4752-b15d-457678a2f47b" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_ContractCreation/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service31.xsd" MetadataType="Schema" ID="1edc271e-f5aa-441b-b485-12d10527cbf3" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_ContractCreation/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service32.xsd" MetadataType="Schema" ID="d8bdd850-a25a-4f7d-a298-52a1e7bdbb99" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_ContractCreation/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="008d4503-2003-40d0-9b5f-10ddb3029b9e" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_ContractCreation/Service.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="c4198cf4-2e77-4eb5-bfd7-9afe975fef14" SourceId="1" SourceUrl="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_ContractCreation/Service.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

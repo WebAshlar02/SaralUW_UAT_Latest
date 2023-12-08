@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8b0df696-5eab-4925-bb00-78bf084fec99" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.9.41.154:82/LifePDFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LifePDFService5.xsd" MetadataType="Schema" ID="bbbef38f-4a9b-429d-af87-40159ad45fb4" SourceId="1" SourceUrl="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LifePDFService1.wsdl" MetadataType="Wsdl" ID="f9a9b951-e24f-41aa-8aeb-989689fd7950" SourceId="1" SourceUrl="http://10.9.41.154:82/LifePDFService.svc?wsdl" />
+    <MetadataFile FileName="LifePDFService51.xsd" MetadataType="Schema" ID="4e92feb1-4456-411c-ac30-8ccda0dbd9ab" SourceId="1" SourceUrl="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LifePDFService52.xsd" MetadataType="Schema" ID="b05fc1b0-7ed1-4cab-bdf8-4130f5c4b809" SourceId="1" SourceUrl="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="LifePDFService53.xsd" MetadataType="Schema" ID="b81f6a37-2c5b-4296-b6bb-4c64904d829f" SourceId="1" SourceUrl="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LifePDFService1.disco" MetadataType="Disco" ID="27da4cef-7f16-4c56-86cd-6f379e3a3adb" SourceId="1" SourceUrl="http://10.9.41.154:82/LifePDFService.svc?disco" />
+    <MetadataFile FileName="LifePDFService54.xsd" MetadataType="Schema" ID="5ebbeeb0-3166-42cb-a5dd-ff5626d7c161" SourceId="1" SourceUrl="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

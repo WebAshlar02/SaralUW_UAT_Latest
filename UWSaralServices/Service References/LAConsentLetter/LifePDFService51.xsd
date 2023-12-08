@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PDFEntityLayer" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PDFEntityLayer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="Life_ScrutinyFailIntmtnReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProposerName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="RejectReasons" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_ScrutinyFailIntmtnReport" nillable="true" type="tns:Life_ScrutinyFailIntmtnReport" />
+  <xs:complexType name="Life_AutoGenAppNo">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AdditionalAppNos" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element minOccurs="0" name="AgentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LADoB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_AutoGenAppNo" nillable="true" type="tns:Life_AutoGenAppNo" />
+  <xs:complexType name="Life_PaymentAck">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Amount" type="xs:int" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuthCodeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InstrumentDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InstrumentNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InstrumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsDuplicate" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OperationalBranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReceiptNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeOfReceipting" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_PaymentAck" nillable="true" type="tns:Life_PaymentAck" />
+  <xs:complexType name="Life_PremuimPaymentAckRpt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="APPFLAG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BILLFREQ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BTDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSTATUS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTSUSP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="COWNNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CTYPEDES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CURRFROM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DUEDD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EPREM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORMESSAGE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HRIFEECNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="INTANNY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JLIFEDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JLIFENUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LIFEDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LIFENUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXAMT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MINPREM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MOP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NEWAMNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ORCOMM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OSBAL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OWNERDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PREMSTATUS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PTDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOLER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOTALTAX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZSPRM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZTOSPA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZWVRIFEE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_PremuimPaymentAckRpt" nillable="true" type="tns:Life_PremuimPaymentAckRpt" />
+  <xs:complexType name="Life_FundTrnAckReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Amount" type="xs:int" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsDuplicate" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OperationalBranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayerState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReceiptNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_FundTrnAckReport" nillable="true" type="tns:Life_FundTrnAckReport" />
+  <xs:complexType name="Life_NewBusinessApplicationReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Life_BulkEntries" nillable="true" type="tns:ArrayOfLife_NewBusinessApplicationEntries" />
+      <xs:element minOccurs="0" name="OutwardingDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransmittalNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserHouseBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_NewBusinessApplicationReport" nillable="true" type="tns:Life_NewBusinessApplicationReport" />
+  <xs:complexType name="ArrayOfLife_NewBusinessApplicationEntries">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Life_NewBusinessApplicationEntries" nillable="true" type="tns:Life_NewBusinessApplicationEntries" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLife_NewBusinessApplicationEntries" nillable="true" type="tns:ArrayOfLife_NewBusinessApplicationEntries" />
+  <xs:complexType name="Life_NewBusinessApplicationEntries">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationInwardingDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LifeAssuredName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_NewBusinessApplicationEntries" nillable="true" type="tns:Life_NewBusinessApplicationEntries" />
+  <xs:complexType name="Life_ChequeBounce">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InstrumentDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAHomePhNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_ChequeBounce" nillable="true" type="tns:Life_ChequeBounce" />
+  <xs:complexType name="Life_DepSlp_Cash">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositSlipDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositSlipFileName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositSlipNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DnmTotalAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="ListCashDenomination" nillable="true" type="tns:Life_DepSlp_CashDenomination" />
+      <xs:element minOccurs="0" name="ListCashReciept" nillable="true" type="tns:ArrayOfLife_DepSlp_CashReciept" />
+      <xs:element minOccurs="0" name="PaymentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PickupCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PickupLocation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_DepSlp_Cash" nillable="true" type="tns:Life_DepSlp_Cash" />
+  <xs:complexType name="Life_DepSlp_CashDenomination">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AmountOf_1000_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_100_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_10_Coins" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_10_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_1_Coins" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_1_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_200_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_20_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_2_Coins" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_2_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_500_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_50_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_5_Coins" type="xs:double" />
+      <xs:element minOccurs="0" name="AmountOf_5_Notes" type="xs:double" />
+      <xs:element minOccurs="0" name="NoOf_1000_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_100_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_10_Coins" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_10_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_1_Coins" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_1_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_200_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_20_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_2_Coins" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_2_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_500_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_50_Notes" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_5_Coins" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOf_5_Notes" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_DepSlp_CashDenomination" nillable="true" type="tns:Life_DepSlp_CashDenomination" />
+  <xs:complexType name="ArrayOfLife_DepSlp_CashReciept">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Life_DepSlp_CashReciept" nillable="true" type="tns:Life_DepSlp_CashReciept" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLife_DepSlp_CashReciept" nillable="true" type="tns:ArrayOfLife_DepSlp_CashReciept" />
+  <xs:complexType name="Life_DepSlp_CashReciept">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:double" />
+      <xs:element minOccurs="0" name="AppPolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SrNo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_DepSlp_CashReciept" nillable="true" type="tns:Life_DepSlp_CashReciept" />
+  <xs:complexType name="Life_DepSlp_Cheque">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqTotalAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="ChqTotalNoofIns" type="xs:int" />
+      <xs:element minOccurs="0" name="ClientCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositSlipDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositSlipNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListChequeReciept" nillable="true" type="tns:ArrayOfLife_DepSlp_ChequeRecipt" />
+      <xs:element minOccurs="0" name="PaymentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PickupCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PickupLocation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_DepSlp_Cheque" nillable="true" type="tns:Life_DepSlp_Cheque" />
+  <xs:complexType name="ArrayOfLife_DepSlp_ChequeRecipt">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Life_DepSlp_ChequeRecipt" nillable="true" type="tns:Life_DepSlp_ChequeRecipt" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLife_DepSlp_ChequeRecipt" nillable="true" type="tns:ArrayOfLife_DepSlp_ChequeRecipt" />
+  <xs:complexType name="Life_DepSlp_ChequeRecipt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AppPolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeNo" type="xs:int" />
+      <xs:element minOccurs="0" name="DraweeBank" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InstrAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="ReceiptDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SrNo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_DepSlp_ChequeRecipt" nillable="true" type="tns:Life_DepSlp_ChequeRecipt" />
+  <xs:complexType name="Life_EODStatement">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CashAmount_Balance" type="xs:double" />
+      <xs:element minOccurs="0" name="CashAmount_Deposit" type="xs:double" />
+      <xs:element minOccurs="0" name="CashAmount_Hand" type="xs:double" />
+      <xs:element minOccurs="0" name="CashAmount_SentToBank" type="xs:double" />
+      <xs:element minOccurs="0" name="CashAmount_Storage" type="xs:double" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EODDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EODFileName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoOfIns_Balance" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOfIns_Deposit" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOfIns_Hand" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOfIns_SentToBank" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_EODStatement" nillable="true" type="tns:Life_EODStatement" />
+  <xs:complexType name="Life_UWDeclineIntimation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeclineReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Questionaries" nillable="true" type="q3:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWDeclineIntimation" nillable="true" type="tns:Life_UWDeclineIntimation" />
+  <xs:complexType name="Life_UWPostponeIntimation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostponePeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostponeReason" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Questionaries" nillable="true" type="q4:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWPostponeIntimation" nillable="true" type="tns:Life_UWPostponeIntimation" />
+  <xs:complexType name="Life_UWReminderLetter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationSignDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListMedicalDescription" nillable="true" type="tns:ArrayOfLife_UWReminderMLDescription" />
+      <xs:element minOccurs="0" name="ListNonMedicalDescription" nillable="true" type="tns:ArrayOfLife_UWReminderNonMLDescription" />
+      <xs:element minOccurs="0" name="MedicalReqIssueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PertainingName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PertainingTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Questionaries" nillable="true" type="q5:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWReminderLetter" nillable="true" type="tns:Life_UWReminderLetter" />
+  <xs:complexType name="ArrayOfLife_UWReminderMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Life_UWReminderMLDescription" nillable="true" type="tns:Life_UWReminderMLDescription" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLife_UWReminderMLDescription" nillable="true" type="tns:ArrayOfLife_UWReminderMLDescription" />
+  <xs:complexType name="Life_UWReminderMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MLTestAddDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MLTestDescription" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWReminderMLDescription" nillable="true" type="tns:Life_UWReminderMLDescription" />
+  <xs:complexType name="ArrayOfLife_UWReminderNonMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Life_UWReminderNonMLDescription" nillable="true" type="tns:Life_UWReminderNonMLDescription" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLife_UWReminderNonMLDescription" nillable="true" type="tns:ArrayOfLife_UWReminderNonMLDescription" />
+  <xs:complexType name="Life_UWReminderNonMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="NonMLTestAddDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NonMLTestDescription" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWReminderNonMLDescription" nillable="true" type="tns:Life_UWReminderNonMLDescription" />
+  <xs:complexType name="Life_UWRequirementIntimation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListMedicalDescriptionLA" nillable="true" type="tns:ArrayOfLife_UWRequirementMLDescription" />
+      <xs:element minOccurs="0" name="ListMedicalDescriptionPR" nillable="true" type="tns:ArrayOfLife_UWRequirementMLDescription" />
+      <xs:element minOccurs="0" name="ListNonMedicalDescription" nillable="true" type="tns:ArrayOfLife_UWRequirementNonMLDescription" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PertainingName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PertainingTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposerName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Questionaries" nillable="true" type="q6:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isInsuredProposer" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWRequirementIntimation" nillable="true" type="tns:Life_UWRequirementIntimation" />
+  <xs:complexType name="ArrayOfLife_UWRequirementMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Life_UWRequirementMLDescription" nillable="true" type="tns:Life_UWRequirementMLDescription" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLife_UWRequirementMLDescription" nillable="true" type="tns:ArrayOfLife_UWRequirementMLDescription" />
+  <xs:complexType name="Life_UWRequirementMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MLTestAddDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MLTestDescription" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWRequirementMLDescription" nillable="true" type="tns:Life_UWRequirementMLDescription" />
+  <xs:complexType name="ArrayOfLife_UWRequirementNonMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Life_UWRequirementNonMLDescription" nillable="true" type="tns:Life_UWRequirementNonMLDescription" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLife_UWRequirementNonMLDescription" nillable="true" type="tns:ArrayOfLife_UWRequirementNonMLDescription" />
+  <xs:complexType name="Life_UWRequirementNonMLDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="NonMLTestAddDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NonMLTestDescription" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWRequirementNonMLDescription" nillable="true" type="tns:Life_UWRequirementNonMLDescription" />
+  <xs:complexType name="Life_UWWithDrawnIntimation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Questionaries" nillable="true" type="q7:ArrayOfstring" />
+      <xs:element minOccurs="0" name="ReqIssueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWWithDrawnIntimation" nillable="true" type="tns:Life_UWWithDrawnIntimation" />
+  <xs:complexType name="Life_UWXRT_Traditional">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BalanceofPremium" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListPlanDetail" nillable="true" type="tns:ArrayOfPlanFlatMortalityDetail" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyTerm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PremiumPayTerm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Questionaries" nillable="true" type="q8:ArrayOfstring" />
+      <xs:element minOccurs="0" name="ReasonforRateUp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RevisedPremium" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderPlan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderSumAssured" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SumAssured" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWXRT_Traditional" nillable="true" type="tns:Life_UWXRT_Traditional" />
+  <xs:complexType name="ArrayOfPlanFlatMortalityDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PlanFlatMortalityDetail" nillable="true" type="tns:PlanFlatMortalityDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlanFlatMortalityDetail" nillable="true" type="tns:ArrayOfPlanFlatMortalityDetail" />
+  <xs:complexType name="PlanFlatMortalityDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FlatMortality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Loading" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PlanName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RateAdjuster" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlanFlatMortalityDetail" nillable="true" type="tns:PlanFlatMortalityDetail" />
+  <xs:complexType name="ArrayOfComponentResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ComponentResults" nillable="true" type="tns:ComponentResults" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfComponentResults" nillable="true" type="tns:ArrayOfComponentResults" />
+  <xs:complexType name="ComponentResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ComponentCd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EduCess" type="xs:double" />
+      <xs:element minOccurs="0" name="ExtraPremiumAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="InstalmentPremiumAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="LifeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MedicalLoadingPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="MedicalLoadingRate" type="xs:double" />
+      <xs:element minOccurs="0" name="ModalPremiumAmt" type="xs:double" />
+      <xs:element minOccurs="0" name="NonMedicalLoadingPremium" type="xs:double" />
+      <xs:element minOccurs="0" name="NonMedicalLoadingRate" type="xs:double" />
+      <xs:element minOccurs="0" name="RiderCtg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderPPT" type="xs:int" />
+      <xs:element minOccurs="0" name="RiderPT" type="xs:int" />
+      <xs:element minOccurs="0" name="SeriveTax" type="xs:double" />
+      <xs:element minOccurs="0" name="SumAssured" type="xs:double" />
+      <xs:element minOccurs="0" name="SumAssuredAcrossPlans" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ComponentResults" nillable="true" type="tns:ComponentResults" />
+  <xs:complexType name="Life_UWXRT_ULIP">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListPlanDetail" nillable="true" type="tns:ArrayOfPlanFlatMortalityDetail" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyTerm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PremiumPayTerm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProposalNo" nillable="true" type="xs:string" />
+      <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Questionaries" nillable="true" type="q9:ArrayOfstring" />
+      <xs:element minOccurs="0" name="ReasonforRateUp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderPlan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RiderSumAssured" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SumAssured" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_UWXRT_ULIP" nillable="true" type="tns:Life_UWXRT_ULIP" />
+  <xs:complexType name="Life_ECSMandateReject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccHolderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AutopayType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreditCardNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MandateAddRejectReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MandateRejectReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_ECSMandateReject" nillable="true" type="tns:Life_ECSMandateReject" />
+  <xs:complexType name="Life_DeclineCasesRefundLetter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplnSignDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_DeclineCasesRefundLetter" nillable="true" type="tns:Life_DeclineCasesRefundLetter" />
+  <xs:complexType name="Life_PostponeCasesRefundLetter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplnSignDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeriodofPostpone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_PostponeCasesRefundLetter" nillable="true" type="tns:Life_PostponeCasesRefundLetter" />
+  <xs:complexType name="Life_ExcessRefundInforced">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BankBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_ExcessRefundInforced" nillable="true" type="tns:Life_ExcessRefundInforced" />
+  <xs:complexType name="Life_WithdrawnRefundLetter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplnSignDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReqIssueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_WithdrawnRefundLetter" nillable="true" type="tns:Life_WithdrawnRefundLetter" />
+  <xs:complexType name="Life_DuplicatePolicyOnComplaint">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrState" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_DuplicatePolicyOnComplaint" nillable="true" type="tns:Life_DuplicatePolicyOnComplaint" />
+  <xs:complexType name="Life_RTOpolicyCustomerComplaint">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrState" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_RTOpolicyCustomerComplaint" nillable="true" type="tns:Life_RTOpolicyCustomerComplaint" />
+  <xs:complexType name="Life_RTOpolicyCustomerRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LAMobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PHState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrAddress3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrPincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerBrState" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_RTOpolicyCustomerRequest" nillable="true" type="tns:Life_RTOpolicyCustomerRequest" />
+  <xs:complexType name="Life_ComplaintLetter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReDispatchDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_ComplaintLetter" nillable="true" type="tns:Life_ComplaintLetter" />
+  <xs:complexType name="Life_ComplaintLetter_AddressInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AddressLine1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressLine2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressLine3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="District" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Landmark" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_ComplaintLetter_AddressInfo" nillable="true" type="tns:Life_ComplaintLetter_AddressInfo" />
+  <xs:complexType name="Life_ComplaintLetter_ContactInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_ComplaintLetter_ContactInfo" nillable="true" type="tns:Life_ComplaintLetter_ContactInfo" />
+  <xs:complexType name="Life_RTOLetter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DispatchDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RTOInwardDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_RTOLetter" nillable="true" type="tns:Life_RTOLetter" />
+  <xs:complexType name="Life_RTOLetter_AddressInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AddressLine1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressLine2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressLine3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="District" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Landmark" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pincode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_RTOLetter_AddressInfo" nillable="true" type="tns:Life_RTOLetter_AddressInfo" />
+  <xs:complexType name="Life_RTOLetter_ContactInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_RTOLetter_ContactInfo" nillable="true" type="tns:Life_RTOLetter_ContactInfo" />
+  <xs:complexType name="Life_HealthCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgntName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClntName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DCAddress" nillable="true" type="xs:string" />
+      <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="DCAppointmentDates" nillable="true" type="q10:ArrayOfstring" />
+      <xs:element minOccurs="0" name="DCCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DCName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DCPinCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DCState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Medicals" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrdName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TPA" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Life_HealthCheck" nillable="true" type="tns:Life_HealthCheck" />
+</xs:schema>

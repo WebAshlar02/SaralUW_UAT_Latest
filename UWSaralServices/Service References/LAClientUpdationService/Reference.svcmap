@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7604958d-fefc-42c9-ae5a-e394a557d3b1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.36.54:10002/FG.LF.WS.ClientUpdate_BankEnquiryBO/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="b31d512c-a351-4aae-937f-bbff6349259b" SourceId="1" SourceUrl="http://10.1.36.54:10002/FG.LF.WS.ClientUpdate_BankEnquiryBO/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="70790ca4-9c3a-4bd8-86ea-7b375640a2d1" SourceId="1" SourceUrl="http://10.1.36.54:10002/FG.LF.WS.ClientUpdate_BankEnquiryBO/Service.svc?disco" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="a7a10a2f-6fbe-45da-8416-00889167a6d6" SourceId="1" SourceUrl="http://10.1.36.54:10002/FG.LF.WS.ClientUpdate_BankEnquiryBO/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="33146d0f-5fc4-4cac-9784-2959d7f4af13" SourceId="1" SourceUrl="http://10.1.36.54:10002/FG.LF.WS.ClientUpdate_BankEnquiryBO/Service.svc?wsdl" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="b2ef9994-6bb6-4f55-9b3c-fdfd6ede8913" SourceId="1" SourceUrl="http://10.1.36.54:10002/FG.LF.WS.ClientUpdate_BankEnquiryBO/Service.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

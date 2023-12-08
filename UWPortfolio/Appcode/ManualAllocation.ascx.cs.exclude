@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+public partial class UserControl_ManualAllocation : System.Web.UI.UserControl
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnFetch_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            Commfun objComFun = new Commfun();
+            DataSet ds = new DataSet();
+            string strInput1 = string.Empty, strInput2 = string.Empty;
+            int intFilterType = -1;
+            strInput1 = txtAssignedFrom.Text;
+            strInput2 = txtAssignedTo.Text;
+            intFilterType = string.IsNullOrEmpty(ddlAssignBy.SelectedValue) ? 0 : Convert.ToInt32(ddlAssignBy.SelectedValue);
+            objComFun.FetchManualAllocation((rdoOnline.Checked) ? "ONLINE" : "OFFLINE", intFilterType, strInput1, strInput2, ref ds);
+            if (ds != null)
+            {
+                for (int i = 0; i < ds.Tables.Count; i++)
+                {
+                    if (ds.Tables[i] != null && ds.Tables[i].Rows.Count > 0)
+                    {
+                        if (Convert.ToString(ds.Tables[i].Rows[0]["Type"]).Equals("Application"))
+                        {
+                            dgApplicationNo.DataSource = ds.Tables[i];
+                            dgApplicationNo.DataBind();
+                        }
+                        else if (Convert.ToString(ds.Tables[i].Rows[0]["Type"]).Equals("Eligible"))
+                        {
+                            dgUserWithinLimit.DataSource = ds.Tables[i];
+                            dgUserWithinLimit.DataBind();
+                        }
+                        else if (Convert.ToString(ds.Tables[i].Rows[0]["Type"]).Equals("NotElegible"))
+                        {
+                            dgUserNotInLimit.DataSource = ds.Tables[i];
+                            dgUserNotInLimit.DataBind();
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            lblManualAllocationMsg.Text = "Try again later";
+        }
+    }
+    protected void btnUpdateData_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            if (hdnManageApplicationNo.Text.Equals("|"))
+            {
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alert", "alert('Select Application No'); ", true);
+            }
+            if (hdnManageElegibleUser.Text.Equals("|"))
+            {
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alert", "alert('Select Users No')", true);
+            }
+            Commfun objCommFun = new Commfun();
+            int intRetVal = -1;
+            objCommFun.ManageApplication(hdnManageApplicationNo.Text, hdnManageElegibleUser.Text, Convert.ToInt32(ddlAssignBy.SelectedValue), ref intRetVal);
+            lblManualAllocationMsg.Text = "Changes made successfully";
+        }
+        catch (Exception ex)
+        {
+            lblManualAllocationMsg.Text = "Try again later";
+        }
+    }
+}

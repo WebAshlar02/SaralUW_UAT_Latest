@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f5af30e6-1959-4ca1-a7b1-291654bcbf8c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SISWrapper.xsd" MetadataType="Schema" ID="5cf6213d-4f3a-47d2-92c5-a7237fa9433f" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd0" />
+    <MetadataFile FileName="clsSIS.wsdl" MetadataType="Wsdl" ID="a391149e-071a-4720-b88e-1ea0461db6a7" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?wsdl" />
+    <MetadataFile FileName="SISWrapper1.xsd" MetadataType="Schema" ID="3a9af7c5-f92e-45cc-b59a-757db12f09c1" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd5" />
+    <MetadataFile FileName="SISWrapper.disco" MetadataType="Disco" ID="afe872ba-a996-431c-8619-9b69c882268c" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?disco" />
+    <MetadataFile FileName="SISWrapper2.xsd" MetadataType="Schema" ID="65762dc3-d833-4482-a5fa-5d8078ff62b1" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd4" />
+    <MetadataFile FileName="SISWrapper3.xsd" MetadataType="Schema" ID="8cc14095-c836-44fd-917a-262fb198b854" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd2" />
+    <MetadataFile FileName="SISWrapper4.xsd" MetadataType="Schema" ID="393460e8-3b59-4a2d-83e7-fb80972bfed3" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd1" />
+    <MetadataFile FileName="SISWrapper5.xsd" MetadataType="Schema" ID="80ddbb5c-66fe-4db1-b9fc-6920601de5d9" SourceId="1" SourceUrl="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

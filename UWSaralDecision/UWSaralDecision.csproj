@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6263770-EB54-4E74-B3D4-4E2CEAE3449C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UWSaralDecision</RootNamespace>
+    <AssemblyName>UWSaralDecision</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UWPortfolio\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <HintPath>D:\BMP_UWDevelopment\Amit26Dec2016\V1\UAT\BPMDesign\UWSaralDecision\bin\Debug\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Platform.Utilities.LoggerFramework">
+      <HintPath>..\UWPortfolio\Bin\Platform.Utilities.LoggerFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOUWDashBoard.cs" />
+    <Compile Include="BOUWDec.cs" />
+    <Compile Include="BussLayer.cs" />
+    <Compile Include="CommFun.cs" />
+    <Compile Include="DataLayer.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\esbSendSMSSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAUwdecisionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\Debug\log4net.config" />
+    <None Include="bin\Debug\TPASTATUSCODE.dll.config" />
+    <None Include="bin\Debug\UWSaralDecision.dll.config" />
+    <None Include="bin\Debug\UWSaralServices.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\UWSaralDecision.csproj.CopyComplete" />
+    <None Include="obj\Debug\UWSaralDecision.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\UWSaralDecision.csprojAssemblyReference.cache" />
+    <None Include="obj\Release\build.force" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\UWSaralDecision.csproj.CoreCompileInputs.cache" />
+    <None Include="Service References\esbSendSMSSvc\DataEntry1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\esbSendSMSSvc\FG_SMSService_WSExport_FGSMSServiceBPMIntfHttp_Service1.wsdl" />
+    <None Include="Service References\esbSendSMSSvc\LF_SMSServiceIntf1.wsdl" />
+    <None Include="Service References\esbSendSMSSvc\UWSaralDecision.esbSendSMSSvc.sendSMSResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\esbSendSMSSvc\UWSaralDecision.esbSendSMSSvc.sendSMSResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAUwdecisionService\Service.wsdl" />
+    <None Include="Service References\LAUwdecisionService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwdecisionService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwdecisionService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\esbSendSMSSvc\" />
+    <WCFMetadataStorage Include="Service References\LAUwdecisionService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwdecisionService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwdecisionService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwdecisionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\esbSendSMSSvc\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\esbSendSMSSvc\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\esbSendSMSSvc\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TPAStatusCode\TPASTATUSCODE\TPASTATUSCODE.csproj">
+      <Project>{794a165d-c15c-43b3-ac05-1432736dde64}</Project>
+      <Name>TPASTATUSCODE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UWSaralObjects\UWSaralObjects.csproj">
+      <Project>{0074bf97-94a0-47c4-a0fd-3b17ee34e26a}</Project>
+      <Name>UWSaralObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UWSaralServices\UWSaralServices.csproj">
+      <Project>{03f76ca8-2682-4d46-8d40-4f0caa2c5dc4}</Project>
+      <Name>UWSaralServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Platform.Utilities.LoggerFramework.dll" />
+    <Content Include="bin\Debug\TPASTATUSCODE.dll" />
+    <Content Include="bin\Debug\TPASTATUSCODE.pdb" />
+    <Content Include="bin\Debug\UWSaralDecision.dll" />
+    <Content Include="bin\Debug\UWSaralDecision.pdb" />
+    <Content Include="bin\Debug\UWSaralObjects.dll" />
+    <Content Include="bin\Debug\UWSaralObjects.pdb" />
+    <Content Include="bin\Debug\UWSaralServices.dll" />
+    <Content Include="bin\Debug\UWSaralServices.pdb" />
+    <Content Include="obj\Debug\TempPE\Service References.esbSendSMSSvc.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAFollowupService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAUwdecisionService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAUWDecisionServives.Reference.cs.dll" />
+    <Content Include="obj\Debug\UWSaralDecision.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\UWSaralDecision.dll" />
+    <Content Include="obj\Debug\UWSaralDecision.pdb" />
+    <Content Include="obj\Release\TempPE\Service References.esbSendSMSSvc.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAUwdecisionService.Reference.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

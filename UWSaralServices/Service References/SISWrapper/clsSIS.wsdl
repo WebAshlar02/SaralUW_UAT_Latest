@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="clsSIS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SIS.Entities" />
+      <xsd:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Wrapper_SISService" />
+      <xsd:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Life" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISISWrapper_GetSalesIllustrationReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesIllustrationReport" />
+  </wsdl:message>
+  <wsdl:message name="ISISWrapper_GetSalesIllustrationReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesIllustrationReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISISWrapper_GetSISNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSISNumber" />
+  </wsdl:message>
+  <wsdl:message name="ISISWrapper_GetSISNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSISNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPremiumCalculation_SISCalculatePremium_InputMessage">
+    <wsdl:part name="parameters" element="tns:SISCalculatePremium" />
+  </wsdl:message>
+  <wsdl:message name="IPremiumCalculation_SISCalculatePremium_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SISCalculatePremiumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPremiumCalculation_SISCalculatePremium_PremiumCalculatorFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Life" name="detail" element="q1:PremiumCalculatorFaultException" />
+  </wsdl:message>
+  <wsdl:portType name="ISISWrapper">
+    <wsdl:operation name="GetSalesIllustrationReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISISWrapper/GetSalesIllustrationReport" message="tns:ISISWrapper_GetSalesIllustrationReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISISWrapper/GetSalesIllustrationReportResponse" message="tns:ISISWrapper_GetSalesIllustrationReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSISNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISISWrapper/GetSISNumber" message="tns:ISISWrapper_GetSISNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISISWrapper/GetSISNumberResponse" message="tns:ISISWrapper_GetSISNumber_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IPremiumCalculation">
+    <wsdl:operation name="SISCalculatePremium">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPremiumCalculation/SISCalculatePremium" message="tns:IPremiumCalculation_SISCalculatePremium_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPremiumCalculation/SISCalculatePremiumResponse" message="tns:IPremiumCalculation_SISCalculatePremium_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPremiumCalculation/SISCalculatePremiumPremiumCalculatorFaultExceptionFault" name="PremiumCalculatorFaultExceptionFault" message="tns:IPremiumCalculation_SISCalculatePremium_PremiumCalculatorFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISISWrapper" type="tns:ISISWrapper">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSalesIllustrationReport">
+      <soap:operation soapAction="http://tempuri.org/ISISWrapper/GetSalesIllustrationReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSISNumber">
+      <soap:operation soapAction="http://tempuri.org/ISISWrapper/GetSISNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IPremiumCalculation" type="tns:IPremiumCalculation">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SISCalculatePremium">
+      <soap:operation soapAction="http://tempuri.org/IPremiumCalculation/SISCalculatePremium" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="PremiumCalculatorFaultExceptionFault">
+        <soap:fault use="literal" name="PremiumCalculatorFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="clsSIS">
+    <wsdl:port name="BasicHttpBinding_ISISWrapper" binding="tns:BasicHttpBinding_ISISWrapper">
+      <soap:address location="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IPremiumCalculation" binding="tns:BasicHttpBinding_IPremiumCalculation">
+      <soap:address location="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

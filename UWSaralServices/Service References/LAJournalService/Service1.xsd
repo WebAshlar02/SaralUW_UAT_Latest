@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://fgthntsrvuat02.fgi.ad:10002/FG.LF.WS.Journal/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="JRNAUT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DOCUMENT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PASSWD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JRNAUTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JRNAUTResult" nillable="true" type="q1:MasterJournal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JRNCAN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DOCUMENT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JRNCANResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JRNCANResult" nillable="true" type="q2:MasterJournal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JRNCRT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRTYPE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REGISTER" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RFCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RFNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SRCEBUS" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DissectionDetails" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZRSNDESC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JRNCRTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JRNCRTResult" nillable="true" type="q3:MasterJournalCreate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JRNENQ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DOCUMENT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JRNENQResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JRNENQResult" nillable="true" type="q4:ArrayOfMasterJournalEnquiry" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

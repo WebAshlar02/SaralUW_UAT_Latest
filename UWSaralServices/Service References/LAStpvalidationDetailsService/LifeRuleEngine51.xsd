@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://10.1.41.196:8659/LifeRuleEngine.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:import schemaLocation="http://10.1.41.196:8659/LifeRuleEngine.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/FutureGenerali" />
+  <xs:element name="Validate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsSingleRule" type="xs:boolean" />
+        <xs:element minOccurs="0" name="sRuleSetName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eAgentEntity" nillable="true" type="q1:AgentEntity" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ePolicyentity" nillable="true" type="q2:PolicyEntity" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eProductEntity" nillable="true" type="q3:ProductEntity" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eRider" nillable="true" type="q4:RiderEntity" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ePaymententity" nillable="true" type="q5:PaymentEntity" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="epolicyholderEntity" nillable="true" type="q6:PolicyHolderEntity" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="esystemEntity" nillable="true" type="q7:SystemEntity" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="enomineeEntity" nillable="true" type="q8:NomineeEntity" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eclientEntity" nillable="true" type="q9:ClientEntity" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="elifeassuredEntity" nillable="true" type="q10:LifeAssuredEntity" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="childEntity" nillable="true" type="q11:ChildEntity" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/FutureGenerali" minOccurs="0" name="ValidateResult" nillable="true" type="q12:ArrayOfBusinessRuleMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateDEQC_DOCQC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sRuleSetName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eDocumentEntity" nillable="true" type="q13:DocumentEntity" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eNomineeEntity" nillable="true" type="q14:NomineeEntity" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eSystemEntity" nillable="true" type="q15:SystemEntity" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateDEQC_DOCQCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/FutureGenerali" minOccurs="0" name="ValidateDEQC_DOCQCResult" nillable="true" type="q16:ArrayOfBusinessRuleMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateSTP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sRuleSetName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ePolicyentity" nillable="true" type="q17:PolicyEntity" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="epolicyholderEntity" nillable="true" type="q18:PolicyHolderEntity" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ePaymententity" nillable="true" type="q19:PaymentEntity" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eProductEntity" nillable="true" type="q20:ProductEntity" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eSystemEntity" nillable="true" type="q21:SystemEntity" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eClientEntity" nillable="true" type="q22:ClientEntity" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eRiderEntity" nillable="true" type="q23:ArrayOfRiderEntity" />
+        <xs:element minOccurs="0" name="IsFundTransfer" type="xs:boolean" />
+        <xs:element minOccurs="0" name="IsPayorChange" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateSTPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/FutureGenerali" minOccurs="0" name="ValidateSTPResult" nillable="true" type="q24:ArrayOfBusinessRuleMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateMRF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sRuleSetName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eMedicalReportentity" nillable="true" type="q25:MedicalReportEntity" />
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eSystemEntity" nillable="true" type="q26:SystemEntity" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateMRFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/FutureGenerali" minOccurs="0" name="ValidateMRFResult" nillable="true" type="q27:ArrayOfBusinessRuleMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateMUW">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsSingleRule" type="xs:boolean" />
+        <xs:element minOccurs="0" name="sRuleSetName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eAgentEntity" nillable="true" type="q28:AgentEntity" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ePolicyentity" nillable="true" type="q29:PolicyEntity" />
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eProductEntity" nillable="true" type="q30:ProductEntity" />
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eRider" nillable="true" type="q31:ArrayOfRiderEntity" />
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ePaymententity" nillable="true" type="q32:PaymentEntity" />
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="epolicyholderEntity" nillable="true" type="q33:PolicyHolderEntity" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="esystemEntity" nillable="true" type="q34:SystemEntity" />
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="enomineeEntity" nillable="true" type="q35:NomineeEntity" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateMUWResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/FutureGenerali" minOccurs="0" name="ValidateMUWResult" nillable="true" type="q36:ArrayOfBusinessRuleMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFTRQuestions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="eFTRentity" nillable="true" type="q37:FTREntity" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFTRQuestionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetFTRQuestionsResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDemandDraftCharges">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DemandDraftAmount" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDemandDraftChargesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDemandDraftChargesResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

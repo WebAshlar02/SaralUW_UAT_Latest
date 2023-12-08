@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:this="http://www.futuregenerali.in/life/LFAgentServiceBPMIntf" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" name="LFAgentService_WS_LFAgentServiceBPMIntfHttp_Service" targetNamespace="http://www.futuregenerali.in/life/LFAgentServiceBPMIntf" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://www.futuregenerali.in/life/LFAgentServiceBPMIntf" location="LFAgentServiceBPMIntf.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="LFAgentService_WS_LFAgentServiceBPMIntfHttpBinding" type="this:LFAgentServiceBPMIntf">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAgent">
+      <soap:operation soapAction="" />
+      <wsdl:input name="getAgentRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAgentResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LFAgentService_WS_LFAgentServiceBPMIntfHttpService">
+    <wsdl:port name="LFAgentService_WS_LFAgentServiceBPMIntfHttpPort" binding="this:LFAgentService_WS_LFAgentServiceBPMIntfHttpBinding">
+      <soap:address location="http://10.1.41.193:9080/LF_AgentService_MMWeb/sca/LFAgentService_WS" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

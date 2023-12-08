@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SIS.Entities" />
+  <xs:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Wrapper_SISService" />
+  <xs:import schemaLocation="http://10.9.41.90/SISWrapperUAT/SISWrapper.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Life" />
+  <xs:element name="GetSalesIllustrationReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="lifeAssured" nillable="true" type="q1:LifeAssuredEntity" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="proposer" nillable="true" type="q2:ProposerEntity" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="product" nillable="true" type="q3:ProductEntity" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="policy" nillable="true" type="q4:PolicyEntity" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="system" nillable="true" type="q5:SystemEntity" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="riders" nillable="true" type="q6:ArrayOfRiderEntity" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="premiumResult" nillable="true" type="q7:LifePremiumResult" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="lifeAssuredExtension" nillable="true" type="q8:PolicyHolder" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="proposerExtension" nillable="true" type="q9:PolicyHolder" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="productEntityExtension" nillable="true" type="q10:ProductEntityExtension" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="systemEntityExtension" nillable="true" type="q11:SystemEntityExtension" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="riderEntityExtension" nillable="true" type="q12:ArrayOfRiderEntityExtension" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="funds" nillable="true" type="q13:ArrayOfFundEntity" />
+        <xs:element minOccurs="0" name="processID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="applicationNo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/SIS.Entities" minOccurs="0" name="childEntity" nillable="true" type="q14:ChildEntity" />
+        <xs:element minOccurs="0" name="JourneyID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PDFType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ReverseCalculation" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSalesIllustrationReportResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetSalesIllustrationReportResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSISNumber">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SISNumber" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSISNumberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Wrapper_SISService" minOccurs="0" name="GetSISNumberResult" nillable="true" type="q15:SISDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SISCalculatePremium">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="enPolicyHolder" nillable="true" type="q16:LifeAssuredEntity" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="enProposer" nillable="true" type="q17:ProposerEntity" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="enProduct" nillable="true" type="q18:ProductEntity" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="enPolicy" nillable="true" type="q19:PolicyEntity" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="enSystem" nillable="true" type="q20:SystemEntity" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="enRider" nillable="true" type="q21:ArrayOfRiderEntity" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="enChildEntity" nillable="true" type="q22:ChildEntity" />
+        <xs:element minOccurs="0" name="ReverseCalculation" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SISCalculatePremiumResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/Life" minOccurs="0" name="SISCalculatePremiumResult" nillable="true" type="q23:LifePremiumResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

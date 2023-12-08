@@ -1,0 +1,1373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03F76CA8-2682-4D46-8D40-4F0CAA2C5DC4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UWSaralServices</RootNamespace>
+    <AssemblyName>UWSaralServices</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UWPortfolio\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <HintPath>..\UWPortfolio\Bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UWPortfolio\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Platform.Utilities.LoggerFramework">
+      <HintPath>..\UWPortfolio\Bin\Platform.Utilities.LoggerFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AFI.cs" />
+    <Compile Include="AgentDetails.cs" />
+    <Compile Include="AgentEnquiry.cs" />
+    <Compile Include="AmlDetails.cs" />
+    <Compile Include="BankEnquiryDetails.cs" />
+    <Compile Include="ClientCreation.cs" />
+    <Compile Include="ClientUpdation.cs" />
+    <Compile Include="CommFun.cs" />
+    <Compile Include="ConsentLetter.cs" />
+    <Compile Include="ContractDetails.cs" />
+    <Compile Include="ContractModification_Mandate.cs" />
+    <Compile Include="ContractModification.cs" />
+    <Compile Include="DataLayer.cs" />
+    <Compile Include="FollowupDetails.cs" />
+    <Compile Include="LAAdhar.cs" />
+    <Compile Include="LAJournalService.cs" />
+    <Compile Include="LoadingDetails.cs" />
+    <Compile Include="MandateDetails.cs" />
+    <Compile Include="MedicalDataEntryInvoke.cs" />
+    <Compile Include="MsarTsarDetails.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Ofac.cs" />
+    <Compile Include="PancardValidationDetails.cs" />
+    <Compile Include="PreIssueValDetails.cs" />
+    <Compile Include="PremiumCalculationDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiptCancelation.cs" />
+    <Compile Include="Service References\Aadhar\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AFICFI\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ClientSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\esbSendSMSSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAAgentDetailsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAAgentEnquiry\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAAgentValidationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAAmlEnquiryService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAAmlService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LABankEnquiry\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAClientCreationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAClientUpdationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LACombi_DetachService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAConsentLetter\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAContractModService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAFollowupService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAFSARCalculationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAJournalService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LALoadingService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAMandate\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAMedicalEntryInvoke\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAMsarService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAOfacService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAPanValidationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAPreIssueValService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAPremiumCalService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAReceiptCancelationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAServiceTiffConversion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAStpvalidationDetailsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAUwapprovalService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAUwdecisionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LAUWreversalService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SISWrapper\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TPARegisteration\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UpdateClientSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="StpValidationDetails.cs" />
+    <Compile Include="TiffConversion.cs" />
+    <Compile Include="TPARegisteration.cs" />
+    <Compile Include="UnderWriter.cs" />
+    <Compile Include="UWDecsionDetails.cs" />
+    <Compile Include="UWIssuanceDetails.cs" />
+    <Compile Include="UWPreIssue_Combi.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\TPASTATUSCODE.dll.config" />
+    <None Include="bin\Debug\UWSaralDecision.dll.config" />
+    <None Include="bin\Debug\UWSaralServices.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\UWSaralServices.csproj.CopyComplete" />
+    <None Include="obj\Debug\UWSaralServices.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\UWSaralServices.csprojAssemblyReference.cache" />
+    <None Include="obj\Release\build.force" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\UWSaralServices.csproj.CoreCompileInputs.cache" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Service References\Aadhar\eKYCService1.wsdl" />
+    <None Include="Service References\AFICFI\Service1.wsdl" />
+    <None Include="Service References\AFICFI\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AFICFI\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AFICFI\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AFICFI\UWSaralServices.AFICFI.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ClientSvc\Service.wsdl" />
+    <None Include="Service References\ClientSvc\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ClientSvc\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ClientSvc\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ClientSvc\UWSaralServices.ClientSvc.MasterCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\esbSendSMSSvc\DataEntry1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\esbSendSMSSvc\FG_SMSService_WSExport_FGSMSServiceBPMIntfHttp_Service1.wsdl" />
+    <None Include="Service References\esbSendSMSSvc\LF_SMSServiceIntf1.wsdl" />
+    <None Include="Service References\esbSendSMSSvc\UWSaralServices.esbSendSMSSvc.sendSMSResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\esbSendSMSSvc\UWSaralServices.esbSendSMSSvc.sendSMSResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAgentDetailsService\AgentValidationService.wsdl" />
+    <None Include="Service References\LAAgentDetailsService\UWSaralServices.LAAgentDetailsService.AgentValidationTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAgentDetailsService\UWSaralServices.LAAgentDetailsService.getAgentValidationDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAgentEnquiry\FG_LIFE_DATA_MODEL.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAgentEnquiry\LFAgentServiceBPMIntf.wsdl" />
+    <None Include="Service References\LAAgentEnquiry\LFAgentService_WS_LFAgentServiceBPMIntfHttp_Service.wsdl" />
+    <None Include="Service References\LAAgentEnquiry\LF_ValidateAgentResponse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAgentEnquiry\UWSaralServices.LAAgentEnquiry.getAgentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAgentEnquiry\UWSaralServices.LAAgentEnquiry.getAgentResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAgentValidationService\AgentValidationService.wsdl" />
+    <None Include="Service References\LAAgentValidationService\UWSaralServices.LAAgentValidationService.AgentValidationTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAgentValidationService\UWSaralServices.LAAgentValidationService.getAgentValidationDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAmlEnquiryService\Service1.wsdl" />
+    <None Include="Service References\LAAmlEnquiryService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAmlEnquiryService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAmlEnquiryService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAmlEnquiryService\UWSaralServices.LAAmlEnquiryService.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAAmlService\Service1.wsdl" />
+    <None Include="Service References\LAAmlService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAmlService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAmlService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAAmlService\UWSaralServices.LAAmlService.MasterClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LABankEnquiry\Service.wsdl" />
+    <None Include="Service References\LABankEnquiry\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LABankEnquiry\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LABankEnquiry\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LABankEnquiry\UWSaralServices.LABankEnquiry.MasterClientBankAccCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LABankEnquiry\UWSaralServices.LABankEnquiry.MasterClientBankAccEnquiry.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LABankEnquiry\UWSaralServices.LABankEnquiry.MasterClientBankAccUpdate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LABankEnquiry\UWSaralServices.LABankEnquiry.MasterCorporateClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LABankEnquiry\UWSaralServices.LABankEnquiry.MasterPersonalClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAClientCreationService\Service.wsdl" />
+    <None Include="Service References\LAClientCreationService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAClientCreationService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAClientCreationService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAClientCreationService\UWSaralServices.LAClientCreationService.MasterCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAClientUpdationService\Service.wsdl" />
+    <None Include="Service References\LAClientUpdationService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAClientUpdationService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAClientUpdationService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAClientUpdationService\UWSaralServices.LAClientUpdationService.MasterClientBankAccCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAClientUpdationService\UWSaralServices.LAClientUpdationService.MasterClientBankAccEnquiry.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAClientUpdationService\UWSaralServices.LAClientUpdationService.MasterClientBankAccUpdate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAClientUpdationService\UWSaralServices.LAClientUpdationService.MasterCorporateClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAClientUpdationService\UWSaralServices.LAClientUpdationService.MasterPersonalClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LACombi_DetachService\Service.wsdl" />
+    <None Include="Service References\LACombi_DetachService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LACombi_DetachService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LACombi_DetachService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LACombi_DetachService\UWSaralServices.LACombi_DetachService.MasterCADATT.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LACombi_DetachService\UWSaralServices.LACombi_DetachService.MasterCADDET.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LACombi_DetachService\UWSaralServices.LACombi_DetachService.MasterCADENQ.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LACombi_DetachService\UWSaralServices.LACombi_DetachService.MasterCECENQ.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LACombi_DetachService\UWSaralServices.LACombi_DetachService.MasterCOBISS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LACombi_DetachService\UWSaralServices.LACombi_DetachService.MasterCPVVAL.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAConsentLetter\LifePDFService1.wsdl" />
+    <None Include="Service References\LAConsentLetter\LifePDFService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAConsentLetter\LifePDFService51.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAConsentLetter\LifePDFService52.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAConsentLetter\LifePDFService53.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAConsentLetter\LifePDFService54.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAContractModService\Service1.wsdl" />
+    <None Include="Service References\LAContractModService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAContractModService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAContractModService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAContractModService\UWSaralServices.LAContractModService.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAFollowupService\Service.wsdl" />
+    <None Include="Service References\LAFollowupService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAFollowupService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAFollowupService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAFollowupService\UWSaralServices.LAFollowupService.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAFSARCalculationService\Service1.wsdl" />
+    <None Include="Service References\LAFSARCalculationService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAFSARCalculationService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAFSARCalculationService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAFSARCalculationService\UWSaralServices.LAFSARCalculationService.MasterUnderwriting.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAJournalService\Service.wsdl" />
+    <None Include="Service References\LAJournalService\Service.xsd" />
+    <None Include="Service References\LAJournalService\Service1.xsd" />
+    <None Include="Service References\LAJournalService\Service2.xsd" />
+    <None Include="Service References\LAJournalService\UWSaralServices.LAJournalService.MasterJournal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAJournalService\UWSaralServices.LAJournalService.MasterJournalCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAJournalService\UWSaralServices.LAJournalService.MasterJournalEnquiry.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LALoadingService\Service1.wsdl" />
+    <None Include="Service References\LALoadingService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LALoadingService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LALoadingService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LALoadingService\UWSaralServices.LALoadingService.MasterPersonelLoadingCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LALoadingService\UWSaralServices.LALoadingService.MasterPersonelLoadingEnquiry.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAMandate\Service1.wsdl" />
+    <None Include="Service References\LAMandate\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAMandate\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAMandate\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAMandate\UWSaralServices.LAMandate.MasterMandate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAMandate\UWSaralServices.LAMandate.MasterMandateCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAMandate\UWSaralServices.LAMandate.MasterMandateEnquiry.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAMandate\UWSaralServices.LAMandate.MasterMandateUpdate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAMedicalEntryInvoke\MedicalDataEntryInvoke.wsdl" />
+    <None Include="Service References\LAMedicalEntryInvoke\UWSaralServices.LAMedicalEntryInvoke.startMedicaldataEntryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAMsarService\Service11.wsdl" />
+    <None Include="Service References\LAMsarService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAMsarService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAMsarService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAMsarService\UWSaralServices.LAMsarService.test.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAOfacService\Service1.wsdl" />
+    <None Include="Service References\LAOfacService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAOfacService\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAOfacService\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAOfacService\UWSaralServices.LAOfacService.OfacResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAPanValidationService\PanXMLWebService.wsdl" />
+    <None Include="Service References\LAPanValidationService\UWSaralServices.LAPanValidationService.PanXmlResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAPreIssueValService\Service1.wsdl" />
+    <None Include="Service References\LAPreIssueValService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAPreIssueValService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAPreIssueValService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAPreIssueValService\UWSaralServices.LAPreIssueValService.MasterPolicyIssuance.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAPreIssueValService\UWSaralServices.LAPreIssueValService.MasterPolicyPreIssue.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAPremiumCalService\LifePremiumCalculator.wsdl" />
+    <None Include="Service References\LAPremiumCalService\LifePremiumCalculator.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAPremiumCalService\LifePremiumCalculator1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAPremiumCalService\LifePremiumCalculator2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAPremiumCalService\LifePremiumCalculator3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAPremiumCalService\UWSaralServices.LAPremiumCalService.LifePremiumResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAReceiptCancelationService\Service.wsdl" />
+    <None Include="Service References\LAReceiptCancelationService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAReceiptCancelationService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAReceiptCancelationService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAReceiptCancelationService\UWSaralServices.LAReceiptCancelationService.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAServiceTiffConversion\TiffConverterService.wsdl" />
+    <None Include="Service References\LAServiceTiffConversion\UWSaralServices.LAServiceTiffConversion.GetTiffBytesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAServiceTiffConversion\UWSaralServices.LAServiceTiffConversion.ResponseData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAStpvalidationDetailsService\LifeRuleEngine1.wsdl" />
+    <None Include="Service References\LAStpvalidationDetailsService\LifeRuleEngine5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAStpvalidationDetailsService\LifeRuleEngine51.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAStpvalidationDetailsService\LifeRuleEngine52.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAStpvalidationDetailsService\LifeRuleEngine53.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAStpvalidationDetailsService\LifeRuleEngine54.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAStpvalidationDetailsService\UWSaralServices.LAStpvalidationDetailsService.BusinessRuleMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAUwapprovalService\Service1.wsdl" />
+    <None Include="Service References\LAUwapprovalService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwapprovalService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwapprovalService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwapprovalService\UWSaralServices.LAUwapprovalService.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAUwdecisionService\Service1.wsdl" />
+    <None Include="Service References\LAUwdecisionService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwdecisionService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwdecisionService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUwdecisionService\UWSaralServices.LAUwdecisionService.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LAUWreversalService\Service1.wsdl" />
+    <None Include="Service References\LAUWreversalService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUWreversalService\Service31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUWreversalService\Service32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LAUWreversalService\UWSaralServices.LAUWreversalService.Master.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SISWrapper\clsSIS.wsdl" />
+    <None Include="Service References\SISWrapper\SISWrapper.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SISWrapper\SISWrapper1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SISWrapper\SISWrapper2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SISWrapper\SISWrapper3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SISWrapper\SISWrapper4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SISWrapper\SISWrapper5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SISWrapper\UWSaralServices.SISWrapper.LifePremiumResult1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SISWrapper\UWSaralServices.SISWrapper.SISDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TPARegisteration\HITPA_PIMS.wsdl" />
+    <None Include="Service References\TPARegisteration\HITPA_PIMS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TPARegisteration\HITPA_PIMS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TPARegisteration\HITPA_PIMS2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TPARegisteration\UWSaralServices.TPARegisteration.ResponseMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UpdateClientSvc\Service.wsdl" />
+    <None Include="Service References\UpdateClientSvc\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UpdateClientSvc\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UpdateClientSvc\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UpdateClientSvc\UWSaralServices.UpdateClientSvc.MasterClientBankAccCreate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UpdateClientSvc\UWSaralServices.UpdateClientSvc.MasterClientBankAccEnquiry.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UpdateClientSvc\UWSaralServices.UpdateClientSvc.MasterClientBankAccUpdate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UpdateClientSvc\UWSaralServices.UpdateClientSvc.MasterCorporateClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UpdateClientSvc\UWSaralServices.UpdateClientSvc.MasterPersonalClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Aadhar\" />
+    <WCFMetadataStorage Include="Service References\AFICFI\" />
+    <WCFMetadataStorage Include="Service References\ClientSvc\" />
+    <WCFMetadataStorage Include="Service References\esbSendSMSSvc\" />
+    <WCFMetadataStorage Include="Service References\LAAgentDetailsService\" />
+    <WCFMetadataStorage Include="Service References\LAAgentEnquiry\" />
+    <WCFMetadataStorage Include="Service References\LAAgentValidationService\" />
+    <WCFMetadataStorage Include="Service References\LAAmlEnquiryService\" />
+    <WCFMetadataStorage Include="Service References\LAAmlService\" />
+    <WCFMetadataStorage Include="Service References\LABankEnquiry\" />
+    <WCFMetadataStorage Include="Service References\LAClientCreationService\" />
+    <WCFMetadataStorage Include="Service References\LAClientUpdationService\" />
+    <WCFMetadataStorage Include="Service References\LACombi_DetachService\" />
+    <WCFMetadataStorage Include="Service References\LAConsentLetter\" />
+    <WCFMetadataStorage Include="Service References\LAContractModService\" />
+    <WCFMetadataStorage Include="Service References\LAFollowupService\" />
+    <WCFMetadataStorage Include="Service References\LAFSARCalculationService\" />
+    <WCFMetadataStorage Include="Service References\LAJournalService\" />
+    <WCFMetadataStorage Include="Service References\LALoadingService\" />
+    <WCFMetadataStorage Include="Service References\LAMandate\" />
+    <WCFMetadataStorage Include="Service References\LAMedicalEntryInvoke\" />
+    <WCFMetadataStorage Include="Service References\LAMsarService\" />
+    <WCFMetadataStorage Include="Service References\LAOfacService\" />
+    <WCFMetadataStorage Include="Service References\LAPanValidationService\" />
+    <WCFMetadataStorage Include="Service References\LAPreIssueValService\" />
+    <WCFMetadataStorage Include="Service References\LAPremiumCalService\" />
+    <WCFMetadataStorage Include="Service References\LAReceiptCancelationService\" />
+    <WCFMetadataStorage Include="Service References\LAServiceTiffConversion\" />
+    <WCFMetadataStorage Include="Service References\LAStpvalidationDetailsService\" />
+    <WCFMetadataStorage Include="Service References\LAUwapprovalService\" />
+    <WCFMetadataStorage Include="Service References\LAUwdecisionService\" />
+    <WCFMetadataStorage Include="Service References\LAUWreversalService\" />
+    <WCFMetadataStorage Include="Service References\SISWrapper\" />
+    <WCFMetadataStorage Include="Service References\TPARegisteration\" />
+    <WCFMetadataStorage Include="Service References\UpdateClientSvc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAmlService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAmlService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAmlService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LALoadingService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LALoadingService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LALoadingService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMsarService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMsarService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMsarService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentDetailsService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentDetailsService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentDetailsService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAFollowupService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAFollowupService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAFollowupService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPreIssueValService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPreIssueValService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPreIssueValService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAStpvalidationDetailsService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAStpvalidationDetailsService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAStpvalidationDetailsService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwdecisionService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwdecisionService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwdecisionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\esbSendSMSSvc\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\esbSendSMSSvc\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\esbSendSMSSvc\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwapprovalService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwapprovalService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUwapprovalService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPanValidationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPanValidationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPanValidationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAFSARCalculationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAFSARCalculationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAFSARCalculationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAmlEnquiryService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAmlEnquiryService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAmlEnquiryService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UWSaralObjects\UWSaralObjects.csproj">
+      <Project>{0074bf97-94a0-47c4-a0fd-3b17ee34e26a}</Project>
+      <Name>UWSaralObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AFICFI\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AFICFI\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AFICFI\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUWreversalService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUWreversalService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAUWreversalService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAReceiptCancelationService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAReceiptCancelationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAReceiptCancelationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAReceiptCancelationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientCreationService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientCreationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientCreationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientCreationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientUpdationService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientUpdationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientUpdationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAClientUpdationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentEnquiry\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentEnquiry\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentEnquiry\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentValidationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentValidationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAAgentValidationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMandate\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMandate\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMandate\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAOfacService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAOfacService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAOfacService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAJournalService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAJournalService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAJournalService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAConsentLetter\configuration91.svcinfo" />
+    <None Include="Service References\LAConsentLetter\configuration.svcinfo" />
+    <None Include="Service References\LAConsentLetter\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMedicalEntryInvoke\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMedicalEntryInvoke\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMedicalEntryInvoke\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Aadhar\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Aadhar\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Aadhar\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAServiceTiffConversion\TiffConverterService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAServiceTiffConversion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAServiceTiffConversion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAServiceTiffConversion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TPARegisteration\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TPARegisteration\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TPARegisteration\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMsarService\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LABankEnquiry\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LABankEnquiry\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LABankEnquiry\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAContractModService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAContractModService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAContractModService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAContractModService\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAMandate\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAOfacService\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SISWrapper\SISWrapper.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SISWrapper\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SISWrapper\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SISWrapper\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LACombi_DetachService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LACombi_DetachService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LACombi_DetachService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPremiumCalService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPremiumCalService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LAPremiumCalService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Platform.Utilities.LoggerFramework.dll" />
+    <Content Include="bin\Debug\TPASTATUSCODE.dll" />
+    <Content Include="bin\Debug\TPASTATUSCODE.pdb" />
+    <Content Include="bin\Debug\UWSaralDecision.dll" />
+    <Content Include="bin\Debug\UWSaralDecision.pdb" />
+    <Content Include="bin\Debug\UWSaralObjects.dll" />
+    <Content Include="bin\Debug\UWSaralObjects.pdb" />
+    <Content Include="bin\Debug\UWSaralServices.dll" />
+    <Content Include="bin\Debug\UWSaralServices.dll.CodeAnalysisLog.xml" />
+    <Content Include="bin\Debug\UWSaralServices.pdb" />
+    <Content Include="obj\Debug\TempPE\Service References.Aadhar.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.AFICFI.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.esbSendSMSSvc.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAAgentDetailsService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAAgentEnquiry.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAAgentValidationService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAAmlEnquiryService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAAmlService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LABankEnquiry.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LABillingChangeService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAClientCreationService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAClientUpdationService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAClientUpdationService.Reference1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LACombi_DetachService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAConsentLetter.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAContractModService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAFollowupService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAFSARCalculationService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAJournalService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LALoadingService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAMandate.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAMedicalEntryInvoke.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAMedicalEntryInvoke.Reference1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAMsarService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAMsarServiceSaral.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAOfacService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAPanValidationService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAPreIssueValService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAPremiumCalService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAReceiptCancelationService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAServiceTiffConversion.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAStpvalidationDetailsService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAUwapprovalService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAUwdecisionService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.LAUWreversalService.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.ServiceReference1.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.SISWrapper.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.TPARegisteration.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.TPARegisteration.Reference1.cs.dll" />
+    <Content Include="obj\Debug\UWSaralServices.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\UWSaralServices.dll" />
+    <Content Include="obj\Debug\UWSaralServices.pdb" />
+    <Content Include="obj\Release\TempPE\Service References.Aadhar.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.AFICFI.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.esbSendSMSSvc.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAAgentDetailsService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAAgentEnquiry.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAAgentValidationService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAAmlEnquiryService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAAmlService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LABankEnquiry.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAClientCreationService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAClientUpdationService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAConsentLetter.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAContractModService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAFollowupService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAFSARCalculationService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAJournalService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LALoadingService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAMandate.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAMedicalEntryInvoke.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAMsarService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAOfacService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAPanValidationService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAPreIssueValService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAPremiumCalService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAReceiptCancelationService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAServiceTiffConversion.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAStpvalidationDetailsService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAUwapprovalService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAUwdecisionService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.LAUWreversalService.Reference.cs.dll" />
+    <Content Include="obj\Release\TempPE\Service References.TPARegisteration.Reference.cs.dll" />
+    <None Include="Service References\UpdateClientSvc\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\UpdateClientSvc\configuration.svcinfo" />
+    <None Include="Service References\UpdateClientSvc\configuration91.svcinfo" />
+    <None Include="Service References\UpdateClientSvc\Service.disco" />
+    <None Include="Service References\ClientSvc\Service.disco" />
+    <None Include="Service References\ClientSvc\configuration91.svcinfo" />
+    <None Include="Service References\ClientSvc\configuration.svcinfo" />
+    <None Include="Service References\ClientSvc\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\LAConsentLetter\LifePDFService1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

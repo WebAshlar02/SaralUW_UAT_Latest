@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e82b198b-1a41-4681-96be-2da2e9938cd5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.41.114/FG_SMSService_MMWeb/sca/FG_SMSService_WSExport/WEB-INF/wsdl/FG_SMSService_MM_FG_SMSService_WSExport.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LF_SMSServiceIntf1.wsdl" MetadataType="Wsdl" ID="45756836-91e0-4f9f-8646-94f784a0e8c3" SourceId="1" SourceUrl="http://10.1.41.114/FG_SMSService_MMWeb/sca/FG_SMSService_WSExport/WEB-INF/wsdl/FGSMSServiceBPMIntf.wsdl" />
+    <MetadataFile FileName="DataEntry1.xsd" MetadataType="Schema" ID="a07c4837-8d4e-4ba7-be4f-4721937fc529" SourceId="1" SourceUrl="http://10.1.41.114/FG_SMSService_MMWeb/sca/FG_SMSService_WSExport/WEB-INF/wsdl/DataEntry.xsd" />
+    <MetadataFile FileName="FG_SMSService_WSExport_FGSMSServiceBPMIntfHttp_Service1.wsdl" MetadataType="Wsdl" ID="49723b38-0b11-49b5-beb4-2342e014f984" SourceId="1" SourceUrl="http://10.1.41.114/FG_SMSService_MMWeb/sca/FG_SMSService_WSExport/WEB-INF/wsdl/FG_SMSService_MM_FG_SMSService_WSExport.wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

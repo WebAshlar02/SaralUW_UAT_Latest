@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.futuregenerali.in/life" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.futuregenerali.in/life" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="LF_RiderInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="riderBenefits" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="proposedSumAssured" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premiumPayingTerm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyTerm" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_RiderInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_RiderInfo" nillable="true" type="tns:LF_RiderInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="LF_Date">
+    <xs:restriction base="xs:date" />
+  </xs:simpleType>
+  <xs:complexType name="LF_ComparartorDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ageProofSubmitted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="idProofSubmitted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="addressProofSubmitted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="incomeProofSubmitted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyIssueDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="planName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sumAssured" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riderDetail" nillable="true" type="tns:ArrayOfLF_RiderInfo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyTerm" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premiumPayingTerm" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="annualPremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="underwriterComments" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_AgentDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="agentCode_AGNTSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="channelDistribution" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentContactNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="designationCode" type="xs:string" />
+      <xs:element minOccurs="0" name="genderCode" type="xs:string" />
+      <xs:element minOccurs="0" name="agentUnit" type="xs:string" />
+      <xs:element minOccurs="0" name="ulipStatus" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_AgentDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_AgentDetail" nillable="true" type="tns:LF_AgentDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ApplicationDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationNoStr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="appType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationSignDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicantType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="noOfApplications" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isStaff" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isSmoker" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isSimplifiedApplication" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isNSAP" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="autoPayType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="specialInsuranceType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="inwardingType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="inwardingDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="applicationSignStrDate" type="xs:string" />
+      <xs:element minOccurs="0" name="inwardingStrDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isScanRequired" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="communicationType" type="xs:string" />
+      <xs:element minOccurs="0" name="correspondenceType" type="xs:string" />
+      <xs:element minOccurs="0" name="isPromotionalCallRequired" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ApplicationDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ApplicationDetail" nillable="true" type="tns:LF_ApplicationDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ApplicationNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="appNum" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ApplicationStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="processStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rejectionDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rejectReasons" nillable="true" type="tns:rejectReasons" />
+      <xs:element minOccurs="0" name="rejectionStrDate" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ApplicationStatuses">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ApplicationStatus" nillable="true" type="tns:LF_ApplicationStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_AppNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="appNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumbers" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="multiAppStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_AppNumbers">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_AppNumber" nillable="true" type="tns:LF_AppNumber" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ClientDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ClientDetail" nillable="true" type="tns:LF_ClientDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_FTRQuestion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="response" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_FTRQuestions">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_FTRQuestion" nillable="true" type="tns:LF_FTRQuestion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ClientPolicyDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="role" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="nomineeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="address" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ClientPolicyDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ClientPolicyDetail" nillable="true" type="tns:LF_ClientPolicyDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CommentDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="commentId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="commentorName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="processName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="commentorRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="commentTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CommentDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_CommentDetail" nillable="true" type="tns:LF_CommentDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_DedupResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="clientId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dateOfBirth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strDateOfBirth" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_DedupResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_DedupResult" nillable="true" type="tns:LF_DedupResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_EmailDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="to" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="from" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bcc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="subject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="body" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="attachment" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_EmailDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_EmailDetail" nillable="true" type="tns:LF_EmailDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ExceptionDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="errorFlag" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="errorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="errorMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ExceptionDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ExceptionDetail" nillable="true" type="tns:LF_ExceptionDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_FundTransfer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fundToBeTransferred" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ftRelationship" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="availableAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sourceOfFund" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sectionRemark" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_FundTransfer" type="tns:LF_FundTransfer" />
+  <xs:complexType name="LF_FundTransfers">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_FundTransfer" nillable="true" type="tns:LF_FundTransfer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_OutwardAddressDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="destinationName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="originName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_OutwardAddressDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_OutwardAddressDetail" nillable="true" type="tns:LF_OutwardAddressDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_OutwardEntry">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lifeAssuredName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="numberOfPages" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="outwardType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationInwardingDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DOBLifeAssured" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="checkBoolean" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_OutwardEntries">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_OutwardEntry" nillable="true" type="tns:LF_OutwardEntry" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ClientDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="clientType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="assuredType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isNewClient" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="personalClientDetail" nillable="true" type="tns:LF_PersonalClient" />
+      <xs:element minOccurs="0" maxOccurs="1" name="corporateClientDetail" nillable="true" type="tns:LF_CorporateClient" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientCategory" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PersonalClient">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="clientId_CLNTNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="salutation_SALUTAL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="firstName_LGIVNAME" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lastName_LSURNAME" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dob_CLTDOBX" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="strDob_CLTDOBX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="gender_CLTSEX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="prefLanguage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientStatus_CLTSTAT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="panId_RTAXIDNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isPanApplied" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="appliedDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="appliedStrDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="appliedAckNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dod_CLTDODX" nillable="true" type="tns:LF_Date2" />
+      <xs:element minOccurs="0" maxOccurs="1" name="strDod_CLTDODX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="maritalStatus_MARRYD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="nationality_NATLTY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="category_STATCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isSpecialIndicator_VIP" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="servBranch_SERVBRH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="occupationCode_OCCPCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fatherName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="relationship" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="maidenName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="currentAddress" nillable="true" type="tns:LF_CustAddressDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="permanentAddress" nillable="true" type="tns:LF_CustAddressDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="contactDetail" nillable="true" type="tns:LF_CustContactDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="qualification" nillable="true" type="tns:LF_QualificationDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="occupation" nillable="true" type="tns:LF_OccupationDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="otherDetail" nillable="true" type="tns:LF_OtherClientDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="financialDetail" nillable="true" type="tns:LF_FinancialDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="existingInsurance" nillable="true" type="tns:LF_ExistingInsuranceDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CorporateClient">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="clientId_CLNTNUM" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="orgName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="incorporationDate_CLTDOBX" nillable="true" type="tns:LF_Date2" />
+      <xs:element minOccurs="0" maxOccurs="1" name="address" nillable="true" type="tns:LF_CustAddressDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="incorporationStrDate_CLTDOBX" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="LF_Date2">
+    <xs:restriction base="xs:date" />
+  </xs:simpleType>
+  <xs:complexType name="LF_CustAddressDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="addressLine1_CLTADDR01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="addressLine2_CLTADDR02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="addressLine3_CLTADDR03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="addressLine4_CLTADDR04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="addressLine5_CLTADDR05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="landmark" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="pinCode_CLTPCODE" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="district" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="state" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="countryCode_CTRYCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="addressType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="addressRemark" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CustContactDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="phone1_CLTPHONE01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="phone2_CLTPHONE02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="didTel_RDIDTELNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mobileNo_MBLPHONE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="emailId_RINTERNET" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fax_FAXNO" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_QualificationDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="qualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="otherQualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="classStudying" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_OccupationDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="occupation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="natureOfBusiness" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="designation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="employerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="employerAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="experience" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isOccupationhazardous" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="hazardousOccupationDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isArmedPerson" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rankHeld" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="armedDutyNature" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isRetiredPerson" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="positionHeld" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lastEmployement" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="pensionerDutyNature" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="occupationalRisk" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_OtherClientDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="isCriminallyConvicted" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="criminalDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isPoliticallyExposed" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="politicalDetails" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_FinancialDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="tsar" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="msar" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fsar" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="totalPremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="financialEligibility" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="annualIncome" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isIncomeTaxAssessee" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ExistingInsuranceDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="anyPolicyOnLife" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="existingFGPolicy" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumbers" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="otherInsurers" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="otherInsurersDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="totalInsuranceCover" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="anyExtraPremium" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="anyExistingProposal" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_ClientDetail" type="tns:LF_ClientDetail" />
+  <xs:complexType name="LF_PaymentDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="paymentMode_PAYTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentAmount_DOCORIGAMT" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="chequeType_ZCHQTYP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ddNo_CHEQNO" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="chequeDate_TCHQDATE" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="chequeStrDate_TCHQDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="micrCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankName_BANKDESC01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="branchName_BANKDESC02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="chequeNo_CHEQNO" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ddDate_TCHQDATE" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ddStrDate_TCHQDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ddCharges" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cardType_ZCHQTYP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="nameOnCard" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transactionDate_TCHQDATE" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transactionStrDate_TCHQDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transactionRefNo_BANKDESC03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="authorizationCode_CHEQNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sectionRemark" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_PaymentDetail" type="tns:LF_PaymentDetail" />
+  <xs:complexType name="LF_PaymentDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PaymentDetail" nillable="true" type="tns:LF_PaymentDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PolicyDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="productDetails" nillable="true" type="tns:LF_ProductDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sumAssured" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyTerm" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premPayingTerm" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premPayingFreq" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receivedAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isBackDatingRequired" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riskCommencementDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premiumDetails" nillable="true" type="tns:LF_PremiumDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isUwRefFlag" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uwRefComments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="riskCommencementStrDate" type="xs:string" />
+      <xs:element minOccurs="0" name="riderPremium" type="tns:LF_RiderPremiumDetails" />
+      <xs:element minOccurs="0" name="cashBackPeriod" type="xs:int" />
+      <xs:element minOccurs="0" name="accuralPeriod" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premiumStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PolicyDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PolicyDetail" nillable="true" type="tns:LF_PolicyDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_Rider">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="riderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riderSumAssured" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_Riders">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_Rider" nillable="true" type="tns:LF_Rider" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_RiderPremium">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="riderCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riderSumAssured" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riderPremiumWithTax" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riderPremiumWithoutTax" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_RiderPremiumDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_RiderPremium" nillable="true" type="tns:LF_RiderPremium" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_SMSDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="feedId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="to" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="text" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="userName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="senderId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mtype" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="url" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="udh" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="time" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="upload" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="proxyServer" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_TaggedApplication">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="appNumber" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_TaggedApplications">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_TaggedApplication" nillable="true" type="tns:LF_TaggedApplication" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PersonalClients">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PersonalClient" nillable="true" type="tns:LF_PersonalClient" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CorporateClients">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_CorporateClient" nillable="true" type="tns:LF_CorporateClient" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ProductDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="productName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="productCode_CHDRTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="productType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="productLaunchDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="inBuiltRiders" nillable="true" type="tns:LF_Riders" />
+      <xs:element minOccurs="0" maxOccurs="1" name="optionalRiders" nillable="true" type="tns:LF_Riders" />
+      <xs:element minOccurs="0" name="productLaunchStrDate" type="xs:string" />
+      <xs:element minOccurs="0" name="componentCode" type="xs:string" />
+      <xs:element minOccurs="0" name="subCategory" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ProductDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ProductDetail" nillable="true" type="tns:LF_ProductDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PremiumDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="basePremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="secondaryPremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="xtraPremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="serviceTaxBasePremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="serviceTaxRiderPremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="educationCessTax" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="installementPremium" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="backDatingInterest" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="totalPremium" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PremiumDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PremiumDetail" nillable="true" type="tns:LF_PremiumDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CustAddressDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_CustAddressDetail" nillable="true" type="tns:LF_CustAddressDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CustContactDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PolicyDetail" nillable="true" type="tns:LF_CustContactDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rejectReasons">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="reason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="receiptNumbers">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="receiptNumber_RECEIPT" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="transactionIDs">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="transId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ConfigurationDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="bpm_userID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bpm_userName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bpm_branchCode" type="xs:string" />
+      <xs:element minOccurs="0" name="bpm_creationDate" type="xs:string" />
+      <xs:element minOccurs="0" name="bpm_systemDate" type="xs:string" />
+      <xs:element minOccurs="0" name="bpm_businessDate" type="xs:string" />
+      <xs:element minOccurs="0" name="bpm_userBranch" type="xs:string" />
+      <xs:element minOccurs="0" name="bpm_processName" type="xs:string" />
+      <xs:element minOccurs="0" name="bpm_applicationName" type="xs:string" />
+      <xs:element minOccurs="0" name="lifeAsia_userID" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CheckDeDuplicationReqContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lastName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ClientCreationReqContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uwRefComments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uwRefFlag" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_InquireFundReqContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="productType_CHDRTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="branchCode_REGISTER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rfCode_RFCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientId_RFNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentType_SRCEBUS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dissectionDetail" nillable="true" type="tns:ArrayOfLF_DissectionDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_DissectionDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="bankCode_BANKCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instAmount_DOCORIGAMT" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptNo_ENTITY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="originalCurrency_ORIGCCY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sourceOfFund_SACSCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sourceType_SACSTYPW" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="currencyRate_SCRATE" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transactionDescription_TRANDESC" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_DissectionDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_DissectionDetail" nillable="true" type="tns:LF_DissectionDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PersistInitialInwardingReqContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="productName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="birthDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strBirthDate" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReceiptDetailsReqContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="productName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="panId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_UpdateApplicationStatusReqContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CreateReceiptResContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptNumbers" nillable="true" type="tns:receiptNumbers" />
+      <xs:element minOccurs="0" maxOccurs="1" name="message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_InquireFundResContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="availableAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReceiptDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="action_ACTION" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rfCode_RFCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptNumbers_RECEIPT" nillable="true" type="tns:receiptNumbers" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="areaCode_REGISTER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankCode_BANKCODE" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDate_TRANDATEX" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptStrDate_TRANDATEX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="totalAmount_ACCTAMT" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="currency_BCURR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="inwardingBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="collectionBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="amountRequired" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="amountInSuspense" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="netPremiumPayable" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="paymentSource" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReceiptDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ReceiptDetail" nillable="true" type="tns:LF_ReceiptDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReconcilationReceiptDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" default="C" name="receiptNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="0.0" name="receiptAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="applicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="authCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="instrumentNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="0.0" name="instrumentAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="instrumentDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="receiptedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="reconciliationStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="unTalliedReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="receiptStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="newReceiptNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="instrumentBankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="paymentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="dubInstrumentnumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="dupauthCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="depositSlipDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="none" name="depositSlipNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReconciliationPending">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="reconciliationDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDetailsCash" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDetailsLocalCheque" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDetailsHouseCheque" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDetailsOutstationCheque" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDetailsDemandDraft" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDetailsCreditCard" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDetailsDebitCard" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="currBatchTotalRcptAmtCash" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lastDepositSlipTotalRcptAmtCash" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReconciliationUntallied">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="yetToReconcileReceipts" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cancellationApprovalPending" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReconciliationTallied">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cashDetails" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="localChequeDetails" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="houseChequeDetails" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="demandDraftDetails" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="creditCardDetails" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="debitCardDetails" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="outstationChequeDetails" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IVRDetails" nillable="true" type="tns:ArrayOfLF_ReconcilationReceiptDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReconciledReceipts">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="talliedReceipts" nillable="true" type="tns:LF_ReconciliationTallied" />
+      <xs:element minOccurs="0" maxOccurs="1" name="untalliedReceipts" nillable="true" type="tns:LF_ReconciliationUntallied" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PaymentModeDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="modeOfPayment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="noOfInstruments" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="noOfTransactions" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="totalAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_DSGApprovalReqContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="branchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EODReportStatus" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="approveruserid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="approvalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dsgeneratedByuserid" type="xs:string" />
+      <xs:element minOccurs="0" name="dsgComments" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_DepositSlipDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="delayReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DSGdateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaskCompletedBy" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_ReconcilationReceiptDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ReconcilationReceiptDetail" nillable="true" type="tns:LF_ReconcilationReceiptDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_ReconciliationTallied">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ReconciliationTallied" nillable="true" type="tns:LF_ReconciliationTallied" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_ReconciliationUntallied">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ReconciliationUntallied" nillable="true" type="tns:LF_ReconciliationUntallied" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_DepositSlipDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_DepositSlipDetail" nillable="true" type="tns:LF_DepositSlipDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ArrayOfModeOfPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="isCash" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isLocalCheque" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isHouseCheque" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isOutStationCheque" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isDemantDraft" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDepositSlipNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DepositSlipNumber" nillable="true" type="tns:LF_DepositSlipNumber" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_DepositSlipNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipDate" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_PaymentModeDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PaymentModeDetail" nillable="true" type="tns:LF_PaymentModeDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_BankCollection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchSysData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchUploadData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="matchSysData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="matchUploadData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_BankDepositDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="branchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="paymentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="drawnBank" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CMSBankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uniquekey" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_BankDepositDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_BankDepositDetail" nillable="true" type="tns:LF_BankDepositDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CashEOD">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="balCarryForwardPrevDayDSAmt" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="senttoBankAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dsTotalAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cashinHandAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="shortageAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="shortageClearedAmount" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_InstrumentsEOD">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="balCarryForwardPrevDayInstruments" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="senttoBankInstruments" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dsTotalInstruments" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="noOfInstrumentsinHand" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_EODStatement">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentsEOD" nillable="true" type="tns:LF_InstrumentsEOD" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cashEOD" nillable="true" type="tns:LF_CashEOD" />
+      <xs:element minOccurs="0" maxOccurs="1" name="comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EodStatementDate" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_BankDetailCash">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="branchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="paymentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CMSBankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uniquekey" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_BankCollectionCash">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchSysData" nillable="true" type="tns:ArrayOfLF_BankDetailCash" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchUploadData" nillable="true" type="tns:ArrayOfLF_BankDetailCash" />
+      <xs:element minOccurs="0" maxOccurs="1" name="matchSysData" nillable="true" type="tns:ArrayOfLF_BankDetailCash" />
+      <xs:element minOccurs="0" maxOccurs="1" name="matchUploadData" nillable="true" type="tns:ArrayOfLF_BankDetailCash" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_BankRealizationCollection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchSysData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchUploadData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="matchSysData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="matchUploadData" nillable="true" type="tns:ArrayOfLF_BankDepositDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_BankRealizationDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="branchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="paymentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="drawnBank" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CMSBankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uniquekey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dishonourReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="merTrackID" type="xs:string" />
+      <xs:element minOccurs="0" name="brandID" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_BankDetailCash">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_BankDetailCash" nillable="true" type="tns:LF_BankDetailCash" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_MatchMisMatchDataDeposit">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchUploadData" nillable="true" type="tns:LF_BankDepositDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchSysData" nillable="true" type="tns:LF_BankDepositDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_MatchMisMatchDataDepositCash">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchSysData" nillable="true" type="tns:LF_BankDetailCash" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchUploadData" nillable="true" type="tns:LF_BankDetailCash" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_MatchMisMatchDataRealization">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchUploadData" nillable="true" type="tns:LF_BankRealizationDetail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchSysData" nillable="true" type="tns:LF_BankRealizationDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_MatchMisMatchDataRealizationCash">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchUploadData" nillable="true" type="tns:LF_BankDetailCash" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mismatchSysData" nillable="true" type="tns:LF_BankDetailCash" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_BankRealizationDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_BankRealizationDetail" nillable="true" type="tns:LF_BankRealizationDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_MatchSystemDataRealization">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="matchSystemDataRealization" nillable="true" type="tns:ArrayOfLF_BankRealizationDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ShortageDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="totalShortageCash" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="totalCashAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="altDepositSlipNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_JournalDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="journalAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fromAccount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="toAccount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payerID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_SoftFileDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="SNo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="branchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="depositSlipNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ackNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ackDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ackAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="appOrPolicyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="draweeBankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="receiptno" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_SoftFileDetail" type="tns:LF_SoftFileDetail" />
+  <xs:complexType name="LF_SoftFileDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_SoftFileDetail" nillable="true" type="tns:LF_SoftFileDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReceiptCancelDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankCode_BANKCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="amount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDate" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cancelReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="instrumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptDateStr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="receiptCancelStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReceiptCancelDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="receiptCancelDetails" nillable="true" type="tns:LF_ReceiptCancelDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReceiptCancelRespBO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ReceiptNO" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cancelReceptNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="status" type="xs:boolean" />
+      <xs:element minOccurs="0" name="cancelReason" type="xs:string" />
+      <xs:element minOccurs="0" name="exception" type="tns:LF_ExceptionDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ReceiptCancelRespList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="response" type="tns:LF_ReceiptCancelRespBO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PrintPolicyDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="batchID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="productCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="emailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="langCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="branchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="pinCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyIssueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyIssueDateStr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="issuanceType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="asOfDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="asOfDateStr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="watermarkFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="compositionResultFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="holdCompositionFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="pdfForEmailFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="channelWise" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="printingStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="printFailedReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="specialRequest" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PrintPolicyDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PrintPolicyDetail" type="tns:LF_PrintPolicyDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_DispatchErrorMsg">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="errorMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_DispatchErrorMsg" type="tns:LF_DispatchErrorMsg" />
+  <xs:complexType name="LF_DispatchErrorMsgList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BulkDidpatchResp" nillable="true" type="tns:LF_DispatchErrorMsg" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_DispatchErrorMsgList" type="tns:LF_DispatchErrorMsg" />
+  <xs:complexType name="LF_ReasonDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="description" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_ReasonDetail" type="tns:LF_ReasonDetail" />
+  <xs:complexType name="LF_PolicyPostponeDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="periodCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_PolicyPostponeDetail" type="tns:LF_PolicyPostponeDetail" />
+  <xs:complexType name="LF_PreIssueValidation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyFee" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="educationCess" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="installmentPremium" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="contractSuspense" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premiumDeposit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="serviceTax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="backdatingInterest" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="totalAmountDue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PreIssueValidations">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PreIssueValidation" nillable="true" type="tns:LF_PreIssueValidation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_errorDesc">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="ErrorDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CoverageTable" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_errorDescs">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ErrorDescription" nillable="true" type="tns:LF_errorDesc" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_TSARDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="contractNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="productCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="companyCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riderCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="currencySA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sumAssured" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_TSARDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TSARDetails" nillable="true" type="tns:LF_TSARDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_Requirement">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="followUpCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="criteria" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isLetterPrintRequired" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isMandatory" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="raisedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="requirementRaisedDate" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" name="requirementRaisedStrDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="contactedDetail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="classification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="additionalDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lifeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="recievedDate" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" name="recievedDateStr" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="reminderDate" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" name="reminderStrDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="closedDate" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" name="closedStrDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="closedBy" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_Requirement" type="tns:LF_Requirement" />
+  <xs:complexType name="LF_Requirements">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_Requirement" nillable="true" type="tns:LF_Requirement" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PaymentRefund">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="proposerClientId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="proposerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ageing" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="availableSuspenseBalance" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="chargeBack" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="authCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payViaChequeNeft" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="chequeOrNEFT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="nameasperBank" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ifscCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="accountNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="issuingBank" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="holdStatus" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payeeCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payeeCodeApproveStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sentToBankApproveStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payeeCodeRejectComments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payeeCodeRejectReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sentToBankRejectReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payeeCodeRejectStatus" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sentToBankRejectComments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sentToBankRejectStatus" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="reversedPayeeCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="paymentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="refundApproveDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="balanceAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isLaApprove" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isLaCancel" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isLaAuthorize" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="paSupervisorHoldreason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="financeholdReason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLF_PaymentRefund">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_PaymentRefund" nillable="true" type="tns:LF_PaymentRefund" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_PaymentRefundDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="refundCases" nillable="true" type="tns:ArrayOfLF_PaymentRefund" />
+      <xs:element minOccurs="0" maxOccurs="1" name="holdCases" nillable="true" type="tns:ArrayOfLF_PaymentRefund" />
+      <xs:element minOccurs="0" maxOccurs="1" name="payeeCodeRejectCases" nillable="true" type="tns:ArrayOfLF_PaymentRefund" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sentToBankRejectCases" nillable="true" type="tns:ArrayOfLF_PaymentRefund" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_RiderDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="riderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="riderSumAssured" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="policyTerm" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premiumAmount" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="premiumPayingTerm" type="xs:int" />
+      <xs:element minOccurs="0" name="code" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_RiderDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_RiderDetail" nillable="true" type="tns:LF_RiderDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_FundDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="fundCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fundName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fundComposition" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_FundDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_FundDetail" nillable="true" type="tns:LF_FundDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="NameValuePair">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayofNameValuePair">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="NameValuePair" nillable="true" type="tns:NameValuePair" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_NomineeAppointeeDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="clientID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="surname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="relationship" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dobString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dobDate" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isAddressSame" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="address" nillable="true" type="tns:LF_CustAddressDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_NomineeAppointeeDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_NomineeAppointeeDetail" nillable="true" type="tns:LF_NomineeAppointeeDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ECSDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="micrCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="branchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="autoPayType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="accountType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="acountNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="accountHolderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mandateDate" nillable="true" type="tns:LF_Date" />
+      <xs:element minOccurs="0" name="mandatestrDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mandateStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mandateRejectReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bankBranchCode_BANKKEY" type="xs:string" />
+      <xs:element minOccurs="0" name="mandateNumber" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_LoadingDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="loadingType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="reason1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="reason2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="reason3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sumAssured" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="loading" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rateAdjustment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="flatMortality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="premiumPayingTerm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="isLetterPrintRequired" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="rider" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_LoadingDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_LoadingDetail" nillable="true" type="tns:LF_LoadingDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfInteger">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Integer" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ChangedLogDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="srno" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fieldID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fieldName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="existingValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="changedValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="reasonForChange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="changedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="changedDate" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_ChangedLogDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LF_ChangedLogDetail" nillable="true" type="tns:LF_ChangedLogDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CreateBankRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="micrCode_BANKKEY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankBranchName_BANKDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="countryCode_CTRYCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="currencyCode_CURRCODE01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="factoringHouse_FACTHOUS01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="bankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="autoPayType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_LeadCodeDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="leadCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="leadName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="phoneNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="leadStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="statusFlag" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_TPADetailsForEmail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="policyNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="branchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="zone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientPhone01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientPhone02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="clientMobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="followupCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="followupDesc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="proposalLoginDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TPACode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TPAName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HNI" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentContactNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SMName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SMContactNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TPAEmailId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="agentCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LF_TPADetailsForEmail" type="tns:LF_TPADetailsForEmail" />
+  <xs:complexType name="Array_LF_TPADetailsForEmail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TPADetailsForEmail" nillable="true" type="tns:LF_TPADetailsForEmail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_TPADetailsForEmailSharedBO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="TPADetails" nillable="true" type="tns:Array_LF_TPADetailsForEmail" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Exception" nillable="true" type="tns:LF_ExceptionDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LF_CreditCardDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="creditCardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="creditCardType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="maskedCCNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="expiryDateStr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="expiryDate" type="tns:LF_Date" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

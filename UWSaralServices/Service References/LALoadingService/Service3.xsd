@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_LoadingCreation/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="LODCRT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LIFE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="COVERAGE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RIDER" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CRTABLE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGERATE8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ECESTRM8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INSPRM8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPCDA8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OPPC8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASIND8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SELECT8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFMORPCT8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC3" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC4" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC5" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC6" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC7" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZNADJPERC8" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LODCRTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="LODCRTResult" nillable="true" type="q1:MasterPersonelLoadingCreate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LODENQ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LIFE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="COVERAGE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RIDER" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CRTABLE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LODENQResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="LODENQResult" nillable="true" type="q2:ArrayOfMasterPersonelLoadingEnquiry" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

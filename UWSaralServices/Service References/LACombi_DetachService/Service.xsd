@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WS.LACombiBOs" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WS.LACombiBOs" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="MasterCADATT">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CHDRNUM01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBTYPE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterCADATT" nillable="true" type="tns:MasterCADATT" />
+  <xs:complexType name="MasterCADDET">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CHDRNUM01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBTYPE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterCADDET" nillable="true" type="tns:MasterCADDET" />
+  <xs:complexType name="MasterCADENQ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CHDRNUM01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBTYPE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterCADENQ" nillable="true" type="tns:MasterCADENQ" />
+  <xs:complexType name="MasterCECENQ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="APPFLAG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BILLFREQ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BTDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSTATUS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTSUSP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CNTTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="COWNNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CTYPEDES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CURRFROM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DUEDD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EPREM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HPAYAMT05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HRIFEECNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="INSTAMNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="INTANNY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JLIFEDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JLIFENUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LIFEDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LIFENUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXAMT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAXPYMT05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MINPREM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MOP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NEWAMNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ORCOMM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OSBAL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OWNERDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PREMSTATUS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PTDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOLER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOTALTAX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZSPRM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZTOSPA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZWVRIFEE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterCECENQ" nillable="true" type="tns:MasterCECENQ" />
+  <xs:complexType name="MasterCOBISS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CHDRNUM01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBTYPE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterCOBISS" nillable="true" type="tns:MasterCOBISS" />
+  <xs:complexType name="MasterCPVVAL">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CHDRNUM01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM06" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM07" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM08" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM09" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCMBTYPE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterCPVVAL" nillable="true" type="tns:MasterCPVVAL" />
+</xs:schema>

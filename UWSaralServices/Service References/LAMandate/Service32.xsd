@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.WS.MandateService/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="DDMAPR">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CLNTNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDREFF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DTEAPROV" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMAPRResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="DDMAPRResult" nillable="true" type="q1:MasterMandate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMCRT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CLNTNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BANKACCKEY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BANKKEY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DETLSUMM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FACTHOUS" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDAMT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDSTAT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TIMESUSE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZDDDAY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BKCARDNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IFSCCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MICRCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="URNUM" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMCRTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="DDMCRTResult" nillable="true" type="q2:MasterMandateCreate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMENQ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CLNTNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDREFF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMENQResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="DDMENQResult" nillable="true" type="q3:MasterMandateEnquiry" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMRJC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CLNTNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDREFF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DTEFREJ" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DTEFSBM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DTESREJ" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DTESSBM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FREASON" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SREASON" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMRJCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="DDMRJCResult" nillable="true" type="q4:MasterMandate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMUPD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CLNTNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDREFF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BANKACCKEY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BANKKEY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DETLSUMM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FACTHOUS" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDAMT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MANDSTAT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TIMESUSE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BKCARDNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IFSCCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MICRCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="URNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZDDDAY" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DDMUPDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="DDMUPDResult" nillable="true" type="q5:MasterMandateUpdate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

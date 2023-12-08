@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_PolicyIssuance/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="PRPPREISS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATIME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRPPREISSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="PRPPREISSResult" nillable="true" type="q1:ArrayOfMasterPolicyPreIssue" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NBPISSUE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATIME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AGNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REPORTAG01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REPORTAG02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZZSRCE01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZZSRCE02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZARACDE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFEREGN01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFEREGN02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFEZONE01" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFEZONE02" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NBPISSUEResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="NBPISSUEResult" nillable="true" type="q2:ArrayOfMasterPolicyIssuance" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_ContractCreation/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="CreateContract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Header" nillable="true" type="q1:MasterEntity.HeaderDetail" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Owner" nillable="true" type="q2:MasterEntity.OwnerDetail" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Life" nillable="true" type="q3:ArrayOfMasterEntity.LifeDetailList" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JointLife" nillable="true" type="q4:ArrayOfMasterEntity.JointLifeDetailList" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JointOwner" nillable="true" type="q5:MasterEntity.JointOwnerDetail" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Coverage" nillable="true" type="q6:ArrayOfMasterEntity.CoverageDetailList" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Rider" nillable="true" type="q7:ArrayOfMasterEntity.RiderDetailList" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Beneficiary" nillable="true" type="q8:ArrayOfMasterEntity.BeneficiaryList" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Follow" nillable="true" type="q9:MasterEntity.FollowUp" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Assignee" nillable="true" type="q10:MasterEntity.Assignee" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Despatch" nillable="true" type="q11:MasterEntity.DespatchCorrespondence" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Payer" nillable="true" type="q12:MasterEntity.PayerDetail" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Special" nillable="true" type="q13:ArrayOfMasterEntity.SpecialTermList" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Fund" nillable="true" type="q14:ArrayOfMasterEntity.FundDetailList" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Client" nillable="true" type="q15:MasterEntity.Client" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="BankAcc" nillable="true" type="q16:MasterEntity.ClientBankAccount" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Mandate" nillable="true" type="q17:MasterEntity.Mandate" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Premium" nillable="true" type="q18:MasterEntity.PremiumReceipt" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Receipt" nillable="true" type="q19:ArrayOfMasterEntity.ReceiptToContractList" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Agency" nillable="true" type="q20:MasterEntity.AgencyDetail" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Annuity" nillable="true" type="q21:MasterEntity.AnnuityDetail" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Group" nillable="true" type="q22:MasterEntity.GroupDetail" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="UserInfo" nillable="true" type="q23:MasterEntity.UserDetail" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateContractResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="CreateContractResult" nillable="true" type="q24:Master" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateContract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Header" nillable="true" type="q25:MasterEntity.HeaderDetail" />
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Owner" nillable="true" type="q26:MasterEntity.OwnerDetail" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Life" nillable="true" type="q27:ArrayOfMasterEntity.LifeDetailList" />
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JointLife" nillable="true" type="q28:ArrayOfMasterEntity.JointLifeDetailList" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="JointOwner" nillable="true" type="q29:MasterEntity.JointOwnerDetail" />
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Coverage" nillable="true" type="q30:ArrayOfMasterEntity.CoverageDetailList" />
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Rider" nillable="true" type="q31:ArrayOfMasterEntity.RiderDetailList" />
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Beneficiary" nillable="true" type="q32:ArrayOfMasterEntity.BeneficiaryList" />
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Follow" nillable="true" type="q33:MasterEntity.FollowUp" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Assignee" nillable="true" type="q34:MasterEntity.Assignee" />
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Despatch" nillable="true" type="q35:MasterEntity.DespatchCorrespondence" />
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Payer" nillable="true" type="q36:MasterEntity.PayerDetail" />
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Special" nillable="true" type="q37:ArrayOfMasterEntity.SpecialTermList" />
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Fund" nillable="true" type="q38:ArrayOfMasterEntity.FundDetailList" />
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Client" nillable="true" type="q39:MasterEntity.Client" />
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="BankAcc" nillable="true" type="q40:MasterEntity.ClientBankAccount" />
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Mandate" nillable="true" type="q41:MasterEntity.Mandate" />
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Premium" nillable="true" type="q42:MasterEntity.PremiumReceipt" />
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Receipt" nillable="true" type="q43:ArrayOfMasterEntity.ReceiptToContractList" />
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Agency" nillable="true" type="q44:MasterEntity.AgencyDetail" />
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Annuity" nillable="true" type="q45:MasterEntity.AnnuityDetail" />
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="Group" nillable="true" type="q46:MasterEntity.GroupDetail" />
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="UserInfo" nillable="true" type="q47:MasterEntity.UserDetail" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateContractResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="UpdateContractResult" nillable="true" type="q48:Master" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,1998 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WCFGenerateInputOutput" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" />
+      <xsd:import schemaLocation="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AS400EntityLayer" />
+      <xsd:import schemaLocation="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd4" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWCFGenerateInputOutput_MPENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q1:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q2:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreMaturityENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreMaturityENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreMaturityENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreMaturityENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreMaturityENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q3:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreMaturityENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreMaturityENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreMaturityENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreMaturityENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreMaturityENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q4:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreVestingENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreVestingENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreVestingENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreVestingENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreVestingENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q5:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreVestingENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreVestingENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreVestingENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPPreVestingENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPPreVestingENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q6:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusREGI_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusREGI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusREGI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusREGIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusREGI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q7:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusREGO_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusREGO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusREGO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusREGOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusREGO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q8:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusAPRI_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusAPRI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusAPRI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusAPRIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusAPRI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q9:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusAPRO_InputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusAPRO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusAPRO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MPStatusAPROResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_MPStatusAPRO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q10:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ACENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ACENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q11:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ACENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ACENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q12:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACUPDI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ACUPDI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACUPDI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ACUPDIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACUPDI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q13:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACUPDO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ACUPDO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACUPDO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ACUPDOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACUPDO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q14:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQANNI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ENQANNI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQANNI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ENQANNIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQANNI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q15:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQANNO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ENQANNO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQANNO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ENQANNOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQANNO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q16:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:SURENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SURENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q17:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:SURENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SURENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q18:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURREGI_InputMessage">
+    <wsdl:part name="parameters" element="tns:SURREGI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURREGI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SURREGIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURREGI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q19:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURREGO_InputMessage">
+    <wsdl:part name="parameters" element="tns:SURREGO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURREGO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SURREGOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURREGO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q20:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURAPRI_InputMessage">
+    <wsdl:part name="parameters" element="tns:SURAPRI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURAPRI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SURAPRIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURAPRI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q21:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURAPRO_InputMessage">
+    <wsdl:part name="parameters" element="tns:SURAPRO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURAPRO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SURAPROResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_SURAPRO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q22:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVSURI_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVSURI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVSURI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVSURIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVSURI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q23:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVSURO_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVSURO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVSURO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVSUROResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVSURO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q24:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCRI_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCRI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCRI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCRIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCRI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q25:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCRO_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCRO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCRO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCROResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCRO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q26:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRCRTI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ESRCRTI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRCRTI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ESRCRTIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRCRTI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q27="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q27:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRCRTO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ESRCRTO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRCRTO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ESRCRTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRCRTO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q28:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRAPRI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ESRAPRI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRAPRI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ESRAPRIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRAPRI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q29="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q29:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRAPRO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ESRAPRO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRAPRO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ESRAPROResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRAPRO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q30:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRREVI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ESRREVI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRREVI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ESRREVIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRREVI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q31="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q31:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRREVO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ESRREVO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRREVO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ESRREVOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ESRREVO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q32:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTCRTI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTCRTI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTCRTI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTCRTIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTCRTI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q33="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q33:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTCRTO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTCRTO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTCRTO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTCRTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTCRTO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q34:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAPRI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAPRI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAPRI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAPRIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAPRI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q35="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q35:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAPRO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAPRO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAPRO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAPROResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAPRO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q36:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTREVI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTREVI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTREVI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTREVIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTREVI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q37="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q37:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTREVO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTREVO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTREVO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTREVOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTREVO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q38:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAUTI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAUTI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAUTI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAUTIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAUTI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q39="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q39:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAUTO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAUTO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAUTO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTAUTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTAUTO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q40:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTRMVI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTRMVI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTRMVI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTRMVIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTRMVI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q41="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q41:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTRMVO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PYTRMVO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTRMVO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PYTRMVOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PYTRMVO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q42:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PRTENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PRTENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q43="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q43:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PRTENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PRTENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q44="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q44:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTCRTI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PRTCRTI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTCRTI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PRTCRTIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTCRTI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q45="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q45:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTCRTO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PRTCRTO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTCRTO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PRTCRTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTCRTO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q46="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q46:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCII_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCII" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCII_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCIIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCII_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q47="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q47:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCIO_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCIO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCIO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVFCIOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVFCIO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q48="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q48:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVBILI_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVBILI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVBILI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVBILIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVBILI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q49="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q49:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVBILO_InputMessage">
+    <wsdl:part name="parameters" element="tns:REVBILO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVBILO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:REVBILOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_REVBILO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q50="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q50:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_BCHQUOI_InputMessage">
+    <wsdl:part name="parameters" element="tns:BCHQUOI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_BCHQUOI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BCHQUOIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_BCHQUOI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q51="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q51:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_BCHQUOO_InputMessage">
+    <wsdl:part name="parameters" element="tns:BCHQUOO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_BCHQUOO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BCHQUOOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_BCHQUOO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q52="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q52:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSREII_InputMessage">
+    <wsdl:part name="parameters" element="tns:LPSREII" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSREII_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LPSREIIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSREII_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q53="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q53:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSREIO_InputMessage">
+    <wsdl:part name="parameters" element="tns:LPSREIO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSREIO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LPSREIOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSREIO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q54="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q54:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PUPREII_InputMessage">
+    <wsdl:part name="parameters" element="tns:PUPREII" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PUPREII_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PUPREIIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PUPREII_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q55="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q55:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PUPREIO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PUPREIO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PUPREIO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PUPREIOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PUPREIO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q56="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q56:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACVREII_InputMessage">
+    <wsdl:part name="parameters" element="tns:ACVREII" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACVREII_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ACVREIIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACVREII_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q57="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q57:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACVREIO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ACVREIO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACVREIO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ACVREIOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ACVREIO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q58="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q58:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRISSI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PHRISSI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRISSI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PHRISSIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRISSI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q59="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q59:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRISSO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PHRISSO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRISSO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PHRISSOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRISSO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q60="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q60:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRCRTI_InputMessage">
+    <wsdl:part name="parameters" element="tns:PHRCRTI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRCRTI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PHRCRTIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRCRTI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q61="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q61:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRCRTO_InputMessage">
+    <wsdl:part name="parameters" element="tns:PHRCRTO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRCRTO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PHRCRTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PHRCRTO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q62="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q62:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_DSCREII_InputMessage">
+    <wsdl:part name="parameters" element="tns:DSCREII" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_DSCREII_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DSCREIIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_DSCREII_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q63="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q63:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_DSCREIO_InputMessage">
+    <wsdl:part name="parameters" element="tns:DSCREIO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_DSCREIO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DSCREIOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_DSCREIO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q64="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q64:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSRQOI_InputMessage">
+    <wsdl:part name="parameters" element="tns:LPSRQOI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSRQOI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LPSRQOIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSRQOI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q65="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q65:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSRQOO_InputMessage">
+    <wsdl:part name="parameters" element="tns:LPSRQOO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSRQOO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LPSRQOOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LPSRQOO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q66="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q66:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ZCEENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ZCEENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ZCEENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ZCEENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ZCEENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q67="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q67:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ZCEENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ZCEENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ZCEENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ZCEENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ZCEENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q68="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q68:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LONENQI_InputMessage">
+    <wsdl:part name="parameters" element="tns:LONENQI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LONENQI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LONENQIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LONENQI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q69="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q69:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LONENQO_InputMessage">
+    <wsdl:part name="parameters" element="tns:LONENQO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LONENQO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LONENQOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_LONENQO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q70="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q70:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREMATI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREMATI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREMATI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREMATIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREMATI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q71="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q71:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREMATO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREMATO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREMATO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREMATOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREMATO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q72="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q72:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREVSTI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREVSTI" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREVSTI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREVSTIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREVSTI_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q73="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q73:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREVSTO_InputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREVSTO" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREVSTO_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ENQPREVSTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_ENQPREVSTO_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q74="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q74:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTSURIN_InputMessage">
+    <wsdl:part name="parameters" element="tns:PRTSURIN" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTSURIN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PRTSURINResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTSURIN_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q75="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q75:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTSURON_InputMessage">
+    <wsdl:part name="parameters" element="tns:PRTSURON" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTSURON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PRTSURONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCFGenerateInputOutput_PRTSURON_CustomFaultExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q76="http://schemas.datacontract.org/2004/07/FG.LF.WS.AS400" name="detail" element="q76:CustomFaultException" />
+  </wsdl:message>
+  <wsdl:portType name="IWCFGenerateInputOutput">
+    <wsdl:operation name="MPENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPENQI" message="tns:IWCFGenerateInputOutput_MPENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPENQIResponse" message="tns:IWCFGenerateInputOutput_MPENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPENQO" message="tns:IWCFGenerateInputOutput_MPENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPENQOResponse" message="tns:IWCFGenerateInputOutput_MPENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPPreMaturityENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQI" message="tns:IWCFGenerateInputOutput_MPPreMaturityENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQIResponse" message="tns:IWCFGenerateInputOutput_MPPreMaturityENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPPreMaturityENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPPreMaturityENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQO" message="tns:IWCFGenerateInputOutput_MPPreMaturityENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQOResponse" message="tns:IWCFGenerateInputOutput_MPPreMaturityENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPPreMaturityENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPPreVestingENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQI" message="tns:IWCFGenerateInputOutput_MPPreVestingENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQIResponse" message="tns:IWCFGenerateInputOutput_MPPreVestingENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPPreVestingENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPPreVestingENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQO" message="tns:IWCFGenerateInputOutput_MPPreVestingENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQOResponse" message="tns:IWCFGenerateInputOutput_MPPreVestingENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPPreVestingENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusREGI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGI" message="tns:IWCFGenerateInputOutput_MPStatusREGI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGIResponse" message="tns:IWCFGenerateInputOutput_MPStatusREGI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPStatusREGI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusREGO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGO" message="tns:IWCFGenerateInputOutput_MPStatusREGO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGOResponse" message="tns:IWCFGenerateInputOutput_MPStatusREGO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPStatusREGO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusAPRI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPRI" message="tns:IWCFGenerateInputOutput_MPStatusAPRI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPRIResponse" message="tns:IWCFGenerateInputOutput_MPStatusAPRI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPRICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPStatusAPRI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusAPRO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPRO" message="tns:IWCFGenerateInputOutput_MPStatusAPRO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPROResponse" message="tns:IWCFGenerateInputOutput_MPStatusAPRO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPROCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_MPStatusAPRO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ACENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACENQI" message="tns:IWCFGenerateInputOutput_ACENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACENQIResponse" message="tns:IWCFGenerateInputOutput_ACENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ACENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ACENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACENQO" message="tns:IWCFGenerateInputOutput_ACENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACENQOResponse" message="tns:IWCFGenerateInputOutput_ACENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ACENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ACUPDI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACUPDI" message="tns:IWCFGenerateInputOutput_ACUPDI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACUPDIResponse" message="tns:IWCFGenerateInputOutput_ACUPDI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACUPDICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ACUPDI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ACUPDO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACUPDO" message="tns:IWCFGenerateInputOutput_ACUPDO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACUPDOResponse" message="tns:IWCFGenerateInputOutput_ACUPDO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACUPDOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ACUPDO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ENQANNI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQANNI" message="tns:IWCFGenerateInputOutput_ENQANNI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQANNIResponse" message="tns:IWCFGenerateInputOutput_ENQANNI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQANNICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ENQANNI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ENQANNO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQANNO" message="tns:IWCFGenerateInputOutput_ENQANNO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQANNOResponse" message="tns:IWCFGenerateInputOutput_ENQANNO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQANNOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ENQANNO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SURENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURENQI" message="tns:IWCFGenerateInputOutput_SURENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURENQIResponse" message="tns:IWCFGenerateInputOutput_SURENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_SURENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SURENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURENQO" message="tns:IWCFGenerateInputOutput_SURENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURENQOResponse" message="tns:IWCFGenerateInputOutput_SURENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_SURENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SURREGI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURREGI" message="tns:IWCFGenerateInputOutput_SURREGI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURREGIResponse" message="tns:IWCFGenerateInputOutput_SURREGI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURREGICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_SURREGI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SURREGO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURREGO" message="tns:IWCFGenerateInputOutput_SURREGO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURREGOResponse" message="tns:IWCFGenerateInputOutput_SURREGO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURREGOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_SURREGO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SURAPRI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURAPRI" message="tns:IWCFGenerateInputOutput_SURAPRI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURAPRIResponse" message="tns:IWCFGenerateInputOutput_SURAPRI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURAPRICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_SURAPRI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SURAPRO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURAPRO" message="tns:IWCFGenerateInputOutput_SURAPRO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURAPROResponse" message="tns:IWCFGenerateInputOutput_SURAPRO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/SURAPROCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_SURAPRO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVSURI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVSURI" message="tns:IWCFGenerateInputOutput_REVSURI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVSURIResponse" message="tns:IWCFGenerateInputOutput_REVSURI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVSURICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVSURI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVSURO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVSURO" message="tns:IWCFGenerateInputOutput_REVSURO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVSUROResponse" message="tns:IWCFGenerateInputOutput_REVSURO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVSUROCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVSURO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVFCRI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCRI" message="tns:IWCFGenerateInputOutput_REVFCRI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCRIResponse" message="tns:IWCFGenerateInputOutput_REVFCRI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCRICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVFCRI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVFCRO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCRO" message="tns:IWCFGenerateInputOutput_REVFCRO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCROResponse" message="tns:IWCFGenerateInputOutput_REVFCRO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCROCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVFCRO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ESRCRTI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTI" message="tns:IWCFGenerateInputOutput_ESRCRTI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTIResponse" message="tns:IWCFGenerateInputOutput_ESRCRTI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ESRCRTI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ESRCRTO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTO" message="tns:IWCFGenerateInputOutput_ESRCRTO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTOResponse" message="tns:IWCFGenerateInputOutput_ESRCRTO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ESRCRTO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ESRAPRI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRAPRI" message="tns:IWCFGenerateInputOutput_ESRAPRI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRAPRIResponse" message="tns:IWCFGenerateInputOutput_ESRAPRI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRAPRICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ESRAPRI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ESRAPRO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRAPRO" message="tns:IWCFGenerateInputOutput_ESRAPRO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRAPROResponse" message="tns:IWCFGenerateInputOutput_ESRAPRO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRAPROCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ESRAPRO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ESRREVI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRREVI" message="tns:IWCFGenerateInputOutput_ESRREVI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRREVIResponse" message="tns:IWCFGenerateInputOutput_ESRREVI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRREVICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ESRREVI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ESRREVO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRREVO" message="tns:IWCFGenerateInputOutput_ESRREVO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRREVOResponse" message="tns:IWCFGenerateInputOutput_ESRREVO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ESRREVOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ESRREVO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTCRTI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTI" message="tns:IWCFGenerateInputOutput_PYTCRTI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTIResponse" message="tns:IWCFGenerateInputOutput_PYTCRTI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTCRTI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTCRTO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTO" message="tns:IWCFGenerateInputOutput_PYTCRTO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTOResponse" message="tns:IWCFGenerateInputOutput_PYTCRTO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTCRTO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTAPRI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAPRI" message="tns:IWCFGenerateInputOutput_PYTAPRI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAPRIResponse" message="tns:IWCFGenerateInputOutput_PYTAPRI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAPRICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTAPRI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTAPRO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAPRO" message="tns:IWCFGenerateInputOutput_PYTAPRO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAPROResponse" message="tns:IWCFGenerateInputOutput_PYTAPRO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAPROCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTAPRO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTREVI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTREVI" message="tns:IWCFGenerateInputOutput_PYTREVI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTREVIResponse" message="tns:IWCFGenerateInputOutput_PYTREVI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTREVICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTREVI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTREVO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTREVO" message="tns:IWCFGenerateInputOutput_PYTREVO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTREVOResponse" message="tns:IWCFGenerateInputOutput_PYTREVO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTREVOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTREVO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTAUTI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTI" message="tns:IWCFGenerateInputOutput_PYTAUTI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTIResponse" message="tns:IWCFGenerateInputOutput_PYTAUTI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTAUTI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTAUTO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTO" message="tns:IWCFGenerateInputOutput_PYTAUTO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTOResponse" message="tns:IWCFGenerateInputOutput_PYTAUTO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTAUTO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTRMVI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVI" message="tns:IWCFGenerateInputOutput_PYTRMVI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVIResponse" message="tns:IWCFGenerateInputOutput_PYTRMVI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTRMVI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PYTRMVO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVO" message="tns:IWCFGenerateInputOutput_PYTRMVO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVOResponse" message="tns:IWCFGenerateInputOutput_PYTRMVO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PYTRMVO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PRTENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTENQI" message="tns:IWCFGenerateInputOutput_PRTENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTENQIResponse" message="tns:IWCFGenerateInputOutput_PRTENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PRTENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PRTENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTENQO" message="tns:IWCFGenerateInputOutput_PRTENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTENQOResponse" message="tns:IWCFGenerateInputOutput_PRTENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PRTENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PRTCRTI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTI" message="tns:IWCFGenerateInputOutput_PRTCRTI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTIResponse" message="tns:IWCFGenerateInputOutput_PRTCRTI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PRTCRTI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PRTCRTO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTO" message="tns:IWCFGenerateInputOutput_PRTCRTO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTOResponse" message="tns:IWCFGenerateInputOutput_PRTCRTO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PRTCRTO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVFCII">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCII" message="tns:IWCFGenerateInputOutput_REVFCII_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCIIResponse" message="tns:IWCFGenerateInputOutput_REVFCII_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCIICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVFCII_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVFCIO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCIO" message="tns:IWCFGenerateInputOutput_REVFCIO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCIOResponse" message="tns:IWCFGenerateInputOutput_REVFCIO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVFCIOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVFCIO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVBILI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVBILI" message="tns:IWCFGenerateInputOutput_REVBILI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVBILIResponse" message="tns:IWCFGenerateInputOutput_REVBILI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVBILICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVBILI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="REVBILO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVBILO" message="tns:IWCFGenerateInputOutput_REVBILO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVBILOResponse" message="tns:IWCFGenerateInputOutput_REVBILO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/REVBILOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_REVBILO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BCHQUOI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOI" message="tns:IWCFGenerateInputOutput_BCHQUOI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOIResponse" message="tns:IWCFGenerateInputOutput_BCHQUOI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_BCHQUOI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BCHQUOO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOO" message="tns:IWCFGenerateInputOutput_BCHQUOO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOOResponse" message="tns:IWCFGenerateInputOutput_BCHQUOO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_BCHQUOO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LPSREII">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSREII" message="tns:IWCFGenerateInputOutput_LPSREII_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSREIIResponse" message="tns:IWCFGenerateInputOutput_LPSREII_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSREIICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_LPSREII_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LPSREIO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSREIO" message="tns:IWCFGenerateInputOutput_LPSREIO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSREIOResponse" message="tns:IWCFGenerateInputOutput_LPSREIO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSREIOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_LPSREIO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PUPREII">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PUPREII" message="tns:IWCFGenerateInputOutput_PUPREII_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PUPREIIResponse" message="tns:IWCFGenerateInputOutput_PUPREII_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PUPREIICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PUPREII_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PUPREIO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PUPREIO" message="tns:IWCFGenerateInputOutput_PUPREIO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PUPREIOResponse" message="tns:IWCFGenerateInputOutput_PUPREIO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PUPREIOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PUPREIO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ACVREII">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACVREII" message="tns:IWCFGenerateInputOutput_ACVREII_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACVREIIResponse" message="tns:IWCFGenerateInputOutput_ACVREII_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACVREIICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ACVREII_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ACVREIO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACVREIO" message="tns:IWCFGenerateInputOutput_ACVREIO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACVREIOResponse" message="tns:IWCFGenerateInputOutput_ACVREIO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ACVREIOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ACVREIO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PHRISSI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRISSI" message="tns:IWCFGenerateInputOutput_PHRISSI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRISSIResponse" message="tns:IWCFGenerateInputOutput_PHRISSI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRISSICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PHRISSI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PHRISSO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRISSO" message="tns:IWCFGenerateInputOutput_PHRISSO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRISSOResponse" message="tns:IWCFGenerateInputOutput_PHRISSO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRISSOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PHRISSO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PHRCRTI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTI" message="tns:IWCFGenerateInputOutput_PHRCRTI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTIResponse" message="tns:IWCFGenerateInputOutput_PHRCRTI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PHRCRTI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PHRCRTO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTO" message="tns:IWCFGenerateInputOutput_PHRCRTO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTOResponse" message="tns:IWCFGenerateInputOutput_PHRCRTO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PHRCRTO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DSCREII">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/DSCREII" message="tns:IWCFGenerateInputOutput_DSCREII_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/DSCREIIResponse" message="tns:IWCFGenerateInputOutput_DSCREII_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/DSCREIICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_DSCREII_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DSCREIO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/DSCREIO" message="tns:IWCFGenerateInputOutput_DSCREIO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/DSCREIOResponse" message="tns:IWCFGenerateInputOutput_DSCREIO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/DSCREIOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_DSCREIO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LPSRQOI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOI" message="tns:IWCFGenerateInputOutput_LPSRQOI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOIResponse" message="tns:IWCFGenerateInputOutput_LPSRQOI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_LPSRQOI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LPSRQOO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOO" message="tns:IWCFGenerateInputOutput_LPSRQOO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOOResponse" message="tns:IWCFGenerateInputOutput_LPSRQOO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_LPSRQOO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ZCEENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQI" message="tns:IWCFGenerateInputOutput_ZCEENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQIResponse" message="tns:IWCFGenerateInputOutput_ZCEENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ZCEENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ZCEENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQO" message="tns:IWCFGenerateInputOutput_ZCEENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQOResponse" message="tns:IWCFGenerateInputOutput_ZCEENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ZCEENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LONENQI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LONENQI" message="tns:IWCFGenerateInputOutput_LONENQI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LONENQIResponse" message="tns:IWCFGenerateInputOutput_LONENQI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LONENQICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_LONENQI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LONENQO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LONENQO" message="tns:IWCFGenerateInputOutput_LONENQO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LONENQOResponse" message="tns:IWCFGenerateInputOutput_LONENQO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/LONENQOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_LONENQO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREMATI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATI" message="tns:IWCFGenerateInputOutput_ENQPREMATI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATIResponse" message="tns:IWCFGenerateInputOutput_ENQPREMATI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ENQPREMATI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREMATO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATO" message="tns:IWCFGenerateInputOutput_ENQPREMATO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATOResponse" message="tns:IWCFGenerateInputOutput_ENQPREMATO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ENQPREMATO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREVSTI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTI" message="tns:IWCFGenerateInputOutput_ENQPREVSTI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTIResponse" message="tns:IWCFGenerateInputOutput_ENQPREVSTI_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTICustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ENQPREVSTI_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREVSTO">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTO" message="tns:IWCFGenerateInputOutput_ENQPREVSTO_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTOResponse" message="tns:IWCFGenerateInputOutput_ENQPREVSTO_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTOCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_ENQPREVSTO_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PRTSURIN">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTSURIN" message="tns:IWCFGenerateInputOutput_PRTSURIN_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTSURINResponse" message="tns:IWCFGenerateInputOutput_PRTSURIN_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTSURINCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PRTSURIN_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PRTSURON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTSURON" message="tns:IWCFGenerateInputOutput_PRTSURON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTSURONResponse" message="tns:IWCFGenerateInputOutput_PRTSURON_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IWCFGenerateInputOutput/PRTSURONCustomFaultExceptionFault" name="CustomFaultExceptionFault" message="tns:IWCFGenerateInputOutput_PRTSURON_CustomFaultExceptionFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWCFGenerateInputOutput" type="tns:IWCFGenerateInputOutput">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MPENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPPreMaturityENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPPreMaturityENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPPreMaturityENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPPreVestingENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPPreVestingENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPPreVestingENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusREGI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusREGO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPStatusREGO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusAPRI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPRI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="MPStatusAPRO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/MPStatusAPRO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ACENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ACENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ACENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ACENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ACUPDI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ACUPDI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ACUPDO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ACUPDO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ENQANNI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ENQANNI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ENQANNO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ENQANNO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SURENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/SURENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SURENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/SURENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SURREGI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/SURREGI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SURREGO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/SURREGO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SURAPRI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/SURAPRI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SURAPRO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/SURAPRO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVSURI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVSURI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVSURO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVSURO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVFCRI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVFCRI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVFCRO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVFCRO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ESRCRTI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ESRCRTO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ESRCRTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ESRAPRI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ESRAPRI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ESRAPRO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ESRAPRO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ESRREVI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ESRREVI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ESRREVO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ESRREVO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTCRTI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTCRTO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTCRTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTAPRI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTAPRI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTAPRO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTAPRO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTREVI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTREVI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTREVO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTREVO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTAUTI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTAUTO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTAUTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTRMVI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PYTRMVO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PYTRMVO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PRTENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PRTENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PRTENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PRTENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PRTCRTI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PRTCRTO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PRTCRTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVFCII">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVFCII" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVFCIO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVFCIO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVBILI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVBILI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="REVBILO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/REVBILO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="BCHQUOI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="BCHQUOO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/BCHQUOO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LPSREII">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/LPSREII" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LPSREIO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/LPSREIO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PUPREII">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PUPREII" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PUPREIO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PUPREIO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ACVREII">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ACVREII" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ACVREIO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ACVREIO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PHRISSI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PHRISSI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PHRISSO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PHRISSO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PHRCRTI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PHRCRTO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PHRCRTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DSCREII">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/DSCREII" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DSCREIO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/DSCREIO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LPSRQOI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LPSRQOO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/LPSRQOO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ZCEENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ZCEENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ZCEENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LONENQI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/LONENQI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LONENQO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/LONENQO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREMATI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREMATO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ENQPREMATO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREVSTI">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ENQPREVSTO">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/ENQPREVSTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PRTSURIN">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PRTSURIN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PRTSURON">
+      <soap:operation soapAction="http://tempuri.org/IWCFGenerateInputOutput/PRTSURON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="CustomFaultExceptionFault">
+        <soap:fault use="literal" name="CustomFaultExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WCFGenerateInputOutput">
+    <wsdl:port name="BasicHttpBinding_IWCFGenerateInputOutput" binding="tns:BasicHttpBinding_IWCFGenerateInputOutput">
+      <soap:address location="http://10.1.41.243:8080/WCFGenerateInputOutput.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

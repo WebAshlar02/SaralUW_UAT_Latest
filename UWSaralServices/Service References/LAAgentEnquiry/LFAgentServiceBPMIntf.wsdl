@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.futuregenerali.in/life/LFAgentServiceBPMIntf" xmlns:bons2="http://INBLRBPMLFDEV01:19086/schema/" xmlns:bons1="http://www.futuregenerali.in/life" name="LFAgentServiceBPMIntf" targetNamespace="http://www.futuregenerali.in/life/LFAgentServiceBPMIntf" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.futuregenerali.in/life/LFAgentServiceBPMIntf">
+      <xsd:import schemaLocation="FG_LIFE_DATA_MODEL.xsd" namespace="http://www.futuregenerali.in/life" />
+      <xsd:import schemaLocation="CMSAgentValidationService_MM/LF_ValidateAgentResponse.xsd" namespace="http://INBLRBPMLFDEV01:19086/schema/" />
+      <xsd:element name="getAgent">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="agentCode" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getAgentResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="agentDetail" nillable="true" type="bons1:LF_AgentDetail" />
+            <xsd:element name="faultResponse" nillable="true" type="bons2:LF_ExceptionDetail" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getAgentResponseMsg">
+    <wsdl:part name="getAgentResult" element="tns:getAgentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAgentRequestMsg">
+    <wsdl:part name="getAgentParameters" element="tns:getAgent" />
+  </wsdl:message>
+  <wsdl:portType name="LFAgentServiceBPMIntf">
+    <wsdl:operation name="getAgent">
+      <wsdl:input name="getAgentRequest" message="tns:getAgentRequestMsg" />
+      <wsdl:output name="getAgentResponse" message="tns:getAgentResponseMsg" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

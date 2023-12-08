@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.TSARPPC/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="CalculateTSAR_FSAR_MSAR">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LAClientId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProposerClientID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PayerClientId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="KeyWord" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RequestDetails" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OtherPolicyDetails" type="xs:decimal" />
+        <xs:element minOccurs="0" name="PartnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CalculateTSAR_FSAR_MSARResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="CalculateTSAR_FSAR_MSARResult" nillable="true" type="q1:test" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

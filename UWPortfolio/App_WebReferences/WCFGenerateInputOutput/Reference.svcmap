@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2d9f22fe-2135-4fe7-ac4a-6a7dba74968a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?WSDL" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFGenerateInputOutput.xsd" MetadataType="Schema" ID="d408dd3c-7704-461e-8b4e-0c4425a6d713" SourceId="1" SourceUrl="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCFGenerateInputOutput.wsdl" MetadataType="Wsdl" ID="a5df726c-f971-4e06-b107-aef9121d61d1" SourceId="1" SourceUrl="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?WSDL" />
+    <MetadataFile FileName="WCFGenerateInputOutput1.xsd" MetadataType="Schema" ID="99b920b5-b446-4aea-9120-4729bb8b3bf2" SourceId="1" SourceUrl="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd3" />
+    <MetadataFile FileName="WCFGenerateInputOutput2.xsd" MetadataType="Schema" ID="bae7fc9a-9ea3-4db6-abec-d962272c6990" SourceId="1" SourceUrl="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFGenerateInputOutput3.xsd" MetadataType="Schema" ID="6da9adcd-9120-4ccb-ad5e-935ddfc92e9e" SourceId="1" SourceUrl="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd4" />
+    <MetadataFile FileName="WCFGenerateInputOutput4.xsd" MetadataType="Schema" ID="186e12e8-994a-41d2-97bc-9f932e7ef3ff" SourceId="1" SourceUrl="http://10.1.41.243:8080/WCFGenerateInputOutput.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

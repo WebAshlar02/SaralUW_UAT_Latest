@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AS400EntityLayer" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AS400EntityLayer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="MaturityPayoutENQInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPayoutENQInput" nillable="true" type="tns:MaturityPayoutENQInput" />
+  <xs:complexType name="MaturityPayoutENQOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPayoutENQOutput" nillable="true" type="tns:MaturityPayoutENQOutput" />
+  <xs:complexType name="MaturityPayoutREGInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ACTION" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="COMTPERC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="S5237SELECT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="S6351SELECT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VSTLUMP" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPayoutREGInput" nillable="true" type="tns:MaturityPayoutREGInput" />
+  <xs:complexType name="MaturityPayoutREGOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPayoutREGOutput" nillable="true" type="tns:MaturityPayoutREGOutput" />
+  <xs:complexType name="MaturityPayoutAPRInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ACTION" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPayoutAPRInput" nillable="true" type="tns:MaturityPayoutAPRInput" />
+  <xs:complexType name="MaturityPayoutAPROutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPayoutAPROutput" nillable="true" type="tns:MaturityPayoutAPROutput" />
+  <xs:complexType name="AnnuityCoeENQInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLNTNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnnuityCoeENQInput" nillable="true" type="tns:AnnuityCoeENQInput" />
+  <xs:complexType name="AnnuityCoeENQOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnnuityCoeENQOutput" nillable="true" type="tns:AnnuityCoeENQOutput" />
+  <xs:complexType name="AnnuityCoeUPDInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLNTNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZSIGDATE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnnuityCoeUPDInput" nillable="true" type="tns:AnnuityCoeUPDInput" />
+  <xs:complexType name="AnnuityCoeUPDOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnnuityCoeUPDOutput" nillable="true" type="tns:AnnuityCoeUPDOutput" />
+  <xs:complexType name="SurrenderENQInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EffDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LettPrntFLAG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderENQInput" nillable="true" type="tns:SurrenderENQInput" />
+  <xs:complexType name="SurrenderENQOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderENQOutput" nillable="true" type="tns:SurrenderENQOutput" />
+  <xs:complexType name="SurrenderREGInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EffDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OTHERADJST" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="REASNDESC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPOST3PM1" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderREGInput" nillable="true" type="tns:SurrenderREGInput" />
+  <xs:complexType name="SurrenderREGOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderREGOutput" nillable="true" type="tns:SurrenderREGOutput" />
+  <xs:complexType name="SurrenderAPRInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPOST3PM1" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderAPRInput" nillable="true" type="tns:SurrenderAPRInput" />
+  <xs:complexType name="SurrenderAPROutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderAPROutput" nillable="true" type="tns:SurrenderAPROutput" />
+  <xs:complexType name="FullSurrenderREVInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FullSurrenderREVInput" nillable="true" type="tns:FullSurrenderREVInput" />
+  <xs:complexType name="FullSurrenderREVOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FullSurrenderREVOutput" nillable="true" type="tns:FullSurrenderREVOutput" />
+  <xs:complexType name="SurrenderApprovalREVInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SUPFLAG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SUPPTO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TRANNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderApprovalREVInput" nillable="true" type="tns:SurrenderApprovalREVInput" />
+  <xs:complexType name="SurrenderApprovalREVOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderApprovalREVOutput" nillable="true" type="tns:SurrenderApprovalREVOutput" />
+  <xs:complexType name="EarlySurrenderCRTInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OTHERADJST" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPOST3PM1" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EarlySurrenderCRTInput" nillable="true" type="tns:EarlySurrenderCRTInput" />
+  <xs:complexType name="EarlySurrenderCRTOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EarlySurrenderCRTOutput" nillable="true" type="tns:EarlySurrenderCRTOutput" />
+  <xs:complexType name="EarlySurrenderApprovalInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EarlySurrenderApprovalInput" nillable="true" type="tns:EarlySurrenderApprovalInput" />
+  <xs:complexType name="EarlySurrenderApprovalOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EarlySurrenderApprovalOutput" nillable="true" type="tns:EarlySurrenderApprovalOutput" />
+  <xs:complexType name="EarlySurrenderReversalInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EarlySurrenderReversalInput" nillable="true" type="tns:EarlySurrenderReversalInput" />
+  <xs:complexType name="EarlySurrenderReversalOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EarlySurrenderReversalOutput" nillable="true" type="tns:EarlySurrenderReversalOutput" />
+  <xs:complexType name="PayeeCodeCRTInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AMOUNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CONTRACTNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PAYEESEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="REQNTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SUBACTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPRSNCDE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeCRTInput" nillable="true" type="tns:PayeeCodeCRTInput" />
+  <xs:complexType name="PayeeCodeCRTOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeCRTOutput" nillable="true" type="tns:PayeeCodeCRTOutput" />
+  <xs:complexType name="PayeeCodeAPRInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PASSWD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PAYMENTNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeAPRInput" nillable="true" type="tns:PayeeCodeAPRInput" />
+  <xs:complexType name="PayeeCodeAPROutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeAPROutput" nillable="true" type="tns:PayeeCodeAPROutput" />
+  <xs:complexType name="PayeeCodeREVInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PAYMENTNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeREVInput" nillable="true" type="tns:PayeeCodeREVInput" />
+  <xs:complexType name="PayeeCodeREVOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeREVOutput" nillable="true" type="tns:PayeeCodeREVOutput" />
+  <xs:complexType name="PayeeCodeAUTInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHQDUP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PASSWD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PAYMENTNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZCRTDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZNEFTNO" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeAUTInput" nillable="true" type="tns:PayeeCodeAUTInput" />
+  <xs:complexType name="PayeeCodeAUTOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeAUTOutput" nillable="true" type="tns:PayeeCodeAUTOutput" />
+  <xs:complexType name="PayeeCodeRMVInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PAYMENTNUM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeRMVInput" nillable="true" type="tns:PayeeCodeRMVInput" />
+  <xs:complexType name="PayeeCodeRMVOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayeeCodeRMVOutput" nillable="true" type="tns:PayeeCodeRMVOutput" />
+  <xs:complexType name="PartialWithdrawalEnqInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartialWithdrawalEnqInput" nillable="true" type="tns:PartialWithdrawalEnqInput" />
+  <xs:complexType name="PartialWithdrawalEnqOutPut">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartialWithdrawalEnqOutPut" nillable="true" type="tns:PartialWithdrawalEnqOutPut" />
+  <xs:complexType name="PartialWithdrawalCRTInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRCNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOTALAMT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPOST3PM1" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartialWithdrawalCRTInput" nillable="true" type="tns:PartialWithdrawalCRTInput" />
+  <xs:complexType name="PartialWithdrawalCRTOutPut">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartialWithdrawalCRTOutPut" nillable="true" type="tns:PartialWithdrawalCRTOutPut" />
+  <xs:complexType name="SurrenderREVFCIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderREVFCIInput" nillable="true" type="tns:SurrenderREVFCIInput" />
+  <xs:complexType name="SurrenderREVFCIOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SurrenderREVFCIOutput" nillable="true" type="tns:SurrenderREVFCIOutput" />
+  <xs:complexType name="PTDBTDREVBILIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SUPFLAG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SUPPTO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TODATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PTDBTDREVBILIInput" nillable="true" type="tns:PTDBTDREVBILIInput" />
+  <xs:complexType name="PTDBTDREVBILIOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PTDBTDREVBILIOutput" nillable="true" type="tns:PTDBTDREVBILIOutput" />
+  <xs:complexType name="ReinstatementBFInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FREQUENCY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementBFInput" nillable="true" type="tns:ReinstatementBFInput" />
+  <xs:complexType name="ReinstatementBFOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementBFOutput" nillable="true" type="tns:ReinstatementBFOutput" />
+  <xs:complexType name="ReinstatementLPSREIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="XAMT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZWVRIFEE" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementLPSREIInput" nillable="true" type="tns:ReinstatementLPSREIInput" />
+  <xs:complexType name="ReinstatementLPSREIOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementLPSREIOOutput" nillable="true" type="tns:ReinstatementLPSREIOOutput" />
+  <xs:complexType name="ReinstatementPUPREIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FREQUENCY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="XAMT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZWVRIFEE01" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementPUPREIInput" nillable="true" type="tns:ReinstatementPUPREIInput" />
+  <xs:complexType name="ReinstatementPUPREIOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementPUPREIOOutput" nillable="true" type="tns:ReinstatementPUPREIOOutput" />
+  <xs:complexType name="ReinstatementACVREIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="XAMT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZWVRIFEE01" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementACVREIInput" nillable="true" type="tns:ReinstatementACVREIInput" />
+  <xs:complexType name="ReinstatementACVREIOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementACVREIOOutput" nillable="true" type="tns:ReinstatementACVREIOOutput" />
+  <xs:complexType name="ReinstatementPHRISSIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementPHRISSIInput" nillable="true" type="tns:ReinstatementPHRISSIInput" />
+  <xs:complexType name="ReinstatementPHRISSOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementPHRISSOOutput" nillable="true" type="tns:ReinstatementPHRISSOOutput" />
+  <xs:complexType name="ReinstatementPHRCRTIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="APIND" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CRTABLE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MANADJ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZINTFLG" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementPHRCRTIInput" nillable="true" type="tns:ReinstatementPHRCRTIInput" />
+  <xs:complexType name="ReinstatementPHRCRTOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementPHRCRTOOutput" nillable="true" type="tns:ReinstatementPHRCRTOOutput" />
+  <xs:complexType name="ReinstatementDSCREIIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementDSCREIIInput" nillable="true" type="tns:ReinstatementDSCREIIInput" />
+  <xs:complexType name="ReinstatementDSCREIOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementDSCREIOOutput" nillable="true" type="tns:ReinstatementDSCREIOOutput" />
+  <xs:complexType name="ReinstatementLPSRQOIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZSCHPRT" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementLPSRQOIInput" nillable="true" type="tns:ReinstatementLPSRQOIInput" />
+  <xs:complexType name="ReinstatementLPSRQOOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementLPSRQOOOutput" nillable="true" type="tns:ReinstatementLPSRQOOOutput" />
+  <xs:complexType name="ReinstatementZCEENQIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ACTION" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementZCEENQIInput" nillable="true" type="tns:ReinstatementZCEENQIInput" />
+  <xs:complexType name="ReinstatementZCEENQOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementZCEENQOOutput" nillable="true" type="tns:ReinstatementZCEENQOOutput" />
+  <xs:complexType name="ReinstatementLONENQIInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementLONENQIInput" nillable="true" type="tns:ReinstatementLONENQIInput" />
+  <xs:complexType name="ReinstatementLONENQOOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReinstatementLONENQOOutput" nillable="true" type="tns:ReinstatementLONENQOOutput" />
+  <xs:complexType name="MaturityPREMATInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPREMATInput" nillable="true" type="tns:MaturityPREMATInput" />
+  <xs:complexType name="MaturityPREMATOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityPREMATOutput" nillable="true" type="tns:MaturityPREMATOutput" />
+  <xs:complexType name="MaturityENQPREVSTInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityENQPREVSTInput" nillable="true" type="tns:MaturityENQPREVSTInput" />
+  <xs:complexType name="MaturityENQPREVSTOutput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaturityENQPREVSTOutput" nillable="true" type="tns:MaturityENQPREVSTOutput" />
+  <xs:complexType name="PartialWithdrawalNewCRTInput">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ACTVALUE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CHDRSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarrierCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DATIME" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EFFDATE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PERCREQD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRCNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOTALAMT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VIRTFUND" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZPOST3PM" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartialWithdrawalNewCRTInput" nillable="true" type="tns:PartialWithdrawalNewCRTInput" />
+  <xs:complexType name="PartialWithdrawalNewCRTOutPut">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResMsg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartialWithdrawalNewCRTOutPut" nillable="true" type="tns:PartialWithdrawalNewCRTOutPut" />
+</xs:schema>

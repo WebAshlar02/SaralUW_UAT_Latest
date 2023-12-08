@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:intf="http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws" targetNamespace="http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws">
+      <xsd:element name="startMedicaldataEntry">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="applicationNumber" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="startMedicaldataEntryResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="status" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="startMedicaldataEntryRequest">
+    <wsdl:part name="parameters" element="impl:startMedicaldataEntry" />
+  </wsdl:message>
+  <wsdl:message name="startMedicaldataEntryResponse">
+    <wsdl:part name="parameters" element="impl:startMedicaldataEntryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MedicalDataEntryInvokePortType">
+    <wsdl:operation name="startMedicaldataEntry">
+      <wsdl:input name="startMedicaldataEntryRequest" message="impl:startMedicaldataEntryRequest" />
+      <wsdl:output name="startMedicaldataEntryResponse" message="impl:startMedicaldataEntryResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MedicalDataEntryInvokeSoapSoapBinding" type="impl:MedicalDataEntryInvokePortType">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="startMedicaldataEntry">
+      <wsdlsoap:operation soapAction="http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws/startMedicaldataEntry" />
+      <wsdl:input name="startMedicaldataEntryRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="startMedicaldataEntryResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MedicalDataEntryInvoke">
+    <wsdl:port name="MedicalDataEntryInvokeSoap" binding="impl:MedicalDataEntryInvokeSoapSoapBinding">
+      <wsdl:documentation>
+SOAP Port   </wsdl:documentation>
+      <wsdlsoap:address location="http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

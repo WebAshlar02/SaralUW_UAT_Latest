@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="22f1ffa1-86b4-4a6f-a3d8-94f279bbd2d8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.ClientCreationBO/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="77f1bd72-5443-4b91-b5c6-90d15186a4a6" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.ClientCreationBO/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="7ccd9320-4fd3-4d68-8961-95c7f0e09461" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.ClientCreationBO/Service.svc?wsdl" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="1dd55b89-1980-46a4-8fd5-ea3259f95d40" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.ClientCreationBO/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="9daca3bc-6bb1-4616-9f44-e837f70a32fc" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.ClientCreationBO/Service.svc?disco" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="3341b376-c4a7-4f30-ba42-7265e691b2dc" SourceId="1" SourceUrl="http://mumhoiecomlfuat.fgi.ad/DEQC_Services/WS.ClientCreationBO/Service.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

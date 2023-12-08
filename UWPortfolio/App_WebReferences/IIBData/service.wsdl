@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="QueryUpload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileContent" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryUploadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryUploadResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SecuredWebServiceHeader" type="tns:SecuredWebServiceHeader" />
+      <s:complexType name="SecuredWebServiceHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthenticatedToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="QuantumQueryUpload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileContent" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuantumQueryUploadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QuantumQueryUploadResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQueryData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TransactionRefereceNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQueryDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetQueryDataResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DailyDataUpload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileContent" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DailyDataUploadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DailyDataUploadResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuantumDailyDataUpload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileContent" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuantumDailyDataUploadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QuantumDailyDataUploadResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="QueryUploadSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryUpload" />
+  </wsdl:message>
+  <wsdl:message name="QueryUploadSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryUploadSecuredWebServiceHeader">
+    <wsdl:part name="SecuredWebServiceHeader" element="tns:SecuredWebServiceHeader" />
+  </wsdl:message>
+  <wsdl:message name="QuantumQueryUploadSoapIn">
+    <wsdl:part name="parameters" element="tns:QuantumQueryUpload" />
+  </wsdl:message>
+  <wsdl:message name="QuantumQueryUploadSoapOut">
+    <wsdl:part name="parameters" element="tns:QuantumQueryUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuantumQueryUploadSecuredWebServiceHeader">
+    <wsdl:part name="SecuredWebServiceHeader" element="tns:SecuredWebServiceHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetQueryDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetQueryData" />
+  </wsdl:message>
+  <wsdl:message name="GetQueryDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetQueryDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQueryDataSecuredWebServiceHeader">
+    <wsdl:part name="SecuredWebServiceHeader" element="tns:SecuredWebServiceHeader" />
+  </wsdl:message>
+  <wsdl:message name="DailyDataUploadSoapIn">
+    <wsdl:part name="parameters" element="tns:DailyDataUpload" />
+  </wsdl:message>
+  <wsdl:message name="DailyDataUploadSoapOut">
+    <wsdl:part name="parameters" element="tns:DailyDataUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="DailyDataUploadSecuredWebServiceHeader">
+    <wsdl:part name="SecuredWebServiceHeader" element="tns:SecuredWebServiceHeader" />
+  </wsdl:message>
+  <wsdl:message name="QuantumDailyDataUploadSoapIn">
+    <wsdl:part name="parameters" element="tns:QuantumDailyDataUpload" />
+  </wsdl:message>
+  <wsdl:message name="QuantumDailyDataUploadSoapOut">
+    <wsdl:part name="parameters" element="tns:QuantumDailyDataUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuantumDailyDataUploadSecuredWebServiceHeader">
+    <wsdl:part name="SecuredWebServiceHeader" element="tns:SecuredWebServiceHeader" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="QueryUpload">
+      <wsdl:input message="tns:QueryUploadSoapIn" />
+      <wsdl:output message="tns:QueryUploadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuantumQueryUpload">
+      <wsdl:input message="tns:QuantumQueryUploadSoapIn" />
+      <wsdl:output message="tns:QuantumQueryUploadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQueryData">
+      <wsdl:input message="tns:GetQueryDataSoapIn" />
+      <wsdl:output message="tns:GetQueryDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DailyDataUpload">
+      <wsdl:input message="tns:DailyDataUploadSoapIn" />
+      <wsdl:output message="tns:DailyDataUploadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuantumDailyDataUpload">
+      <wsdl:input message="tns:QuantumDailyDataUploadSoapIn" />
+      <wsdl:output message="tns:QuantumDailyDataUploadSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryUpload">
+      <soap:operation soapAction="http://tempuri.org/QueryUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:QueryUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuantumQueryUpload">
+      <soap:operation soapAction="http://tempuri.org/QuantumQueryUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:QuantumQueryUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQueryData">
+      <soap:operation soapAction="http://tempuri.org/GetQueryData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetQueryDataSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DailyDataUpload">
+      <soap:operation soapAction="http://tempuri.org/DailyDataUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DailyDataUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuantumDailyDataUpload">
+      <soap:operation soapAction="http://tempuri.org/QuantumDailyDataUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:QuantumDailyDataUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryUpload">
+      <soap12:operation soapAction="http://tempuri.org/QueryUpload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:QueryUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuantumQueryUpload">
+      <soap12:operation soapAction="http://tempuri.org/QuantumQueryUpload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:QuantumQueryUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQueryData">
+      <soap12:operation soapAction="http://tempuri.org/GetQueryData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetQueryDataSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DailyDataUpload">
+      <soap12:operation soapAction="http://tempuri.org/DailyDataUpload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DailyDataUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuantumDailyDataUpload">
+      <soap12:operation soapAction="http://tempuri.org/QuantumDailyDataUpload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:QuantumDailyDataUploadSecuredWebServiceHeader" part="SecuredWebServiceHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="https://quest.iib.gov.in/QuestSVC/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="https://quest.iib.gov.in/QuestSVC/service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

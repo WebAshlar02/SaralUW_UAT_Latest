@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="eKYCService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpsBinding_IeKYCService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Demographic">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RequestSource" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="requesttype" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Uid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DemographicResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DemographicResult" nillable="true">
+              <xs:complexType>
+                <xs:annotation>
+                  <xs:appinfo>
+                    <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:sequence>
+                  <xs:element ref="xs:schema" />
+                  <xs:any />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="OTPValidation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RequestSource" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="requesttype" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Uid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="OTP" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="txn" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="OTPValidationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="OTPValidationResult" nillable="true">
+              <xs:complexType>
+                <xs:annotation>
+                  <xs:appinfo>
+                    <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:sequence>
+                  <xs:element ref="xs:schema" />
+                  <xs:any />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GenerateOTP">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RequestSource" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Uid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GenerateOTPResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="GenerateOTPResult" nillable="true">
+              <xs:complexType>
+                <xs:annotation>
+                  <xs:appinfo>
+                    <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:sequence>
+                  <xs:element ref="xs:schema" />
+                  <xs:any />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Biometric">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RequestSource" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Uid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="BiometricBytes" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="fingerdetails" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="BiometricResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="BiometricResult" nillable="true">
+              <xs:complexType>
+                <xs:annotation>
+                  <xs:appinfo>
+                    <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:sequence>
+                  <xs:element ref="xs:schema" />
+                  <xs:any />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="BioMobile">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RequestSource" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Uid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="PIDData" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Hmac" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Skey" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="biotypes" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="residentconsent" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dpId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="rdsId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="rdsVer" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="mi" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="mc" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="BioMobileResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="BioMobileResult" nillable="true">
+              <xs:complexType>
+                <xs:annotation>
+                  <xs:appinfo>
+                    <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:sequence>
+                  <xs:element ref="xs:schema" />
+                  <xs:any />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="anyType" nillable="true" type="xs:anyType" />
+      <xs:element name="anyURI" nillable="true" type="xs:anyURI" />
+      <xs:element name="base64Binary" nillable="true" type="xs:base64Binary" />
+      <xs:element name="boolean" nillable="true" type="xs:boolean" />
+      <xs:element name="byte" nillable="true" type="xs:byte" />
+      <xs:element name="dateTime" nillable="true" type="xs:dateTime" />
+      <xs:element name="decimal" nillable="true" type="xs:decimal" />
+      <xs:element name="double" nillable="true" type="xs:double" />
+      <xs:element name="float" nillable="true" type="xs:float" />
+      <xs:element name="int" nillable="true" type="xs:int" />
+      <xs:element name="long" nillable="true" type="xs:long" />
+      <xs:element name="QName" nillable="true" type="xs:QName" />
+      <xs:element name="short" nillable="true" type="xs:short" />
+      <xs:element name="string" nillable="true" type="xs:string" />
+      <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte" />
+      <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt" />
+      <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong" />
+      <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort" />
+      <xs:element name="char" nillable="true" type="tns:char" />
+      <xs:simpleType name="char">
+        <xs:restriction base="xs:int" />
+      </xs:simpleType>
+      <xs:element name="duration" nillable="true" type="tns:duration" />
+      <xs:simpleType name="duration">
+        <xs:restriction base="xs:duration">
+          <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?" />
+          <xs:minInclusive value="-P10675199DT2H48M5.4775808S" />
+          <xs:maxInclusive value="P10675199DT2H48M5.4775807S" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="guid" nillable="true" type="tns:guid" />
+      <xs:simpleType name="guid">
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:attribute name="FactoryType" type="xs:QName" />
+      <xs:attribute name="Id" type="xs:ID" />
+      <xs:attribute name="Ref" type="xs:IDREF" />
+    </xs:schema>
+    <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="DataSet" nillable="true">
+        <xs:complexType>
+          <xs:annotation>
+            <xs:appinfo>
+              <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+          <xs:sequence>
+            <xs:element ref="xs:schema" />
+            <xs:any />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="IeKYCService_Demographic_InputMessage">
+    <wsdl:part name="parameters" element="tns:Demographic" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_Demographic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DemographicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_OTPValidation_InputMessage">
+    <wsdl:part name="parameters" element="tns:OTPValidation" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_OTPValidation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OTPValidationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_GenerateOTP_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateOTP" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_GenerateOTP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateOTPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_Biometric_InputMessage">
+    <wsdl:part name="parameters" element="tns:Biometric" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_Biometric_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BiometricResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_BioMobile_InputMessage">
+    <wsdl:part name="parameters" element="tns:BioMobile" />
+  </wsdl:message>
+  <wsdl:message name="IeKYCService_BioMobile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BioMobileResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IeKYCService">
+    <wsdl:operation name="Demographic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeKYCService/Demographic" message="tns:IeKYCService_Demographic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeKYCService/DemographicResponse" message="tns:IeKYCService_Demographic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OTPValidation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeKYCService/OTPValidation" message="tns:IeKYCService_OTPValidation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeKYCService/OTPValidationResponse" message="tns:IeKYCService_OTPValidation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateOTP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeKYCService/GenerateOTP" message="tns:IeKYCService_GenerateOTP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeKYCService/GenerateOTPResponse" message="tns:IeKYCService_GenerateOTP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Biometric">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeKYCService/Biometric" message="tns:IeKYCService_Biometric_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeKYCService/BiometricResponse" message="tns:IeKYCService_Biometric_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BioMobile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeKYCService/BioMobile" message="tns:IeKYCService_BioMobile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeKYCService/BioMobileResponse" message="tns:IeKYCService_BioMobile_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IeKYCService" type="tns:IeKYCService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Demographic">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/Demographic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OTPValidation">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/OTPValidation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateOTP">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/GenerateOTP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Biometric">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/Biometric" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BioMobile">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/BioMobile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpsBinding_IeKYCService" type="tns:IeKYCService">
+    <wsp:PolicyReference URI="#BasicHttpsBinding_IeKYCService_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Demographic">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/Demographic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OTPValidation">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/OTPValidation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateOTP">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/GenerateOTP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Biometric">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/Biometric" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BioMobile">
+      <soap:operation soapAction="http://tempuri.org/IeKYCService/BioMobile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="eKYCService">
+    <wsdl:port name="BasicHttpBinding_IeKYCService" binding="tns:BasicHttpBinding_IeKYCService">
+      <soap:address location="http://mumhoiekyc01/FG.LF.WS.EKYCService.V2/eKYCService.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpsBinding_IeKYCService" binding="tns:BasicHttpsBinding_IeKYCService">
+      <soap:address location="https://ekyc.futuregenerali.in/FG.LF.WS.EKYCService.V2/eKYCService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

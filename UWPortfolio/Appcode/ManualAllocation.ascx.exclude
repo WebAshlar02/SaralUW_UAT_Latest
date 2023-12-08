@@ -1,0 +1,163 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ManualAllocation.ascx.cs" Inherits="UserControl_ManualAllocation" %>
+<asp:Panel class="box box-health-question box-warning box-solid " runat="server" ID="Panel1">
+    <script>
+        /*manage applicationNo */
+        function fnManageCheckedApplicationNo(req) {
+            debugger;
+            if ($(req).is(':checked')) {
+                if ($('#<%=hdnManageApplicationNo.ClientID%>').val().indexOf("|" + $(req).parent().parent().find('.applicationno').html() + "|") == -1) {
+                    $('#<%=hdnManageApplicationNo.ClientID%>').val($('#<%=hdnManageApplicationNo.ClientID%>').val() + $(req).parent().parent().find('.applicationno').html() + "|");
+                }
+            }
+            else {
+                $('#<%=hdnManageApplicationNo.ClientID%>').val($('#<%=hdnManageApplicationNo.ClientID%>').val().replace($(req).parent().parent().find('.applicationno').html() + "|", ""));
+            }
+        }
+
+        function fnManageCheckedElegibleUser(req) {
+            debugger;
+            if ($(req).is(':checked')) {
+                if ($('#<%=hdnManageElegibleUser.ClientID%>').val().indexOf("|" + $(req).parent().parent().find('.userid').html() + "|") == -1) {
+                    $('#<%=hdnManageElegibleUser.ClientID%>').val($('#<%=hdnManageElegibleUser.ClientID%>').val() + $(req).parent().parent().find('.userid').html() + "|");
+                }
+            }
+            else {
+                $('#<%=hdnManageElegibleUser.ClientID%>').val($('#<%=hdnManageElegibleUser.ClientID%>').val().replace($(req).parent().parent().find('.userid').html() + "|", ""));
+            }
+        }
+        function fnHideShowManualAllocationControl(req)
+        {
+            debugger;   
+            if ($(req).val() == '1' || $(req).val() == '2' || $(req).val() == '3')
+            {
+                $('#<%=txtAssignedTo.ClientID%>').parent().parent().show();
+            }
+            else if ($(req).val()=='4') {
+                $('#<%=txtAssignedTo.ClientID%>').parent().parent().hide();
+            }
+        }
+        /*end here*/
+    </script>
+    <div class="box-header with-border">
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <h3 class="box-title">Manual Allocation</h3>
+            </div>
+            <div class="col-md-3">
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse" onclick="fnCollapsedBox(this);">
+                        <i class="fa fa-minus"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.box-header -->
+
+    <div class="box-body" id="Section2" runat="server" ondblclick="fnCollapsedBox(this);">
+        <div class="row">
+        </div>
+        <div class="form-group">
+            <div class="col-md-12">
+                <asp:Label runat="server" ID="lblManualAllocationMsg"></asp:Label>
+                </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <asp:RadioButton runat="server" ID="rdoOnline" Text="Online" GroupName="channel" Checked="true" />
+                    <asp:RadioButton runat="server" ID="rdoOffline" Text="Offline" GroupName="channel" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Assigned By</label>
+                    <%--<asp:TextBox runat="server" ID="txtAssignedBy" class="form-control"></asp:TextBox>--%>
+                    <asp:DropDownList runat="server" ID="ddlAssignBy" CssClass="form-control" onchange="fnHideShowManualAllocationControl(this);">
+                        <asp:ListItem Text="Sum Assured" Value="1"></asp:ListItem>
+                        <asp:ListItem Text="Premium" Value="2"></asp:ListItem>
+                        <asp:ListItem Text="Aging" Value="3"></asp:ListItem>
+                        <asp:ListItem Text="User" Value="4"></asp:ListItem>
+                    </asp:DropDownList>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Assigned From</label>
+                    <asp:TextBox runat="server" ID="txtAssignedFrom" class="form-control"></asp:TextBox>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Assigned To</label>
+                    <asp:TextBox runat="server" ID="txtAssignedTo" class="form-control"></asp:TextBox>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        &nbsp;
+                    </div>
+                    <div class="col-md-12">
+                        <asp:Button runat="server" ID="btnFetch" Text="Submit" CssClass="btn-primary" OnClick="btnFetch_Click" />
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="col-md-12">
+                <asp:DataGrid runat="server" ID="dgApplicationNo" AutoGenerateColumns="false" AllowPaging="true" PageSize="10">
+                    <Columns>
+                        <asp:TemplateColumn>
+                            <HeaderTemplate>
+                                Select
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <input type="checkbox" onchange="fnManageCheckedApplicationNo(this);" />
+                            </ItemTemplate>
+                        </asp:TemplateColumn>
+                        <asp:BoundColumn HeaderText="Application Number" ItemStyle-CssClass="applicationno" DataField="ApplicationNo"></asp:BoundColumn>
+                        <asp:BoundColumn HeaderText="Policy Number" DataField="PolicyNumber"></asp:BoundColumn>
+                        <asp:BoundColumn HeaderText="Sum Assured" DataField="SumAssured"></asp:BoundColumn>
+                    </Columns>
+                </asp:DataGrid>
+                <asp:DataGrid runat="server" ID="dgUserWithinLimit" AutoGenerateColumns="false">
+                    <Columns>
+                        <asp:TemplateColumn>
+                            <HeaderTemplate>
+                                Select
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <input type="checkbox" onchange="fnManageCheckedElegibleUser(this);" />
+                            </ItemTemplate>
+                        </asp:TemplateColumn>
+                        <asp:BoundColumn HeaderText="User Id" ItemStyle-CssClass="userid" DataField="UserId"></asp:BoundColumn>
+                        <asp:BoundColumn HeaderText="User Name" DataField="UserName"></asp:BoundColumn>
+                        <asp:BoundColumn HeaderText="Total" DataField="TotalCases"></asp:BoundColumn>
+                    </Columns>
+                </asp:DataGrid>
+                <asp:DataGrid runat="server" ID="dgUserNotInLimit" AutoGenerateColumns="false">
+                    <Columns>
+                        <asp:TemplateColumn>
+                            <HeaderTemplate>
+                                Select
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <input type="checkbox" onchange="fnManageCheckedElegibleUser(this);" />
+                            </ItemTemplate>
+                        </asp:TemplateColumn>
+                        <asp:BoundColumn HeaderText="User Id" ItemStyle-CssClass="userid" DataField="UserId"></asp:BoundColumn>
+                        <asp:BoundColumn HeaderText="User Name" DataField="UserName"></asp:BoundColumn>
+                        <asp:BoundColumn HeaderText="Total" DataField="TotalCases"></asp:BoundColumn>
+                    </Columns>
+                </asp:DataGrid>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <asp:Button runat="server" ID="btnUpdateData" CssClass="btn-primary" Text="Save" OnClick="btnUpdateData_Click"></asp:Button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <asp:TextBox runat="server" CssClass="HideControl" ID="hdnManageApplicationNo" Text="|"></asp:TextBox>
+    <asp:TextBox runat="server" CssClass="HideControl" ID="hdnManageElegibleUser" Text="|"></asp:TextBox>
+</asp:Panel>

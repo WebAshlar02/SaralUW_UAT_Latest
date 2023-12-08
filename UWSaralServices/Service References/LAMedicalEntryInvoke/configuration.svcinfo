@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;MedicalDataEntryInvokeSoapSoapBinding1&quot; /&gt;" bindingType="basicHttpBinding" name="MedicalDataEntryInvokeSoapSoapBinding1" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;MedicalDataEntryInvokeSoapSoapBinding1&quot; contract=&quot;LAMedicalEntryInvoke.MedicalDataEntryInvokePortType&quot; name=&quot;MedicalDataEntryInvokeSoap1&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://MUMHOIBPMDEV01.FGI.AD:9080/teamworks/webservices/FGLIFE/MedicalDataEntryInvoke.tws&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;MedicalDataEntryInvokeSoapSoapBinding1&quot; contract=&quot;LAMedicalEntryInvoke.MedicalDataEntryInvokePortType&quot; name=&quot;MedicalDataEntryInvokeSoap1&quot; /&gt;" contractName="LAMedicalEntryInvoke.MedicalDataEntryInvokePortType" name="MedicalDataEntryInvokeSoap1" />
+  </endpoints>
+</configurationSnapshot>

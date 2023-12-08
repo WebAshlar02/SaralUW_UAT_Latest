@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="957d73d0-36d3-4fb0-966b-b65b7ae9fd43" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.9.41.90/LifePCBRValidator/LifePremiumCalculator.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LifePremiumCalculator.wsdl" MetadataType="Wsdl" ID="9d067286-60a5-4824-ae02-50a9f4c73dfe" SourceId="1" SourceUrl="http://10.9.41.90/LifePCBRValidator/LifePremiumCalculator.svc?wsdl" />
+    <MetadataFile FileName="LifePremiumCalculator.xsd" MetadataType="Schema" ID="ea018eea-3778-44bb-b2df-c12298c9af19" SourceId="1" SourceUrl="http://10.9.41.90/LifePCBRValidator/LifePremiumCalculator.svc?xsd=xsd0" />
+    <MetadataFile FileName="LifePremiumCalculator1.xsd" MetadataType="Schema" ID="18db45f7-5a6c-43bc-9629-ec4e85a80651" SourceId="1" SourceUrl="http://10.9.41.90/LifePCBRValidator/LifePremiumCalculator.svc?xsd=xsd1" />
+    <MetadataFile FileName="LifePremiumCalculator2.xsd" MetadataType="Schema" ID="11a27a93-f4df-480e-b985-ee6f54394354" SourceId="1" SourceUrl="http://10.9.41.90/LifePCBRValidator/LifePremiumCalculator.svc?xsd=xsd2" />
+    <MetadataFile FileName="LifePremiumCalculator3.xsd" MetadataType="Schema" ID="2fbcbe06-3ab3-4219-8ab6-ca6c6b51d61a" SourceId="1" SourceUrl="http://10.9.41.90/LifePCBRValidator/LifePremiumCalculator.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

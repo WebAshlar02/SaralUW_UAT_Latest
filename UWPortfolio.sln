@@ -1,0 +1,177 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UWPortfolio", "UWPortfolio", "{4DC3ED54-5488-43FF-8F57-DDA2C82E143C}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.1"
+		ProjectReferences = "{d6263770-eb54-4e74-b3d4-4e2ceae3449c}|UWSaralDecision.dll;{0074bf97-94a0-47c4-a0fd-3b17ee34e26a}|UWSaralObjects.dll;{794a165d-c15c-43b3-ac05-1432736dde64}|TPASTATUSCODE.dll;{03F76CA8-2682-4D46-8D40-4F0CAA2C5DC4}|UWSaralServices.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_32174"
+		Debug.AspNetCompiler.PhysicalPath = "UWPortfolio\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32174\"
+		Debug.AspNetCompiler.Updateable = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_32174"
+		Release.AspNetCompiler.PhysicalPath = "UWPortfolio\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32174\"
+		Release.AspNetCompiler.Updateable = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5574"
+		SlnRelativePath = "UWPortfolio\"
+		DefaultWebSiteLanguage = "Visual C#"
+		StartServerOnDebug = "false"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWSaralServices", "UWSaralServices\UWSaralServices.csproj", "{03F76CA8-2682-4D46-8D40-4F0CAA2C5DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWSaralDecision", "UWSaralDecision\UWSaralDecision.csproj", "{D6263770-EB54-4E74-B3D4-4E2CEAE3449C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWSaralObjects", "UWSaralObjects\UWSaralObjects.csproj", "{0074BF97-94A0-47C4-A0FD-3B17EE34E26A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWSaralSchedulerTPA", "UWSaralSchedulerTPA\UWSaralSchedulerTPA.csproj", "{B8DC7601-0F90-4CC1-A74E-586B277875ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPAMEDICALINTEGRATIONSYNC", "TPAMedicalIntegrationSync\TPAMEDICALINTEGRATIONSYNC\TPAMEDICALINTEGRATIONSYNC.csproj", "{636A2922-F194-4A78-8E12-190F4F823959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPASTATUSCODE", "TPAStatusCode\TPASTATUSCODE\TPASTATUSCODE.csproj", "{794A165D-C15C-43B3-AC05-1432736DDE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWSaralTestProject", "UWSaralTestProject\UWSaralTestProject.csproj", "{AEA138C2-5266-4F8F-B495-C9F92CD7C51F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Risk", "Risk", "{5CD9AD76-B448-461C-B141-B57CD5AE349B}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.1"
+		Debug.AspNetCompiler.VirtualPath = "/Risk"
+		Debug.AspNetCompiler.PhysicalPath = "Risk\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Risk\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Risk"
+		Release.AspNetCompiler.PhysicalPath = "Risk\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Risk\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "46440"
+		SlnRelativePath = "Risk\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UW_DCCode_Calculation", "UW_DCCode_Calculation\UW_DCCode_Calculation.csproj", "{BC09DD83-5807-45E6-97F9-3C9F9751A5D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWGuidlines_API", "UWGuidlines_API\UWGuidlines_API.csproj", "{E668B044-294D-4EC9-A2A2-74D1402B6842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DC3ED54-5488-43FF-8F57-DDA2C82E143C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC3ED54-5488-43FF-8F57-DDA2C82E143C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC3ED54-5488-43FF-8F57-DDA2C82E143C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC3ED54-5488-43FF-8F57-DDA2C82E143C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{03F76CA8-2682-4D46-8D40-4F0CAA2C5DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F76CA8-2682-4D46-8D40-4F0CAA2C5DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F76CA8-2682-4D46-8D40-4F0CAA2C5DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F76CA8-2682-4D46-8D40-4F0CAA2C5DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6263770-EB54-4E74-B3D4-4E2CEAE3449C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6263770-EB54-4E74-B3D4-4E2CEAE3449C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6263770-EB54-4E74-B3D4-4E2CEAE3449C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6263770-EB54-4E74-B3D4-4E2CEAE3449C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0074BF97-94A0-47C4-A0FD-3B17EE34E26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0074BF97-94A0-47C4-A0FD-3B17EE34E26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0074BF97-94A0-47C4-A0FD-3B17EE34E26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0074BF97-94A0-47C4-A0FD-3B17EE34E26A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DC7601-0F90-4CC1-A74E-586B277875ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DC7601-0F90-4CC1-A74E-586B277875ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DC7601-0F90-4CC1-A74E-586B277875ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DC7601-0F90-4CC1-A74E-586B277875ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636A2922-F194-4A78-8E12-190F4F823959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636A2922-F194-4A78-8E12-190F4F823959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636A2922-F194-4A78-8E12-190F4F823959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636A2922-F194-4A78-8E12-190F4F823959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794A165D-C15C-43B3-AC05-1432736DDE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794A165D-C15C-43B3-AC05-1432736DDE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794A165D-C15C-43B3-AC05-1432736DDE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794A165D-C15C-43B3-AC05-1432736DDE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA138C2-5266-4F8F-B495-C9F92CD7C51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA138C2-5266-4F8F-B495-C9F92CD7C51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA138C2-5266-4F8F-B495-C9F92CD7C51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA138C2-5266-4F8F-B495-C9F92CD7C51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD9AD76-B448-461C-B141-B57CD5AE349B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD9AD76-B448-461C-B141-B57CD5AE349B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD9AD76-B448-461C-B141-B57CD5AE349B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD9AD76-B448-461C-B141-B57CD5AE349B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BC09DD83-5807-45E6-97F9-3C9F9751A5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC09DD83-5807-45E6-97F9-3C9F9751A5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC09DD83-5807-45E6-97F9-3C9F9751A5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC09DD83-5807-45E6-97F9-3C9F9751A5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E668B044-294D-4EC9-A2A2-74D1402B6842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E668B044-294D-4EC9-A2A2-74D1402B6842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E668B044-294D-4EC9-A2A2-74D1402B6842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E668B044-294D-4EC9-A2A2-74D1402B6842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E029639F-8F3A-4578-AF33-029B0B2637DB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mumhoitfsprd02:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UWSaralSchedulerTPA\\UWSaralSchedulerTPA.csproj
+		SccProjectName1 = UWSaralSchedulerTPA
+		SccLocalPath1 = UWSaralSchedulerTPA
+		SccProjectUniqueName2 = UWSaralServices\\UWSaralServices.csproj
+		SccProjectName2 = UWSaralServices
+		SccLocalPath2 = UWSaralServices
+		SccProjectUniqueName3 = UWSaralDecision\\UWSaralDecision.csproj
+		SccProjectName3 = UWSaralDecision
+		SccLocalPath3 = UWSaralDecision
+		SccProjectUniqueName4 = UWSaralTestProject\\UWSaralTestProject.csproj
+		SccProjectName4 = UWSaralTestProject
+		SccLocalPath4 = UWSaralTestProject
+		SccProjectUniqueName5 = UWSaralObjects\\UWSaralObjects.csproj
+		SccProjectName5 = UWSaralObjects
+		SccLocalPath5 = UWSaralObjects
+		SccWebProject6 = true
+		SccProjectUniqueName6 = Risk
+		SccProjectName6 = Risk
+		SccLocalPath6 = Risk
+		SccProjectEnlistmentChoice6 = 2
+		SccProjectUniqueName7 = TPAMedicalIntegrationSync\\TPAMEDICALINTEGRATIONSYNC\\TPAMEDICALINTEGRATIONSYNC.csproj
+		SccProjectName7 = TPAMedicalIntegrationSync/TPAMEDICALINTEGRATIONSYNC
+		SccLocalPath7 = TPAMedicalIntegrationSync\\TPAMEDICALINTEGRATIONSYNC
+		SccProjectUniqueName8 = TPAStatusCode\\TPASTATUSCODE\\TPASTATUSCODE.csproj
+		SccProjectName8 = TPAStatusCode/TPASTATUSCODE
+		SccLocalPath8 = TPAStatusCode\\TPASTATUSCODE
+		SccProjectUniqueName9 = UW_DCCode_Calculation\\UW_DCCode_Calculation.csproj
+		SccProjectName9 = UW_DCCode_Calculation
+		SccLocalPath9 = UW_DCCode_Calculation
+		SccProjectUniqueName10 = UWGuidlines_API\\UWGuidlines_API.csproj
+		SccProjectName10 = UWGuidlines_API
+		SccLocalPath10 = UWGuidlines_API
+		SccWebProject11 = true
+		SccProjectUniqueName11 = UWPortfolio
+		SccProjectName11 = UWPortfolio
+		SccLocalPath11 = UWPortfolio
+		SccProjectEnlistmentChoice11 = 2
+	EndGlobalSection
+EndGlobal

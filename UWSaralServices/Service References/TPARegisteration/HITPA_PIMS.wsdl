@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="HITPA_PIMS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://software.healthindiatpa.com/PIMS_API/HITPA_PIMS.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://software.healthindiatpa.com/PIMS_API/HITPA_PIMS.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://software.healthindiatpa.com/PIMS_API/HITPA_PIMS.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/HITPACaseRegistration" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IHITPA_PIMS_RegisterNewCase_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterNewCase" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_RegisterNewCase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterNewCaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_RegisterCase_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCase" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_RegisterCase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_RegisterCase_TATA_AIA_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCase_TATA_AIA" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_RegisterCase_TATA_AIA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCase_TATA_AIAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_GetDCList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDCList" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_GetDCList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDCListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_UpdatePreference_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePreference" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_UpdatePreference_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePreferenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_StatusUpdateFromBajaj_InputMessage">
+    <wsdl:part name="parameters" element="tns:StatusUpdateFromBajaj" />
+  </wsdl:message>
+  <wsdl:message name="IHITPA_PIMS_StatusUpdateFromBajaj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StatusUpdateFromBajajResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IHITPA_PIMS">
+    <wsdl:operation name="RegisterNewCase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHITPA_PIMS/RegisterNewCase" message="tns:IHITPA_PIMS_RegisterNewCase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHITPA_PIMS/RegisterNewCaseResponse" message="tns:IHITPA_PIMS_RegisterNewCase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHITPA_PIMS/RegisterCase" message="tns:IHITPA_PIMS_RegisterCase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHITPA_PIMS/RegisterCaseResponse" message="tns:IHITPA_PIMS_RegisterCase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCase_TATA_AIA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHITPA_PIMS/RegisterCase_TATA_AIA" message="tns:IHITPA_PIMS_RegisterCase_TATA_AIA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHITPA_PIMS/RegisterCase_TATA_AIAResponse" message="tns:IHITPA_PIMS_RegisterCase_TATA_AIA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDCList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHITPA_PIMS/GetDCList" message="tns:IHITPA_PIMS_GetDCList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHITPA_PIMS/GetDCListResponse" message="tns:IHITPA_PIMS_GetDCList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePreference">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHITPA_PIMS/UpdatePreference" message="tns:IHITPA_PIMS_UpdatePreference_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHITPA_PIMS/UpdatePreferenceResponse" message="tns:IHITPA_PIMS_UpdatePreference_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StatusUpdateFromBajaj">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHITPA_PIMS/StatusUpdateFromBajaj" message="tns:IHITPA_PIMS_StatusUpdateFromBajaj_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHITPA_PIMS/StatusUpdateFromBajajResponse" message="tns:IHITPA_PIMS_StatusUpdateFromBajaj_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebHttpBinding_IHITPA_PIMS" type="tns:IHITPA_PIMS">
+    <wsdl:operation name="RegisterNewCase">
+      <wsdl:input />
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCase">
+      <wsdl:input />
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCase_TATA_AIA">
+      <wsdl:input />
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="GetDCList">
+      <wsdl:input />
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePreference">
+      <wsdl:input />
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="StatusUpdateFromBajaj">
+      <wsdl:input />
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SOAPEndPoint" type="tns:IHITPA_PIMS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegisterNewCase">
+      <soap:operation soapAction="http://tempuri.org/IHITPA_PIMS/RegisterNewCase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCase">
+      <soap:operation soapAction="http://tempuri.org/IHITPA_PIMS/RegisterCase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCase_TATA_AIA">
+      <soap:operation soapAction="http://tempuri.org/IHITPA_PIMS/RegisterCase_TATA_AIA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDCList">
+      <soap:operation soapAction="http://tempuri.org/IHITPA_PIMS/GetDCList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePreference">
+      <soap:operation soapAction="http://tempuri.org/IHITPA_PIMS/UpdatePreference" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StatusUpdateFromBajaj">
+      <soap:operation soapAction="http://tempuri.org/IHITPA_PIMS/StatusUpdateFromBajaj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HITPA_PIMS">
+    <wsdl:port name="WebHttpBinding_IHITPA_PIMS" binding="tns:WebHttpBinding_IHITPA_PIMS" />
+    <wsdl:port name="SOAPEndPoint" binding="tns:SOAPEndPoint">
+      <soap:address location="http://software.healthindiatpa.com/PIMS_API/HITPA_PIMS.svc/soap" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

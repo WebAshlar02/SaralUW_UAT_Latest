@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="MasterCorporateClient">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ADDRDESC01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ADDRDESC02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ADDRDESC03" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ADDRDESC04" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ADDRDESC05" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterCorporateClient" nillable="true" type="tns:MasterCorporateClient" />
+  <xs:complexType name="MasterPersonalClient">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CLTDOBX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterPersonalClient" nillable="true" type="tns:MasterPersonalClient" />
+  <xs:complexType name="MasterClientBankAccCreate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BANKACOUNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BANKKEY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BNKACTYP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLNTSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterClientBankAccCreate" nillable="true" type="tns:MasterClientBankAccCreate" />
+  <xs:complexType name="MasterClientBankAccEnquiry">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BANKACCDSC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BANKACOUNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BANKKEY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BNKACTYP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CURRCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DATEFROM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DATTO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FACTHOUS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SCTYCDE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterClientBankAccEnquiry" nillable="true" type="tns:MasterClientBankAccEnquiry" />
+  <xs:complexType name="MasterClientBankAccUpdate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BANKACOUNT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BANKKEY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BNKACTYP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLNTSEL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERRORCODE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VALUES" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MasterClientBankAccUpdate" nillable="true" type="tns:MasterClientBankAccUpdate" />
+</xs:schema>

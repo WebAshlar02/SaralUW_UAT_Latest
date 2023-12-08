@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mumhoibrnchlf02.fgi.ad/LifeAsiaServices/LA_AMLCreationUpdation/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:element name="AMLCRT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CLTTWO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ADDRPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLNTRSKIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IDPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IDPRFDT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IDPRFNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INCPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISSUEAUTH" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZAGEPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFOTOIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFOTOPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZPANIDNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFORM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZPANCOPY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AMLCRTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="AMLCRTResult" nillable="true" type="q1:MasterClient" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AMLUPD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CLTTWO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ADDRPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLNTRSKIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IDPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IDPRFDT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IDPRFNUM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="INCPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISSUEAUTH" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REASONCD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZAGEPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFOTOIND" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFOTOPRF" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZPANIDNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZFORM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZPANCOPY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branch" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PartnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProcessID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApplicationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AMLUPDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="AMLUPDResult" nillable="true" type="q2:MasterClient" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

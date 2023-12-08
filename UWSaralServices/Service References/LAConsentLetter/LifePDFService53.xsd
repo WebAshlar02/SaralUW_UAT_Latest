@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://10.9.41.154:82/LifePDFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PDFEntityLayer" />
+  <xs:element name="Life_ScrutinyFailIntmtnReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ScrutinyFailIntmtn" nillable="true" type="q1:Life_ScrutinyFailIntmtnReport" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ScrutinyFailIntmtnReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_ScrutinyFailIntmtnReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_AutoGenAppNoReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="AutoGenAppNo" nillable="true" type="q2:Life_AutoGenAppNo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_AutoGenAppNoReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_AutoGenAppNoReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_PaymentAckReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="PaymentAck" nillable="true" type="q3:Life_PaymentAck" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="RenewalData" nillable="true" type="q4:Life_PremuimPaymentAckRpt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_PaymentAckReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_PaymentAckReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_FundTrnAckReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="FundTranfAck" nillable="true" type="q5:Life_FundTrnAckReport" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_FundTrnAckReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_FundTrnAckReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_NewBusinessApplicationReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="NewBusinessApplication" nillable="true" type="q6:Life_NewBusinessApplicationReport" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_NewBusinessApplicationReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_NewBusinessApplicationReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ChequeBounceReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ChequeBounce" nillable="true" type="q7:Life_ChequeBounce" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ChequeBounceReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_ChequeBounceReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_GetDepositSlip">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ObjCash" nillable="true" type="q8:Life_DepSlp_Cash" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ObjLocalChequeDetails" nillable="true" type="q9:Life_DepSlp_Cheque" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ObjHomeChequeDetails" nillable="true" type="q10:Life_DepSlp_Cheque" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ObjOutstationChequeDetails" nillable="true" type="q11:Life_DepSlp_Cheque" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ObjDemandDraftDetails" nillable="true" type="q12:Life_DepSlp_Cheque" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ObjHomeDmdDrftDet" nillable="true" type="q13:Life_DepSlp_Cheque" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="ObjOutstnDmdDrftDet" nillable="true" type="q14:Life_DepSlp_Cheque" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_GetDepositSlipResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_GetDepositSlipResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_EODStatmentReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objEOD" nillable="true" type="q15:Life_EODStatement" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_EODStatmentReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_EODStatmentReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWDecline">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objDeclineIntimation" nillable="true" type="q16:Life_UWDeclineIntimation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWDeclineResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_UWDeclineResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWPostponeIntimation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objPostponeIntimation" nillable="true" type="q17:Life_UWPostponeIntimation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWPostponeIntimationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_UWPostponeIntimationResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWReminderLetter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objReqReminderNonMedical" nillable="true" type="q18:Life_UWReminderLetter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWReminderLetterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_UWReminderLetterResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWRequirementIntimation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objReqLetter" nillable="true" type="q19:Life_UWRequirementIntimation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWRequirementIntimationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_UWRequirementIntimationResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWWithDrawnIntimation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objWithDrawnIntimation" nillable="true" type="q20:Life_UWWithDrawnIntimation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWWithDrawnIntimationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_UWWithDrawnIntimationResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWXRT_Traditional">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objTraditional" nillable="true" type="q21:Life_UWXRT_Traditional" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="CompDetail" nillable="true" type="q22:ArrayOfComponentResults" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWXRT_TraditionalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_UWXRT_TraditionalResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWXRT_ULIP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objULIP" nillable="true" type="q23:Life_UWXRT_ULIP" />
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="CompDetail" nillable="true" type="q24:ArrayOfComponentResults" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_UWXRT_ULIPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_UWXRT_ULIPResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ECSMandateRejectReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objECSMandateReject" nillable="true" type="q25:Life_ECSMandateReject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ECSMandateRejectReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_ECSMandateRejectReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_DeclineCasesRefundReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objDeclineRefund" nillable="true" type="q26:Life_DeclineCasesRefundLetter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_DeclineCasesRefundReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_DeclineCasesRefundReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_PostponeCasesRefundReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objPostponeRefund" nillable="true" type="q27:Life_PostponeCasesRefundLetter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_PostponeCasesRefundReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_PostponeCasesRefundReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ExcessRefundReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objExcessRefund" nillable="true" type="q28:Life_ExcessRefundInforced" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ExcessRefundReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_ExcessRefundReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_WithdrawnRefundReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objWithdrawnRefund" nillable="true" type="q29:Life_WithdrawnRefundLetter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_WithdrawnRefundReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_WithdrawnRefundReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_DuplicatePolicyOnComplaintReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objDuplicatePolicy" nillable="true" type="q30:Life_DuplicatePolicyOnComplaint" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_DuplicatePolicyOnComplaintReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_DuplicatePolicyOnComplaintReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_RTOpolicyCustomerComplaintReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objRTOpolicyComplaint" nillable="true" type="q31:Life_RTOpolicyCustomerComplaint" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_RTOpolicyCustomerComplaintReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_RTOpolicyCustomerComplaintReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_RTOpolicyCustomerRequestReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objRTOplicyRequest" nillable="true" type="q32:Life_RTOpolicyCustomerRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_RTOpolicyCustomerRequestReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_RTOpolicyCustomerRequestReportGenResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ComplaintLetterReportGen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objComLetter" nillable="true" type="q33:Life_ComplaintLetter" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objAddressDetail" nillable="true" type="q34:Life_ComplaintLetter_AddressInfo" />
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objContactDetail" nillable="true" type="q35:Life_ComplaintLetter_ContactInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_ComplaintLetterReportGenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_ComplaintLetterReportGenResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_RTOLetter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objRTOLetter" nillable="true" type="q36:Life_RTOLetter" />
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objAddressDetail" nillable="true" type="q37:Life_RTOLetter_AddressInfo" />
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="objContactDetail" nillable="true" type="q38:Life_RTOLetter_ContactInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_RTOLetterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_RTOLetterResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_HealthCheck">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/PDFEntityLayer" minOccurs="0" name="HealthCheck" nillable="true" type="q39:Life_HealthCheck" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Life_HealthCheckResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Life_HealthCheckResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://lifeuat.futuregenerali.in/esalesuat/TPA/TPASTATUSCODE/Itpastatuscode.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TPASTATUSCODE.BussLayer" />
+  <xs:element name="PushMedicalStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/TPASTATUSCODE.BussLayer" minOccurs="0" name="objValue" nillable="true" type="q1:ObjectData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PushMedicalStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TPASTATUSCODE.BussLayer" minOccurs="0" name="PushMedicalStatusResult" nillable="true" type="q2:Responce" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TPAIntegrationDetails_Insert">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/TPASTATUSCODE.BussLayer" minOccurs="0" name="objCoreInt" nillable="true" type="q3:Integration" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TPAIntegrationDetails_InsertResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/TPASTATUSCODE.BussLayer" minOccurs="0" name="TPAIntegrationDetails_InsertResult" nillable="true" type="q4:Responce" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
