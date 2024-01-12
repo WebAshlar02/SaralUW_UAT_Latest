@@ -254,3 +254,10 @@ D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UWSaralTest
 D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UWSaralTestProject\obj\Debug\UWSaralTestProject.csproj.CoreCompileInputs.cache
 D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UWSaralTestProject\obj\Debug\UWSaralTestProject.exe
 D:\TFS\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest-branch CR-4971\UWSaralTestProject\obj\Debug\UWSaralTestProject.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UWSaralTestProject\bin\Debug\UWSaralTestProject.exe.config
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UWSaralTestProject\bin\Debug\UWSaralTestProject.exe
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UWSaralTestProject\bin\Debug\UWSaralTestProject.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UWSaralTestProject\obj\Debug\UWSaralTestProject.csproj.AssemblyReference.cache
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UWSaralTestProject\obj\Debug\UWSaralTestProject.csproj.CoreCompileInputs.cache
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UWSaralTestProject\obj\Debug\UWSaralTestProject.exe
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\UWSaralTestProject\obj\Debug\UWSaralTestProject.pdb

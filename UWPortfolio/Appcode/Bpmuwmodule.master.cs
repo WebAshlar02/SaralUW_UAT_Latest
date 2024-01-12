@@ -567,7 +567,7 @@ public partial class Appcode_Bpmuwmodule : System.Web.UI.MasterPage
                     }
                     else
                     {
-                        UWReason2 = Request.Form[txtUWreason2.UniqueID];
+                        UWReason2 = "";
                     }
 
             }

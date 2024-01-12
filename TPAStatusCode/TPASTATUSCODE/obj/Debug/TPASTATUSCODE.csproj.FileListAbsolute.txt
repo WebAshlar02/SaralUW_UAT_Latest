@@ -331,8 +331,8 @@ C:\mfl00886\Life-BPM\1. Dev\LF_FGUniconnect\WebApps\Saral_UW_Latest\TPAStatusCod
 D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\bin\TPASTATUSCODE.dll.config
 D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\bin\TPASTATUSCODE.dll
 D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\bin\TPASTATUSCODE.pdb
-D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\obj\Debug\TPASTATUSCODE.csproj.AssemblyReference.cache
 D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\obj\Debug\TPASTATUSCODE.csproj.CoreCompileInputs.cache
 D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\obj\Debug\TPASTATUSCODE.csproj.CopyComplete
 D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\obj\Debug\TPASTATUSCODE.dll
 D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\obj\Debug\TPASTATUSCODE.pdb
+D:\GIT_PROJECT\Saral_UAT_Latest\SaralUW_UAT_Latest\TPAStatusCode\TPASTATUSCODE\obj\Debug\TPASTATUSCODE.csproj.AssemblyReference.cache
