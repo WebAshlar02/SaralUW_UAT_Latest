@@ -2011,7 +2011,8 @@ public partial class Appcode_Default : System.Web.UI.Page
             FillProductControlDetails(strApplicationno, strChannelType);
             foreach (RepeaterItem item in rptproductlist.Items)
             {
-                if (_dsProdDtls.Rows[i]["ProductCode"].ToString() == "E91" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E92" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E97" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E98")
+                //add new product EA2 - Bhaumik Patel
+                if (_dsProdDtls.Rows[i]["ProductCode"].ToString() == "E91" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E92" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E97" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E98" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "EA2")
                 {
                     DropDownList ddlpayoutfreq = (DropDownList)item.FindControl("ddlpayoutfreq");
                     //DropDownList ddlCategory = (DropDownList)item.FindControl("ddlCategory");
@@ -2473,7 +2474,8 @@ public partial class Appcode_Default : System.Web.UI.Page
             TextBox txtprocode = (TextBox)item.FindControl("txtProdcode");
             HtmlGenericControl divLumpSumPercent = (HtmlGenericControl)item.FindControl("divLumpSumPercent");
             HtmlGenericControl divPayoutTerm = (HtmlGenericControl)item.FindControl("divPayoutTerm");
-            if (txtprocode.Text != "E97" || txtprocode.Text != "E98")
+            //New Product add -changes by Bhaumik EA2
+            if (txtprocode.Text != "E97" || txtprocode.Text != "E98" || txtprocode.Text != "EA2")
             {
 
 

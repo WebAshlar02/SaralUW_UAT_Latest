@@ -2034,16 +2034,16 @@ public partial class Appcode_Default : System.Web.UI.Page
                 ddlPayoutType.SelectedValue = _dsProdDtls.Rows[0]["PayoutType"].ToString();
                 ddlPayoutTerm.SelectedValue = _dsProdDtls.Rows[0]["PayoutTerm"].ToString();
             }
-            if (txtProdcode.Text == "E91" || txtProdcode.Text == "E92" || txtProdcode.Text == "E97" || txtProdcode.Text == "E98")
+            if (txtProdcode.Text == "E91" || txtProdcode.Text == "E92" || txtProdcode.Text == "E97" || txtProdcode.Text == "E98"|| txtProdcode.Text == "EA2")
             {
                 ddlCategory.SelectedValue = _dsProdDtls.Rows[0]["Category"].ToString();
                 ddlpayoutfreq.SelectedValue = _dsProdDtls.Rows[0]["PayOutFrquency"].ToString();
-                if (txtProdcode.Text == "E97" || txtProdcode.Text == "E98")
+                if (txtProdcode.Text == "E97" || txtProdcode.Text == "E98" || txtProdcode.Text == "EA2")
                 {
                     ddlPayoutType.SelectedValue = _dsProdDtls.Rows[0]["PayoutType"].ToString();
                 }
             }
-            if (txtProdcode.Text == "E93" || txtProdcode.Text == "E94")
+            if (txtProdcode.Text == "E93" || txtProdcode.Text == "E94" || txtProdcode.Text == "EA1")
             {
                 ddlCategory.SelectedValue = _dsProdDtls.Rows[0]["Category"].ToString();
                 ddlprodcategory.SelectedValue = _dsProdDtls.Rows[0]["ProductCategory"].ToString();
@@ -2492,7 +2492,7 @@ public partial class Appcode_Default : System.Web.UI.Page
     }
     protected void ddlPayoutType_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (ViewState["ProductCode"].ToString() != "E97" && ViewState["ProductCode"].ToString() != "E98")
+        if (ViewState["ProductCode"].ToString() != "E97" && ViewState["ProductCode"].ToString() != "E98" && ViewState["ProductCode"].ToString() != "EA2")
         {
             if (ddlPayoutType.SelectedValue != "--Select--" && ddlPayoutType.SelectedValue != "")
             {

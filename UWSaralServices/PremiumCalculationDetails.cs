@@ -541,19 +541,19 @@ namespace UWSaralServices
                             //objPayoutDetail.PayOutFrquency = (string.IsNullOrEmpty(strPayoutFreq)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["PayOutFrquency"]) : strPayoutFreq;
                         }
                     }
-                    if (strProdcode == "E91" || strProdcode == "E92" || strProdcode == "E97" || strProdcode == "E98")
+                    if (strProdcode == "E91" || strProdcode == "E92" || strProdcode == "E97" || strProdcode == "E98" || strProdcode == "EA2")
                     {
                         if (_dsContract.Tables.Count > 2 && _dsContract.Tables["PAYOUTDTLS"].Rows.Count > 0)
                         {
                             objPayoutDetail.Category = (string.IsNullOrEmpty(strCategory)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["Category"]) : strCategory;
                             objPayoutDetail.PayOutFrquency = (string.IsNullOrEmpty(strPayoutFreq)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["PayOutFrquency"]) : strPayoutFreq;
-                            if (strProdcode == "E97" || strProdcode == "E98")
+                            if (strProdcode == "E97" || strProdcode == "E98" || strProdcode == "EA2")
                             {
                                 objPayoutDetail.PayoutType = (string.IsNullOrEmpty(strPayoutType)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["PayoutType"]) : strPayoutType;
                             }
                         }
                     }
-                    if (strProdcode == "E93" || strProdcode == "E94")
+                    if (strProdcode == "E93" || strProdcode == "E94" || strProdcode == "EA1")
                     {
                         if (_dsContract.Tables.Count > 2 && _dsContract.Tables["PAYOUTDTLS"].Rows.Count > 0)
                         {

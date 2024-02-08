@@ -467,7 +467,17 @@ namespace UWSaralServices
                             objCoverageList[count].lumpSumContribution = Convert.ToInt32(CoverageDtls["lumpSumContribution"].ToString());
                             objCoverageList[count].mortalityClass = CoverageDtls["mortalityClass"].ToString();
                             objCoverageList[count].premiumCessadtionAge = Convert.ToInt32(CoverageDtls["premiumCessadtionAge"].ToString());
-                            objCoverageList[count].premiumCessadtionTerm = (string.IsNullOrEmpty(strPremiumpayingterm)) ? Convert.ToInt32(CoverageDtls["premiumCessadtionTerm"].ToString()) : Convert.ToInt32(strPremiumpayingterm);
+
+                            //New Product EA1,EA2 - Added by Bhaumik patel
+                            if (strProdcode == "EA1" || strProdcode == "EA2")
+                            {
+                                objCoverageList[count].premiumCessadtionTerm = Convert.ToInt32(CoverageDtls["premiumCessadtionTerm"].ToString());
+                            }
+                            else
+                            {
+                                objCoverageList[count].premiumCessadtionTerm = (string.IsNullOrEmpty(strPremiumpayingterm)) ? Convert.ToInt32(CoverageDtls["premiumCessadtionTerm"].ToString()) : Convert.ToInt32(strPremiumpayingterm);
+                            }
+                          //  objCoverageList[count].premiumCessadtionTerm = (string.IsNullOrEmpty(strPremiumpayingterm)) ? Convert.ToInt32(CoverageDtls["premiumCessadtionTerm"].ToString()) : Convert.ToInt32(strPremiumpayingterm);
                             objCoverageList[count].riderNo = _dsContract.Tables["CONTOBJ"].Rows[_CL]["riderNo"].ToString();
                             objCoverageList[count].riskCessationAge = Convert.ToInt32(CoverageDtls["riskCessationAge"].ToString());
 
