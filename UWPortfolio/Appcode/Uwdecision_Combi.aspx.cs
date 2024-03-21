@@ -426,6 +426,16 @@ DateTime :30Mar19
 // Date Of Creation     : 18-08-2023
 // Description          : Add Input filed for Acceptance Reason value Other selected
 //********************************************************************** 
+
+//******************************************************************************************************************************* 
+// Sr. No.              : 50
+// Company              : Life            
+// Module               :  Saral           
+// Program Author       : Bhaumik Patel      
+// BRD/CR/Codesk No/Win : CR-9457    
+// Date Of Creation     : 05-02-2024            
+// Description          :Digital CDF for all Channel Revised
+//*******************************************************************************************************************************
 public partial class Appcode_Default : System.Web.UI.Page
 {
     string strApplicationno = string.Empty;
@@ -672,6 +682,13 @@ public partial class Appcode_Default : System.Web.UI.Page
                         FillloadingReason("");
                         lblErrorDecisiondtls.Text = "";
                         //43.1 End of Changes; Bhaumik Patel - [CR - 3334]
+
+                        // 50.1 Begin of Changes; Bhaumik  - [Webashlar02]
+
+                        CheckCDF_Requirement("Requirement_StatusChange", strApplicationno);
+
+                        // 50.1 End of Changes; Bhaumik  - [Webashlar02]
+
                         Logger.Info(strApplicationno + " STAG2:-O" + System.Environment.NewLine);
                         FillProductControlDetails(strApplicationno, strChannelType);
                         Logger.Info(strApplicationno + " STAG2:-P" + System.Environment.NewLine);
@@ -992,6 +1009,15 @@ public partial class Appcode_Default : System.Web.UI.Page
 
     }
 
+
+    // 50.1 Begin of Changes; Bhaumik  - [Webashlar02]
+
+    public void CheckCDF_Requirement(string Mode, string appno)
+    {
+        new Commfun().CheckCDF_Requirement(Mode, appno);
+    }
+
+    // 50.1 End of Changes; Bhaumik  - [Webashlar02]
 
     //37.1 Begin of Changes; Sagar Thorave-[mfl00886]
     public void Get_RiskScore_Data()
@@ -14637,7 +14663,10 @@ public partial class Appcode_Default : System.Web.UI.Page
             objComm.SetProposalType(ref dsPro, txtAppno.Text);
             String SpecialInsurance = dsPro.Tables[0].Rows[0]["SpecialInsurance"].ToString();
             ddlApplicationDetailsProposalType.SelectedValue = SpecialInsurance;
-            ddlApplicationDetailsProposalType.Items.FindByValue(Convert.ToString(dsPro.Tables[0].Rows[0]["SpecialInsurance"])).Selected = true;
+            if (!string.IsNullOrEmpty(dsPro.Tables[0].Rows[0]["SpecialInsurance"].ToString()))
+            {
+                ddlApplicationDetailsProposalType.Items.FindByValue(Convert.ToString(dsPro.Tables[0].Rows[0]["SpecialInsurance"])).Selected = true;
+            }
         }
         catch (Exception ex)
         {

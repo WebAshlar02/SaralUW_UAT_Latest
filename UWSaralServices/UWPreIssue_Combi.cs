@@ -58,7 +58,7 @@ namespace UWSaralServices
                             objResponse_Combi = objPreIssueval_Combi.CPVVAL("B", strApplicationNo, "", strBpmBranch, strBpmUserRole, strBpmUserId, "UWSARAL", "UWSARAL", strApplicationNo);
                         
                         }
-                        if (objResponse_Combi.ERRORCODE != "0")
+                       if (objResponse_Combi.ERRORCODE != "0")
                         {
 
                             Logger.Info(strPQuoteNo + "PAGE_NAME:UWSaralDecision/BussLayer //EVENT_NAME:OnlineApplicationLAServiceDetails_PUSH//I-INFO:Service Call Execution SUCCEED: PRE ISSUE VALIDATION COMBI" + System.Environment.NewLine);

@@ -352,6 +352,16 @@ DateTime :26JUNE2020
 // Date Of Creation     : 10-07-2023
 // Description          : Add AcceptanceReason function
 //**********************************************************************
+
+//******************************************************************************************************************************* 
+// Sr. No.              : 47
+// Company              : Life            
+// Module               :  Saral           
+// Program Author       : Bhaumik Patel      
+// BRD/CR/Codesk No/Win : CR-9457    
+// Date Of Creation     : 05-02-2024            
+// Description          :Digital CDF for all Channel Revised
+//*******************************************************************************************************************************
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6362,4 +6372,24 @@ string bpm_processName,  ref int Decisionresult)
         }
     }
     // 46.1 End of Changes; Sagar Thorave - [MFL00886]
+
+
+    // 47.1 Begin of Changes; Bhaumik  - [Webashlar02]
+    public void CheckCDF_Requirement(string Mode, string Appno)
+    {
+        int result = 0;
+        try
+        {
+            SqlParameter[] _sqlparam = new SqlParameter[2];
+            _sqlparam[0] = new SqlParameter("@Mode", Mode);
+            _sqlparam[1] = new SqlParameter("@ApplicationNo", Appno);
+       
+            result = objSql.Insertrecord("SP_digitalCDF_FlagDetails", _sqlparam);
+        }
+        catch (Exception ex)
+        {
+            string msg = ex.Message;
+        }
+    }
+    // 47.1 End of Changes; Bhaumik  - [Webashlar02]
 }
